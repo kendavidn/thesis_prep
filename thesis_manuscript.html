@@ -1,0 +1,1590 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style type="text/css">
+@font-face {
+font-family: octicons-link;
+src: url(data:font/woff;charset=utf-8;base64,d09GRgABAAAAAAZwABAAAAAACFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEU0lHAAAGaAAAAAgAAAAIAAAAAUdTVUIAAAZcAAAACgAAAAoAAQAAT1MvMgAAAyQAAABJAAAAYFYEU3RjbWFwAAADcAAAAEUAAACAAJThvmN2dCAAAATkAAAABAAAAAQAAAAAZnBnbQAAA7gAAACyAAABCUM+8IhnYXNwAAAGTAAAABAAAAAQABoAI2dseWYAAAFsAAABPAAAAZwcEq9taGVhZAAAAsgAAAA0AAAANgh4a91oaGVhAAADCAAAABoAAAAkCA8DRGhtdHgAAAL8AAAADAAAAAwGAACfbG9jYQAAAsAAAAAIAAAACABiATBtYXhwAAACqAAAABgAAAAgAA8ASm5hbWUAAAToAAABQgAAAlXu73sOcG9zdAAABiwAAAAeAAAAME3QpOBwcmVwAAAEbAAAAHYAAAB/aFGpk3jaTY6xa8JAGMW/O62BDi0tJLYQincXEypYIiGJjSgHniQ6umTsUEyLm5BV6NDBP8Tpts6F0v+k/0an2i+itHDw3v2+9+DBKTzsJNnWJNTgHEy4BgG3EMI9DCEDOGEXzDADU5hBKMIgNPZqoD3SilVaXZCER3/I7AtxEJLtzzuZfI+VVkprxTlXShWKb3TBecG11rwoNlmmn1P2WYcJczl32etSpKnziC7lQyWe1smVPy/Lt7Kc+0vWY/gAgIIEqAN9we0pwKXreiMasxvabDQMM4riO+qxM2ogwDGOZTXxwxDiycQIcoYFBLj5K3EIaSctAq2kTYiw+ymhce7vwM9jSqO8JyVd5RH9gyTt2+J/yUmYlIR0s04n6+7Vm1ozezUeLEaUjhaDSuXHwVRgvLJn1tQ7xiuVv/ocTRF42mNgZGBgYGbwZOBiAAFGJBIMAAizAFoAAABiAGIAznjaY2BkYGAA4in8zwXi+W2+MjCzMIDApSwvXzC97Z4Ig8N/BxYGZgcgl52BCSQKAA3jCV8CAABfAAAAAAQAAEB42mNgZGBg4f3vACQZQABIMjKgAmYAKEgBXgAAeNpjYGY6wTiBgZWBg2kmUxoDA4MPhGZMYzBi1AHygVLYQUCaawqDA4PChxhmh/8ODDEsvAwHgMKMIDnGL0x7gJQCAwMAJd4MFwAAAHjaY2BgYGaA4DAGRgYQkAHyGMF8NgYrIM3JIAGVYYDT+AEjAwuDFpBmA9KMDEwMCh9i/v8H8sH0/4dQc1iAmAkALaUKLgAAAHjaTY9LDsIgEIbtgqHUPpDi3gPoBVyRTmTddOmqTXThEXqrob2gQ1FjwpDvfwCBdmdXC5AVKFu3e5MfNFJ29KTQT48Ob9/lqYwOGZxeUelN2U2R6+cArgtCJpauW7UQBqnFkUsjAY/kOU1cP+DAgvxwn1chZDwUbd6CFimGXwzwF6tPbFIcjEl+vvmM/byA48e6tWrKArm4ZJlCbdsrxksL1AwWn/yBSJKpYbq8AXaaTb8AAHja28jAwOC00ZrBeQNDQOWO//sdBBgYGRiYWYAEELEwMTE4uzo5Zzo5b2BxdnFOcALxNjA6b2ByTswC8jYwg0VlNuoCTWAMqNzMzsoK1rEhNqByEyerg5PMJlYuVueETKcd/89uBpnpvIEVomeHLoMsAAe1Id4AAAAAAAB42oWQT07CQBTGv0JBhagk7HQzKxca2sJCE1hDt4QF+9JOS0nbaaYDCQfwCJ7Au3AHj+LO13FMmm6cl7785vven0kBjHCBhfpYuNa5Ph1c0e2Xu3jEvWG7UdPDLZ4N92nOm+EBXuAbHmIMSRMs+4aUEd4Nd3CHD8NdvOLTsA2GL8M9PODbcL+hD7C1xoaHeLJSEao0FEW14ckxC+TU8TxvsY6X0eLPmRhry2WVioLpkrbp84LLQPGI7c6sOiUzpWIWS5GzlSgUzzLBSikOPFTOXqly7rqx0Z1Q5BAIoZBSFihQYQOOBEdkCOgXTOHA07HAGjGWiIjaPZNW13/+lm6S9FT7rLHFJ6fQbkATOG1j2OFMucKJJsxIVfQORl+9Jyda6Sl1dUYhSCm1dyClfoeDve4qMYdLEbfqHf3O/AdDumsjAAB42mNgYoAAZQYjBmyAGYQZmdhL8zLdDEydARfoAqIAAAABAAMABwAKABMAB///AA8AAQAAAAAAAAAAAAAAAAABAAAAAA==) format('woff');
+}
+body {
+-webkit-text-size-adjust: 100%;
+text-size-adjust: 100%;
+color: #333;
+font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-size: 16px;
+line-height: 1.6;
+word-wrap: break-word;
+}
+a {
+background-color: transparent;
+}
+a:active,
+a:hover {
+outline: 0;
+}
+strong {
+font-weight: bold;
+}
+h1 {
+font-size: 2em;
+margin: 0.67em 0;
+}
+img {
+border: 0;
+}
+hr {
+box-sizing: content-box;
+height: 0;
+}
+pre {
+overflow: auto;
+}
+code,
+kbd,
+pre {
+font-family: monospace, monospace;
+font-size: 1em;
+}
+input {
+color: inherit;
+font: inherit;
+margin: 0;
+}
+html input[disabled] {
+cursor: default;
+}
+input {
+line-height: normal;
+}
+input[type="checkbox"] {
+box-sizing: border-box;
+padding: 0;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+td,
+th {
+padding: 0;
+}
+* {
+box-sizing: border-box;
+}
+input {
+font: 13px / 1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+a {
+color: #4078c0;
+text-decoration: none;
+}
+a:hover,
+a:active {
+text-decoration: underline;
+}
+hr {
+height: 0;
+margin: 15px 0;
+overflow: hidden;
+background: transparent;
+border: 0;
+border-bottom: 1px solid #ddd;
+}
+hr:before {
+display: table;
+content: "";
+}
+hr:after {
+display: table;
+clear: both;
+content: "";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 15px;
+margin-bottom: 15px;
+line-height: 1.1;
+}
+h1 {
+font-size: 30px;
+}
+h2 {
+font-size: 21px;
+}
+h3 {
+font-size: 16px;
+}
+h4 {
+font-size: 14px;
+}
+h5 {
+font-size: 12px;
+}
+h6 {
+font-size: 11px;
+}
+blockquote {
+margin: 0;
+}
+ul,
+ol {
+padding: 0;
+margin-top: 0;
+margin-bottom: 0;
+}
+ol ol,
+ul ol {
+list-style-type: lower-roman;
+}
+ul ul ol,
+ul ol ol,
+ol ul ol,
+ol ol ol {
+list-style-type: lower-alpha;
+}
+dd {
+margin-left: 0;
+}
+code {
+font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+font-size: 12px;
+}
+pre {
+margin-top: 0;
+margin-bottom: 0;
+font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+.select::-ms-expand {
+opacity: 0;
+}
+.octicon {
+font: normal normal normal 16px/1 octicons-link;
+display: inline-block;
+text-decoration: none;
+text-rendering: auto;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+.octicon-link:before {
+content: '\f05c';
+}
+.markdown-body:before {
+display: table;
+content: "";
+}
+.markdown-body:after {
+display: table;
+clear: both;
+content: "";
+}
+.markdown-body>*:first-child {
+margin-top: 0 !important;
+}
+.markdown-body>*:last-child {
+margin-bottom: 0 !important;
+}
+a:not([href]) {
+color: inherit;
+text-decoration: none;
+}
+.anchor {
+display: inline-block;
+padding-right: 2px;
+margin-left: -18px;
+}
+.anchor:focus {
+outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 1em;
+margin-bottom: 16px;
+font-weight: bold;
+line-height: 1.4;
+}
+h1 .octicon-link,
+h2 .octicon-link,
+h3 .octicon-link,
+h4 .octicon-link,
+h5 .octicon-link,
+h6 .octicon-link {
+color: #000;
+vertical-align: middle;
+visibility: hidden;
+}
+h1:hover .anchor,
+h2:hover .anchor,
+h3:hover .anchor,
+h4:hover .anchor,
+h5:hover .anchor,
+h6:hover .anchor {
+text-decoration: none;
+}
+h1:hover .anchor .octicon-link,
+h2:hover .anchor .octicon-link,
+h3:hover .anchor .octicon-link,
+h4:hover .anchor .octicon-link,
+h5:hover .anchor .octicon-link,
+h6:hover .anchor .octicon-link {
+visibility: visible;
+}
+h1 {
+padding-bottom: 0.3em;
+font-size: 2.25em;
+line-height: 1.2;
+border-bottom: 1px solid #eee;
+}
+h1 .anchor {
+line-height: 1;
+}
+h2 {
+padding-bottom: 0.3em;
+font-size: 1.75em;
+line-height: 1.225;
+border-bottom: 1px solid #eee;
+}
+h2 .anchor {
+line-height: 1;
+}
+h3 {
+font-size: 1.5em;
+line-height: 1.43;
+}
+h3 .anchor {
+line-height: 1.2;
+}
+h4 {
+font-size: 1.25em;
+}
+h4 .anchor {
+line-height: 1.2;
+}
+h5 {
+font-size: 1em;
+}
+h5 .anchor {
+line-height: 1.1;
+}
+h6 {
+font-size: 1em;
+color: #777;
+}
+h6 .anchor {
+line-height: 1.1;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table,
+pre {
+margin-top: 0;
+margin-bottom: 16px;
+}
+hr {
+height: 4px;
+padding: 0;
+margin: 16px 0;
+background-color: #e7e7e7;
+border: 0 none;
+}
+ul,
+ol {
+padding-left: 2em;
+}
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+margin-top: 0;
+margin-bottom: 0;
+}
+li>p {
+margin-top: 16px;
+}
+dl {
+padding: 0;
+}
+dl dt {
+padding: 0;
+margin-top: 16px;
+font-size: 1em;
+font-style: italic;
+font-weight: bold;
+}
+dl dd {
+padding: 0 16px;
+margin-bottom: 16px;
+}
+blockquote {
+padding: 0 15px;
+color: #777;
+border-left: 4px solid #ddd;
+}
+blockquote>:first-child {
+margin-top: 0;
+}
+blockquote>:last-child {
+margin-bottom: 0;
+}
+table {
+display: block;
+width: 100%;
+overflow: auto;
+word-break: normal;
+word-break: keep-all;
+}
+table th {
+font-weight: bold;
+}
+table th,
+table td {
+padding: 6px 13px;
+border: 1px solid #ddd;
+}
+table tr {
+background-color: #fff;
+border-top: 1px solid #ccc;
+}
+table tr:nth-child(2n) {
+background-color: #f8f8f8;
+}
+img {
+max-width: 100%;
+box-sizing: content-box;
+background-color: #fff;
+}
+code {
+padding: 0;
+padding-top: 0.2em;
+padding-bottom: 0.2em;
+margin: 0;
+font-size: 85%;
+background-color: rgba(0,0,0,0.04);
+border-radius: 3px;
+}
+code:before,
+code:after {
+letter-spacing: -0.2em;
+content: "\00a0";
+}
+pre>code {
+padding: 0;
+margin: 0;
+font-size: 100%;
+word-break: normal;
+white-space: pre;
+background: transparent;
+border: 0;
+}
+.highlight {
+margin-bottom: 16px;
+}
+.highlight pre,
+pre {
+padding: 16px;
+overflow: auto;
+font-size: 85%;
+line-height: 1.45;
+background-color: #f7f7f7;
+border-radius: 3px;
+}
+.highlight pre {
+margin-bottom: 0;
+word-break: normal;
+}
+pre {
+word-wrap: normal;
+}
+pre code {
+display: inline;
+max-width: initial;
+padding: 0;
+margin: 0;
+overflow: initial;
+line-height: inherit;
+word-wrap: normal;
+background-color: transparent;
+border: 0;
+}
+pre code:before,
+pre code:after {
+content: normal;
+}
+kbd {
+display: inline-block;
+padding: 3px 5px;
+font-size: 11px;
+line-height: 10px;
+color: #555;
+vertical-align: middle;
+background-color: #fcfcfc;
+border: solid 1px #ccc;
+border-bottom-color: #bbb;
+border-radius: 3px;
+box-shadow: inset 0 -1px 0 #bbb;
+}
+.pl-c {
+color: #969896;
+}
+.pl-c1,
+.pl-s .pl-v {
+color: #0086b3;
+}
+.pl-e,
+.pl-en {
+color: #795da3;
+}
+.pl-s .pl-s1,
+.pl-smi {
+color: #333;
+}
+.pl-ent {
+color: #63a35c;
+}
+.pl-k {
+color: #a71d5d;
+}
+.pl-pds,
+.pl-s,
+.pl-s .pl-pse .pl-s1,
+.pl-sr,
+.pl-sr .pl-cce,
+.pl-sr .pl-sra,
+.pl-sr .pl-sre {
+color: #183691;
+}
+.pl-v {
+color: #ed6a43;
+}
+.pl-id {
+color: #b52a1d;
+}
+.pl-ii {
+background-color: #b52a1d;
+color: #f8f8f8;
+}
+.pl-sr .pl-cce {
+color: #63a35c;
+font-weight: bold;
+}
+.pl-ml {
+color: #693a17;
+}
+.pl-mh,
+.pl-mh .pl-en,
+.pl-ms {
+color: #1d3e81;
+font-weight: bold;
+}
+.pl-mq {
+color: #008080;
+}
+.pl-mi {
+color: #333;
+font-style: italic;
+}
+.pl-mb {
+color: #333;
+font-weight: bold;
+}
+.pl-md {
+background-color: #ffecec;
+color: #bd2c00;
+}
+.pl-mi1 {
+background-color: #eaffea;
+color: #55a532;
+}
+.pl-mdr {
+color: #795da3;
+font-weight: bold;
+}
+.pl-mo {
+color: #1d3e81;
+}
+kbd {
+display: inline-block;
+padding: 3px 5px;
+font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+line-height: 10px;
+color: #555;
+vertical-align: middle;
+background-color: #fcfcfc;
+border: solid 1px #ccc;
+border-bottom-color: #bbb;
+border-radius: 3px;
+box-shadow: inset 0 -1px 0 #bbb;
+}
+.task-list-item {
+list-style-type: none;
+}
+.task-list-item+.task-list-item {
+margin-top: 3px;
+}
+.task-list-item input {
+margin: 0 0.35em 0.25em -1.6em;
+vertical-align: middle;
+}
+:checked+.radio-label {
+z-index: 1;
+position: relative;
+border-color: #4078c0;
+}
+.sourceLine {
+display: inline-block;
+}
+code .kw { color: #000000; }
+code .dt { color: #ed6a43; }
+code .dv { color: #009999; }
+code .bn { color: #009999; }
+code .fl { color: #009999; }
+code .ch { color: #009999; }
+code .st { color: #183691; }
+code .co { color: #969896; }
+code .ot { color: #0086b3; }
+code .al { color: #a61717; }
+code .fu { color: #63a35c; }
+code .er { color: #a61717; background-color: #e3d2d2; }
+code .wa { color: #000000; }
+code .cn { color: #008080; }
+code .sc { color: #008080; }
+code .vs { color: #183691; }
+code .ss { color: #183691; }
+code .im { color: #000000; }
+code .va {color: #008080; }
+code .cf { color: #000000; }
+code .op { color: #000000; }
+code .bu { color: #000000; }
+code .ex { color: #000000; }
+code .pp { color: #999999; }
+code .at { color: #008080; }
+code .do { color: #969896; }
+code .an { color: #008080; }
+code .cv { color: #008080; }
+code .in { color: #008080; }
+</style>
+<style>
+body {
+box-sizing: border-box;
+min-width: 200px;
+max-width: 980px;
+margin: 0 auto;
+padding: 45px;
+padding-top: 0px;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<h1 id="thesis-draft-hiv-care-cascade--data-science-capacity-building">Thesis
+Draft: HIV Care Cascade + Data Science Capacity Building</h1>
+<h1 id="strengthening-the-hiv-care-and-prevention-cascade-for-key-populations-in-nigeria-and-building-data-science-capacity-for-global-health">Strengthening
+the HIV Care and Prevention Cascade for Key Populations in Nigeria, and
+Building Data Science Capacity for Global Health</h1>
+<p><strong>Thèse présentée à la Faculté de Médecine de l’Université de
+Genève pour obtenir le grade de Docteur en Sciences Biomédicales,
+Mention Santé Globale</strong></p>
+<p>par <strong>Kene David Nwosu</strong></p>
+<p>de <strong>Nigeria</strong></p>
+<p>Thèse n° [XXX]</p>
+<p>Thèse préparée sous la direction du <strong>Professeur Olivia
+Keiser</strong></p>
+<p>Geneva, 2026</p>
+<hr />
+<h2 id="acknowledgments">Acknowledgments</h2>
+<p>[To be completed]</p>
+<hr />
+<h2 id="list-of-publications">List of Publications</h2>
+<h3 id="published-articles">Published articles</h3>
+<ol style="list-style-type: decimal">
+<li><p><strong>Nwosu KD</strong>, Kalaiwo A, Ngambi WF, Estill J,
+Omo-Emmanuel UK, Emmanuel G, Keiser O. Factors associated with viral
+load testing and viral suppression among HIV-positive female sex workers
+in Nigeria. <em>PLoS ONE</em> 2024; 19(5): e0304487. doi:
+10.1371/journal.pone.0304487</p></li>
+<li><p><strong>Nwosu KD</strong>, Kalaiwo A, Ng’ambi W, Oyelaran O, Umoh
+P, Estill J, Keiser O. Oral PrEP continuation rates among key
+populations in Nigeria: a retrospective cohort study of a large-scale
+HIV prevention programme. <em>BMJ Global Health</em> 2025; 10(12):
+e018739. doi: 10.1136/bmjgh-2024-018739</p></li>
+</ol>
+<h3 id="manuscripts-in-preparation">Manuscripts in preparation</h3>
+<ol start="3" style="list-style-type: decimal">
+<li><strong>Nwosu KD</strong>, [co-authors to be finalized]. R Basics
+and Beyond: Outcomes of a Cohort-Based Online Programming Course for
+Health Professionals. <em>[Target journal: Cogent Education]</em>.</li>
+</ol>
+<hr />
+<h2 id="abstract">Abstract</h2>
+<h3 id="background">Background</h3>
+<p>Key populations, including female sex workers (FSWs), men who have
+sex with men (MSM), people who inject drugs (PWID), and transgender
+individuals, bear a disproportionate burden of HIV infection. Improving
+outcomes for these populations requires understanding where the HIV care
+and prevention cascades are succeeding and where they are failing.
+Large-scale programmes serving key populations increasingly collect the
+routine data needed to answer these questions, but much of this data
+remains underutilized because health systems in the most affected
+countries lack sufficient analytical capacity [verify and cite].
+Strengthening the HIV response therefore depends not only on generating
+programmatic evidence, but on building the data science workforce that
+can produce it.</p>
+<h3 id="objectives">Objectives</h3>
+<p>This thesis addresses both needs. The first two studies analyse
+routine programmatic data from Nigeria’s National HIV Key Populations
+programme, examining (a) factors associated with viral load testing and
+suppression among HIV-positive female sex workers initiating
+antiretroviral therapy, and (b) oral PrEP continuation rates and
+associated factors among key populations. Such analyses require data
+science skills that remain scarce in the countries most affected by HIV.
+The third study therefore evaluates the flagship course of The Graph
+Courses, an online training platform developed to strengthen these
+skills among health professionals in low- and middle-income
+countries.</p>
+<h3 id="methods">Methods</h3>
+<p>All three studies employed retrospective analyses of routinely
+collected data. The first two analyzed programmatic data from Nigeria’s
+KP CARE 1 programme using mixed-effects logistic regression with random
+intercepts for service delivery facilities and multiple imputation by
+chained equations for missing data. The third analyzed administrative
+enrollment rosters and post-course survey responses from nine cohorts of
+an online R programming bootcamp, using logistic regression for
+quantitative outcomes and thematic coding for open-ended survey
+responses.</p>
+<h3 id="results">Results</h3>
+<p>Among 34,976 FSWs initiating ART between 2016 and 2022, 97.1%
+received at least one viral load test and 94.5% achieved viral
+suppression, with the likelihood of both outcomes improving over time.
+Advanced clinical stage at baseline was associated with lower odds of
+suppression, underscoring the importance of early diagnosis. Among
+43,788 key population clients initiating oral PrEP between 2020 and
+2023, the 6-month continuation rate was only 11.5%, revealing a critical
+gap on the prevention side of the cascade. Transgender individuals had
+the lowest continuation rate (3.5%), while female sex workers had the
+highest (13.7%). Across nine cohorts of the R Basics and Beyond
+bootcamp, over half of enrolled health professionals completed the
+course, with high satisfaction; both pre-recorded video lessons and live
+workshop interaction were highly valued, while time constraints were the
+primary barrier.</p>
+<h3 id="conclusions">Conclusions</h3>
+<p>Taken together, the three studies illustrate a cycle in which data
+science skills enable the generation of programmatic evidence, and that
+evidence in turn identifies where the HIV response must be strengthened.
+The treatment cascade for FSWs in Nigeria is performing well but depends
+on early diagnosis; the prevention cascade requires urgent attention,
+particularly for transgender individuals and younger clients. Scaling
+access to the analytical skills demonstrated in these studies, as the
+training programme aims to do, is essential for sustaining data-driven
+improvements in HIV programmes and in global health more broadly.</p>
+<hr />
+<h2 id="résumé-en-français">Résumé en français</h2>
+<p>[À compléter: traduction française du résumé anglais, 1-2 pages]</p>
+<hr />
+<h2 id="general-introduction">General Introduction</h2>
+<h3 id="the-global-burden-of-hiv-and-the-disproportionate-impact-on-sub-saharan-africa">The
+Global Burden of HIV and the Disproportionate Impact on Sub-Saharan
+Africa</h3>
+<p>The human immunodeficiency virus (HIV) remains one of the world’s
+major global health challenges. In 2024 an estimated 1.3 million people
+newly acquired HIV, and 630,000 people died from causes related to the
+acquired immunodeficiency syndrome (AIDS) caused by the virus (1).
+Although AIDS-related deaths have fallen by 70% since their peak,
+HIV/AIDS remains the fourth largest infectious disease contributor to
+global disability-adjusted life-year (DALY) losses, after lower
+respiratory infections, diarrheal diseases, and malaria (2,3). The
+persistence of such a large burden partly reflects the fact that HIV
+infection is lifelong. Every person who acquires the virus and survives
+adds to the prevalent pool, so that the global number of people living
+with HIV has grown from an estimated 26.6 million in 2000 to 40.8
+million in 2024 despite sustained declines in both new infections and
+deaths (1).</p>
+<p>Sub-Saharan Africa bears a disproportionate share of this burden: of
+the 40.8 million people living with HIV globally in 2024, an estimated
+26.3 million (65%) reside in sub-Saharan Africa, though the region is
+home to only 15% of the global population (4). The consequences of this
+high burden were most acute in the late 1990s and early 2000s, when AIDS
+became the leading cause of adult mortality on the continent (5). In the
+hardest-hit countries, the epidemic reversed decades of gains in life
+expectancy. For example, in Eswatini, adult HIV prevalence reached 27%
+and life expectancy fell from 61 to as low as 32 years, and in Botswana,
+prevalence peaked at 25% and life expectancy dropped from 65 to roughly
+47 years (4,6). These extremes were part of a broader pattern across the
+region: by 2005, adult HIV prevalence exceeded 1% in 37 of the 48
+countries of sub-Saharan Africa (4).</p>
+<p>Progress since then has been substantial, driven in part by the
+expansion of antiretroviral therapy. The number of people receiving ART
+in sub-Saharan Africa grew from approximately 5 million in 2010 to
+nearly 22 million in 2024. Over the same period, new infections fell
+from 1.46 million to 650,000 (a 55% decline) and AIDS-related deaths
+fell from 940,000 to 380,000 (a 60% decline) (4). Despite these gains,
+the region’s disproportionate share of the disease burden persists: in
+2024, sub-Saharan Africa accounted for 65% of all people living with
+HIV, 50% of new infections, and 60% of AIDS-related deaths worldwide
+(4).</p>
+<h3 id="key-populations-in-the-hiv-epidemic">Key Populations in the HIV
+Epidemic</h3>
+<p>Key populations are groups who, due to specific behavioural or social
+factors, face a disproportionate burden of HIV. These include sex
+workers, men who have sex with men, transgender individuals, people who
+inject drugs, and people in prisons and other closed settings (7).
+Globally, the risk of acquiring HIV in 2022 was estimated to be 23 times
+higher for men who have sex with men, 20 times higher for transgender
+women, 14 times higher for people who inject drugs, and 9 times higher
+for sex workers, compared to the overall adult population (8). Key
+populations and their sexual partners accounted for an estimated 55% of
+new adult HIV infections in 2022, despite representing a small fraction
+of the total population (8).</p>
+<p>Beyond elevated acquisition risk, key populations living with HIV
+often experience worse health outcomes. They encounter unique barriers
+that hinder access to HIV testing and treatment, including stigma,
+repressive legal environments, and mental health challenges (9). These
+barriers translate into delayed diagnosis, late treatment initiation,
+and reduced viral suppression compared to the general population
+(<strong>Jin2021?</strong>). Late diagnosis is consequential: initiating
+treatment at more advanced stages of disease is associated with poorer
+treatment outcomes, as antiretroviral therapy is most effective when
+begun early in the course of infection (9).</p>
+<p>Given the disproportionate burden, targeted and population-specific
+HIV prevention and treatment programmes are essential. Generic HIV
+services often fail to reach key populations or to address the specific
+barriers they face. Effective approaches include community-based service
+delivery models, peer-led outreach, harm reduction programmes for people
+who inject drugs, and the creation of key-population-friendly clinical
+spaces that reduce stigma and foster trust
+(<strong>Jin2021?</strong>,<strong>Barr2021?</strong>). Targeted
+interventions that address barriers to early diagnosis and access to
+care — including stigma, discrimination, and limited availability of
+testing services — are particularly important for maximizing the impact
+of HIV prevention and treatment in these populations
+(9,<strong>Decker2015?</strong>).</p>
+<h3 id="key-populations-in-nigeria-and-the-programmatic-response">Key
+Populations in Nigeria and the Programmatic Response</h3>
+<p>Nigeria, the most populous country in Africa with over 220 million
+inhabitants, has the fourth-largest HIV epidemic globally (10,11). While
+the overall adult HIV prevalence is relatively low at approximately 1.3%
+(12), the epidemic is severely concentrated among key populations. The
+2020 Integrated Biological and Behavioural Surveillance Survey (IBBSS)
+reported HIV prevalence rates of 16% among FSWs and 25% among MSM in
+several Nigerian states, far exceeding the general population rate (13).
+These disparities are compounded by a hostile legal environment:
+Nigeria’s Same-Sex Marriage Prohibition Act of 2014 criminalized
+homosexuality with sentences of up to 14 years imprisonment, and sex
+work exists in a grey legal zone where “living off the proceeds of
+prostitution” is criminalized (14). Such laws drive key populations
+underground, fuel stigma and discrimination in healthcare settings, and
+create barriers to accessing HIV prevention, testing, and treatment
+services (9,14).</p>
+<p>In response to the concentrated HIV burden among key populations, a
+dedicated Key Populations programme was established in Nigeria with
+support from the United States President’s Emergency Plan for AIDS
+Relief (PEPFAR) and the United States Agency for International
+Development (USAID). The programme, implemented by Heartland Alliance
+LTD/GTE and other non-governmental organizations, operates across seven
+Nigerian states (Akwa Ibom, Bayelsa, Cross River, Jigawa, Lagos, Niger,
+and Yobe) and provides a comprehensive package of HIV prevention,
+testing, care, and treatment services to FSWs, MSM, PWID, and
+transgender individuals.</p>
+<p>Service delivery is organized around strategically located “One-Stop
+Shops” (OSS), which are community-based clinics that provide a range of
+services under one roof, including HIV testing and counselling, ART
+initiation and refills, pre-exposure prophylaxis (PrEP), sexually
+transmitted infection screening and treatment, and other ancillary
+services. This model is designed to be accessible and KP-friendly,
+reducing the stigma and discrimination that key populations frequently
+encounter in mainstream healthcare facilities [verify and cite]. The
+programme also employs venue-based sampling and peer outreach strategies
+to engage key populations at hotspots such as brothels, bars, clubs, and
+other gathering places, delivering prevention services and facilitating
+linkage to care.</p>
+<p>The KP programme uses an electronic data management system to track
+services provided to enrolled clients. This system generates a rich
+source of routine programmatic data that can be leveraged for research
+and programme improvement. The first two studies in this thesis draw on
+these data to examine critical outcomes along the HIV care and
+prevention cascade.</p>
+<h3 id="the-hiv-care-cascade-viral-load-testing-and-suppression">The HIV
+Care Cascade: Viral Load Testing and Suppression</h3>
+<p>The concept of the HIV care cascade, also referred to as the
+continuum of care, describes the sequential stages through which people
+living with HIV must progress to achieve optimal health outcomes: from
+diagnosis, to linkage to care, to ART initiation, to adherence and
+retention in care, and ultimately to sustained viral suppression
+[Gardner et al., 2011: <a href="https://pubmed.ncbi.nlm.nih.gov/21332264/">https://pubmed.ncbi.nlm.nih.gov/21332264/</a>].
+Each transition in the cascade represents a potential point of
+attrition, and understanding the factors that promote or impede
+progression through these stages is essential for strengthening the
+overall HIV response.</p>
+<p>Viral suppression, defined as achieving and maintaining an
+undetectable or very low viral load (typically &lt; 1000 copies/mL), is
+the ultimate goal of ART. Individuals who achieve viral suppression
+experience dramatically better health outcomes and, critically, have
+effectively zero risk of transmitting HIV to sexual partners, a concept
+captured by the widely promoted “Undetectable = Untransmittable” (U=U)
+message [verify and cite: Cohen et al. 2016]. The UNAIDS 95-95-95
+targets call for 95% of people living with HIV to know their status, 95%
+of those diagnosed to receive ART, and 95% of those on ART to achieve
+viral suppression, placing viral suppression at the apex of the care
+cascade framework.</p>
+<p>For female sex workers, achieving viral suppression is particularly
+consequential given their high number of sexual partners and consequent
+potential for onward transmission. However, FSWs face unique barriers
+that may impede their progression through the care cascade, including
+stigma and discrimination in healthcare settings, criminalization of sex
+work, high mobility, substance use, mental health challenges, and
+competing economic priorities [verify and cite: Shannon et al. 2015;
+Lancaster et al. 2016]. Despite the importance of understanding these
+barriers, relatively few large-scale studies have examined factors
+associated with viral load testing and suppression specifically among
+FSWs in sub-Saharan Africa. Most existing evidence on the FSW care
+cascade comes from small-scale studies or qualitative research, and
+large programmatic datasets have been underutilized for this purpose
+[verify and cite: Nnko et al. 2019].</p>
+<p>The first study in this thesis addresses this gap by analyzing
+routine programmatic data from nearly 35,000 FSWs enrolled in the
+Nigerian KP programme to identify factors associated with receipt of
+viral load testing and achievement of viral suppression.</p>
+<h3 id="hiv-prevention-pre-exposure-prophylaxis-and-the-challenge-of-continuation">HIV
+Prevention: Pre-Exposure Prophylaxis and the Challenge of
+Continuation</h3>
+<p>While ART and viral suppression address the treatment side of the HIV
+response, pre-exposure prophylaxis (PrEP) represents a cornerstone of
+HIV prevention. PrEP involves the use of antiretroviral medications by
+HIV-negative individuals to reduce the risk of acquiring HIV infection.
+Randomized controlled trials have demonstrated that daily oral PrEP with
+tenofovir-based regimens can reduce HIV acquisition risk by up to 92%
+when taken consistently [verify and cite: Grant et al. 2010; McCormack
+et al. 2016].</p>
+<p>Despite its proven efficacy, PrEP’s real-world effectiveness is
+substantially limited by challenges in uptake and continuation. A global
+systematic review found that approximately 70% of PrEP users across
+studies had discontinued treatment or shown suboptimal adherence within
+6 months of initiation [verify and cite: Zhang et al. 2022]. Factors
+contributing to poor continuation include side effects, social stigma,
+logistical challenges in accessing refills, and fluctuating perceptions
+of HIV risk [verify and cite: Pillay et al. 2020]. These challenges are
+likely amplified among key populations in resource-limited settings,
+where structural barriers to healthcare access are compounded by
+criminalization and discrimination.</p>
+<p>In Nigeria, PrEP rollout for key populations is a critical component
+of the national HIV prevention strategy [verify and cite: NACA 2022].
+The KP CARE 1 programme has been actively providing oral PrEP to
+eligible KP clients, using a provider-facilitated approach in which
+individuals testing HIV-negative are offered PrEP as part of a
+comprehensive prevention package. However, prior to the second study in
+this thesis, data on PrEP continuation rates among key populations in
+Nigeria were very limited, hindering evidence-based programme
+improvement.</p>
+<p>The second study in this thesis analyzes data from over 43,000 KP
+clients who initiated PrEP through the Nigerian KP programme, making it
+one of the largest PrEP continuation studies among key populations in
+sub-Saharan Africa. It examines 6-month continuation rates and
+identifies factors associated with sustained PrEP use across different
+KP groups.</p>
+<h3 id="bridging-hiv-research-and-data-science-capacity">Bridging HIV
+Research and Data Science Capacity</h3>
+<p>The analyses presented in the first two studies of this thesis, which
+identified factors associated with viral load testing, viral
+suppression, and PrEP continuation using large-scale programmatic data,
+required substantial data science skills. These included proficiency in
+statistical programming (specifically R), data cleaning and manipulation
+of large routine datasets, mixed-effects regression modelling, multiple
+imputation for missing data, and effective data visualization.</p>
+<p>Such skills are increasingly essential across the global health
+workforce. The digitization of health information systems, from
+electronic health records to outbreak surveillance platforms to routine
+programme monitoring tools, has generated vast quantities of data with
+the potential to inform clinical and public health decision-making
+[verify and cite: Rajamani et al. 2025]. Yet the capacity to analyze
+these data remains critically limited, particularly in low- and
+middle-income countries. Surveys of public health professionals
+consistently reveal significant skill gaps in data analysis, with much
+health data remaining underutilized due to limited analytical capacity
+in health institutions [verify and cite: Kiosia et al. 2024]. The WHO
+African Regional Office has identified the training of health workers in
+data analysis as a priority for strengthening public health systems on
+the continent [verify and cite: Bonkoungou et al. 2025].</p>
+<p>As a native of Nigeria who observed these capacity gaps firsthand,
+addressing the shortage of data analysis skills among health
+professionals in Africa was a core motivation for this doctoral
+research. The practical experience of building analytical pipelines for
+the HIV cascade studies reinforced the importance of making these skills
+widely accessible.</p>
+<h3 id="approaches-to-data-science-training">Approaches to Data Science
+Training</h3>
+<p>Multiple approaches have been used to strengthen data science skills
+in the health workforce. Short in-person workshops remain a popular
+format, delivering intensive instruction with hands-on practice and
+real-time feedback [verify and cite: Forsetlund et al. 2009].
+International health organizations have long favored this model for its
+ability to build competencies rapidly in targeted groups. However,
+in-person workshops are difficult to scale: they are constrained by
+costs, geographical limitations, instructor availability, and the time
+required for organization and delivery [verify and cite: Bonkoungou et
+al. 2025].</p>
+<p>Massive open online courses (MOOCs), which gained prominence in the
+early 2010s, offered a potential solution by providing access to
+educational content from world-class institutions at minimal cost to an
+unlimited number of participants [verify and cite: Pappano 2012].
+However, MOOCs have been plagued by notoriously low completion rates,
+often in the single digits [verify and cite: Jordan 2014; Khalil &amp;
+Ebner 2014]. Without the accountability structures, instructor
+interaction, and peer support that characterize in-person training, many
+online learners struggle to self-regulate their learning, leading to
+disengagement and dropout [verify and cite: Kizilcec et al. 2017; Reich
+&amp; Ruipérez-Valiente 2019].</p>
+<p>These challenges are likely amplified for programming and data
+science training. Learning to code requires not just understanding
+syntax but developing problem-solving and debugging skills that are
+difficult to acquire without guidance. R, the programming language used
+for all three studies in this thesis, is powerful and free but has a
+steep learning curve, particularly for users without prior programming
+experience [verify and cite]. Neither purely self-paced online courses
+(which leave learners stranded when they encounter errors) nor intensive
+in-person workshops (which may not provide sufficient time for sustained
+practice) are ideally suited to building programming fluency.</p>
+<p>Cohort-based online courses represent a promising middle ground.
+These programmes typically use a flipped classroom model: learners
+engage with asynchronous content (pre-recorded videos, readings,
+exercises) on their own schedule, then participate in scheduled live
+sessions for instructor-led problem-solving and peer interaction [verify
+and cite: Bishop &amp; Verleger 2013]. The asynchronous component
+provides flexibility and reduces total contact hours, while the
+synchronous component provides accountability, community, and direct
+support, all of which are often absent from purely self-paced courses
+[verify and cite: Shapiro et al. 2017]. The normalization of
+videoconferencing during the COVID-19 pandemic has created new
+opportunities to deliver such programmes at scale, even to learners in
+geographically dispersed settings [verify and cite: Dhawan 2020].</p>
+<h3 id="the-graph-network-and-the-graph-courses">The GRAPH Network and
+The Graph Courses</h3>
+<p>The GRAPH Network (Global Research and Analyses for Public Health)
+was established in 2020 as part of a collaboration between the
+University of Geneva’s Institute of Global Health and the WHO African
+Regional Office to support the sub-Saharan African COVID-19 response
+[verify and cite: Botero-Mesa et al. 2022]. Initially focused on
+producing rapid analytical outputs for public health decision-makers,
+the network evolved to address a deeper underlying challenge: the
+shortage of data analysis capacity among health professionals in the
+region.</p>
+<p>Out of this recognition, The Graph Courses (thegraphcourses.org) was
+developed as a dedicated online training platform for data science and
+AI in health and life sciences. The platform is headquartered at the
+University of Geneva and is legally housed under ASCRES (Association de
+Soutien aux Centres de Recherche, Enseignement et Soins en milieux à
+ressources réduites). Its flagship programme, the R Basics and Beyond
+(RBB) bootcamp, is a 12-week part-time online course that introduces R
+programming and data analysis to researchers and practitioners in
+health-related fields. The course uses a flipped classroom model: each
+week, students complete 2–3 hours of self-paced prework (pre-recorded
+video lessons, handouts, and quizzes), followed by a 2-hour live
+workshop featuring collaborative small-group problem-solving and
+instructor guidance.</p>
+<p>The third study in this thesis evaluates the educational outcomes of
+the RBB programme across nine cohorts from 2023 to 2025, using
+enrollment data and post-course surveys to assess completion rates,
+participant satisfaction, and the experience of learners.</p>
+<h3 id="thesis-objectives">Thesis Objectives</h3>
+<p>This thesis has three specific objectives:</p>
+<ol style="list-style-type: decimal">
+<li><p><strong>To examine factors associated with viral load testing and
+viral suppression among HIV-positive female sex workers initiating
+antiretroviral therapy in Nigeria</strong> (Paper 1). Using routine
+programmatic data from nearly 35,000 FSWs enrolled in the National HIV
+KP programme, this study identifies demographic, clinical, and
+structural factors associated with receipt of viral load testing and
+achievement of viral suppression.</p></li>
+<li><p><strong>To investigate oral PrEP continuation rates and
+associated factors among key populations in Nigeria</strong> (Paper 2).
+Using data from over 43,000 KP clients who initiated oral PrEP through
+the KP CARE 1 programme, this study examines 6-month continuation rates
+across different KP groups and identifies factors associated with
+sustained PrEP use.</p></li>
+<li><p><strong>To evaluate the educational outcomes of a cohort-based
+online R programming course for health professionals</strong> (Paper 3).
+Using enrollment rosters and post-course survey data from nine cohorts
+of the R Basics and Beyond bootcamp, this study assesses completion
+rates, participant satisfaction, highlights, and challenges.</p></li>
+</ol>
+<h3 id="additional-research-during-the-doctoral-period">Additional
+Research During the Doctoral Period</h3>
+<p>In addition to the three core thesis papers, this doctoral period
+also produced a first-authored publication in <em>Nature
+Communications</em> on SARS-CoV-2 antibody seroprevalence in Yaoundé,
+Cameroon (Nwosu et al. 2021). That study, which originated from the
+candidate’s Master’s thesis project, estimated the prevalence of
+anti-SARS-CoV-2 IgG antibodies in a random sample of residents in a
+health district of Yaoundé and found an adjusted seroprevalence of
+29.2%, approximately 322 times greater than the attack rate implied by
+official case counts at the time. The study highlighted the extent of
+unreported SARS-CoV-2 circulation in sub-Saharan Africa during the early
+pandemic period. While not directly related to the thesis themes, this
+work contributed to the broader research mission of the doctoral period
+and demonstrates the application of epidemiological and data analysis
+skills across different public health domains.</p>
+<hr />
+<h2 id="methodological-contributions">Methodological Contributions</h2>
+<h3 id="overview">Overview</h3>
+<p>The candidate played a central role in all three studies comprising
+this thesis: leading the data analysis and manuscript preparation for
+the HIV-related studies (Papers 1 and 2), and founding and leading the
+development of the training platform and evaluation study (Paper 3).
+This section details the candidate’s specific contributions to each
+study.</p>
+<h3 id="paper-1-viral-load-testing-and-suppression-among-fsws">Paper 1:
+Viral Load Testing and Suppression Among FSWs</h3>
+<p>For the first study, the candidate led the statistical analysis,
+which involved processing and cleaning routine programmatic data from
+over 34,000 individuals, implementing mixed-effects logistic regression
+models with random intercepts for 16 care facilities, and conducting
+multiple imputation by chained equations (25 imputed datasets) for
+missing covariates. The candidate produced all figures and tables, wrote
+the original manuscript draft, and coordinated revisions with co-authors
+through to publication in <em>PLoS ONE</em>. The candidate also
+contributed to the study design and methodology, in close collaboration
+with the PhD supervisor and senior co-authors.</p>
+<h3 id="paper-2-prep-continuation-among-key-populations">Paper 2: PrEP
+Continuation Among Key Populations</h3>
+<p>For the second study, the candidate again led the data analysis and
+manuscript writing. This involved analysing data from over 43,000 PrEP
+clients, implementing mixed-effects logistic regression with random
+intercepts for service delivery sites, and applying MICE with 10
+imputations. The candidate designed the analytical approach, coordinated
+with the Heartland Alliance monitoring and evaluation team on data
+quality checks (deduplication, logic checks for date and categorical
+variables), and wrote the original manuscript draft. The candidate
+coordinated the revision process through to publication in <em>BMJ
+Global Health</em>.</p>
+<h3 id="paper-3-evaluation-of-the-r-basics-and-beyond-bootcamp">Paper 3:
+Evaluation of the R Basics and Beyond Bootcamp</h3>
+<p>For the third study, the candidate’s role extended far beyond the
+analysis. As co-founder of The Graph Courses, the candidate led the
+development of the RBB curriculum, the online learning platform, and the
+instructional delivery over approximately one year of initial
+development, coordinating a team of more than 10 contributors including
+instructors, teaching assistants, and content developers. The candidate
+also served as lead author of the accompanying open-access course
+textbooks (<em>Introduction to Data Analysis with R</em>, available at
+datawithr.com, and <em>Introduction to Data Science with Python</em>,
+available at pythondatabook.com). For the evaluation study itself, the
+candidate designed the post-course survey instrument, led the data
+analysis (including the logistic regression of completion predictors and
+LLM-assisted qualitative coding of open-ended responses), and wrote the
+original manuscript draft.</p>
+<h3 id="common-methodological-threads">Common Methodological
+Threads</h3>
+<p>All three studies share a common analytical philosophy: the use of
+routinely collected data, whether from health programme registers or
+educational administration systems, to generate actionable evidence for
+programme improvement. Papers 1 and 2 employed a consistent statistical
+framework of mixed-effects logistic regression with facility-level
+random intercepts and multiple imputation, allowing for the
+identification of individual-level predictors while accounting for
+facility-level clustering and missing data. Paper 3 employed a similar
+regression approach for completion predictors and complemented it with
+qualitative thematic analysis. All analyses were performed using R
+statistical software, and the code and summarized data underlying the
+published papers have been made publicly available.</p>
+<hr />
+<h2 id="articles">Articles</h2>
+<h3 id="article-1">Article 1</h3>
+<p><strong>Nwosu KD</strong>, Kalaiwo A, Ngambi WF, Estill J,
+Omo-Emmanuel UK, Emmanuel G, Keiser O. Factors associated with viral
+load testing and viral suppression among HIV-positive female sex workers
+in Nigeria. <em>PLoS ONE</em> 2024; 19(5): e0304487.</p>
+<p>[INSERT PUBLISHED PDF]</p>
+<hr />
+<h3 id="article-2">Article 2</h3>
+<p><strong>Nwosu KD</strong>, Kalaiwo A, Ng’ambi W, Oyelaran O, Umoh P,
+Estill J, Keiser O. Oral PrEP continuation rates among key populations
+in Nigeria: a retrospective cohort study of a large-scale HIV prevention
+programme. <em>BMJ Global Health</em> 2025; 10(12): e018739.</p>
+<p>[INSERT PUBLISHED PDF]</p>
+<hr />
+<h3 id="article-3">Article 3</h3>
+<p><strong>Nwosu KD</strong>, [co-authors]. R Basics and Beyond:
+Outcomes of a Cohort-Based Online Programming Course for Health
+Professionals.</p>
+<p>[EMBED PDF generated from:
+/Users/kendavidn/Dropbox/tgc_github_projects/tgc_paper/paper/tgc_paper.Rmd]</p>
+<hr />
+<h2 id="conclusions-and-perspectives">Conclusions and Perspectives</h2>
+<h3 id="summary-of-key-findings">Summary of Key Findings</h3>
+<p>This thesis set out to generate programmatic evidence for the HIV
+response among key populations in Nigeria and to evaluate a scalable
+approach for building the analytical capacity on which such evidence
+depends. The three studies, while spanning different domains, are linked
+by a common logic: that routine health programme data, when analysed
+with appropriate methods, can reveal where interventions are succeeding
+or failing, but only if the workforce has the skills to perform such
+analyses.</p>
+<p>The first study examined viral load testing and suppression among
+nearly 35,000 HIV-positive female sex workers in Nigeria and found
+encouragingly high rates of both testing (97.1%) and suppression
+(94.5%). These figures compare favourably with overall viral suppression
+rates in Nigeria’s general HIV programme, which stood at approximately
+80% in the same period [verify and cite: UNAIDS Nigeria country data].
+The temporal trend, with increasing odds of both testing and suppression
+for those initiating ART in more recent years, reflects the maturation
+of the KP programme over time, including expanded viral load testing
+infrastructure and improved service delivery. The study also identified
+that FSWs presenting with more advanced HIV disease at baseline had
+significantly lower odds of achieving viral suppression, underscoring
+the importance of early diagnosis and treatment initiation.</p>
+<p>The second study, analyzing PrEP continuation among over 43,000 key
+population clients, revealed a starkly different picture. The 6-month
+continuation rate of 11.5% indicates that the vast majority of
+individuals who initiate PrEP discontinue within the first six months.
+This rate is lower than comparable estimates from Cameroon (28%) and
+Zambia (25%) [verify and cite: Ndenkeh et al. 2022; Claassen et
+al. 2021]. The particularly low continuation rate among transgender
+individuals (3.5%) raises serious concerns and likely reflects the
+compounded effects of stigma, discrimination, and healthcare avoidance.
+Age and employment status emerged as additional predictors, with younger
+and unemployed clients less likely to continue PrEP, suggesting that
+economic insecurity may disrupt sustained engagement.</p>
+<p>The third study demonstrated that a cohort-based online R programming
+course can achieve meaningful completion rates among health
+professionals. Over half of enrolled students completed the 12-week
+programme, substantially exceeding the single-digit completion rates
+typical of self-paced MOOCs [verify and cite: Jordan 2014]. Pre-recorded
+video lessons and live workshop facilitator interaction were both highly
+valued, supporting the pedagogical logic of the flipped classroom model.
+Time constraints and competing work priorities emerged as the dominant
+barriers to completion, consistent with the broader literature on adult
+online learning [verify and cite: Shapiro et al. 2017].</p>
+<h3 id="the-hiv-cascade-for-key-populations-treatment-success-prevention-gap">The
+HIV Cascade for Key Populations: Treatment Success, Prevention Gap</h3>
+<p>Juxtaposing the findings from the first two studies reveals a
+striking asymmetry in the Nigerian KP programme’s performance. On the
+treatment side, the programme has achieved remarkable success: once FSWs
+are diagnosed and linked to care, nearly all receive viral load testing
+and the vast majority achieve viral suppression. This demonstrates that
+community-based, KP-friendly service delivery models can overcome many
+of the structural barriers that typically impede care cascade
+progression for marginalized populations.</p>
+<p>On the prevention side, the picture is far less encouraging. The very
+low PrEP continuation rates suggest that while the provider-facilitated
+approach is effective at promoting initial uptake, it has not succeeded
+in translating that uptake into sustained use. This disconnect echoes
+patterns seen in other PrEP programmes globally [verify and cite: Zhang
+et al. 2022] and points to a fundamental challenge: the factors that
+drive individuals to start PrEP may be quite different from those
+required to maintain it over time.</p>
+<p>This asymmetry has important implications. Viral suppression among
+those already living with HIV is necessary but not sufficient for
+epidemic control. Without effective prevention among HIV-negative key
+population members, new infections will continue to sustain the
+epidemic. Closing the prevention gap, particularly by improving PrEP
+continuation, is therefore essential for achieving the broader goal of
+HIV epidemic control among key populations in Nigeria.</p>
+<h3 id="from-evidence-to-capacity-connecting-the-three-studies">From
+Evidence to Capacity: Connecting the Three Studies</h3>
+<p>These programmatic insights were only possible because the data
+existed and because someone had the skills to analyse it. The KP CARE 1
+programme’s electronic register contains records on tens of thousands of
+clients, but those records do not speak for themselves. Turning them
+into the evidence presented in Papers 1 and 2 (involving mixed-effects
+logistic regression with facility-level random intercepts, multiple
+imputation for missing data, forest plots, and choropleth maps) required
+specific data science competencies: proficiency in R, familiarity with
+regression modelling and missing data methods, and the ability to
+translate statistical output into actionable programme
+recommendations.</p>
+<p>These are precisely the competencies that the R Basics and Beyond
+bootcamp was designed to build. The course teaches health professionals
+to clean, manipulate, and visualize data in R, and to interpret
+statistical output. These are the foundational skills for the type of
+analysis demonstrated in Papers 1 and 2. In this sense, the three
+studies form a single arc: the first two show what is possible when
+analytical capacity meets programmatic data; the third addresses how to
+make that capacity more widely available, particularly among health
+professionals in the low- and middle-income countries where such data
+are most abundant and least utilized [verify and cite: Kiosia et
+al. 2024].</p>
+<h3 id="implications-for-hiv-treatment-and-viral-suppression">Implications
+for HIV Treatment and Viral Suppression</h3>
+<p>The high rates of viral load testing and suppression observed in the
+first study are encouraging, but several findings warrant attention for
+continued programme improvement. First, the association between advanced
+WHO clinical stage at baseline and lower odds of viral suppression
+reinforces the well-established finding that late diagnosis compromises
+treatment outcomes [verify and cite: Kitahata et al. 2009; Boyd et
+al. 2019]. This is particularly concerning given the barriers to early
+testing among FSWs, including fear of disclosure, stigma, and distrust
+of healthcare providers. Strategies to promote earlier diagnosis, such
+as community-based testing, self-testing, and integration of HIV testing
+with other services used by FSWs, should be prioritized [verify and
+cite].</p>
+<p>Second, the association between education level and viral load
+testing adherence, though modest in magnitude, highlights the potential
+value of health literacy interventions for FSWs with limited formal
+education. Programmes might consider integrating simplified health
+education materials and adherence support into routine care,
+particularly for clients with lower educational attainment.</p>
+<p>Third, the steady improvement in both testing and suppression rates
+over the study period suggests that the programme’s quality improvement
+efforts have been effective. Identifying and documenting the specific
+programmatic changes that drove these improvements, such as expansion of
+viral load testing capacity, transition to more effective ART regimens
+(notably the shift from efavirenz- to dolutegravir-based regimens), and
+refinement of community-based service delivery, would be valuable for
+guiding similar programmes in other settings [verify and cite].</p>
+<h3 id="addressing-the-prep-continuation-crisis">Addressing the PrEP
+Continuation Crisis</h3>
+<p>The very low PrEP continuation rates observed in the second study
+demand urgent attention. Several strategies merit consideration.</p>
+<p>First, the provider-facilitated approach to PrEP initiation, while
+effective at driving uptake, may inadvertently enrol individuals who are
+not fully ready to commit to sustained use. Incorporating more thorough
+readiness assessments and motivational counselling at initiation could
+help identify and support clients who are most likely to benefit from
+sustained PrEP use [verify and cite].</p>
+<p>Second, the stark disparities across KP groups call for
+group-specific interventions. Transgender individuals, for example, had
+continuation rates nearly four times lower than FSWs. For transgender
+individuals, addressing the intersecting challenges of stigma,
+discrimination, competing health priorities (such as gender-affirming
+care), and healthcare avoidance may require dedicated service delivery
+strategies, including transgender-competent providers and peer support
+[verify and cite: Teng et al. 2023].</p>
+<p>Third, the association between unemployment and lower PrEP
+continuation suggests that economic barriers, including transport costs,
+lost wages, and pharmacy fees, may disrupt the routines required for
+sustained PrEP use. Programme adaptations such as multi-month
+dispensing, mobile or community-based refill options, and integration of
+PrEP services with economic support programmes could help address these
+barriers [verify and cite].</p>
+<p>Fourth, it is important to recognize that low continuation does not
+necessarily equate to programme failure. Key populations often
+experience fluctuating HIV risk, and some clients may appropriately
+cycle on and off PrEP in response to changing risk behaviours [verify
+and cite: Reed et al. 2021; Fazito et al. 2012]. Future research should
+distinguish between discontinuation due to poor adherence and
+intentional, risk-informed cessation, as these have very different
+programmatic implications.</p>
+<p>Finally, the emergence of long-acting injectable PrEP (cabotegravir,
+administered every two months) and the dapivirine vaginal ring as
+alternatives to daily oral PrEP may help address some of the barriers to
+continuation identified in this study [verify and cite: Landovitz et
+al. 2021; Baeten et al. 2021]. By reducing the burden of daily
+pill-taking, these newer modalities may improve continuation rates among
+key populations who struggle with the daily oral regimen.</p>
+<h3 id="building-data-science-capacity-for-global-health">Building Data
+Science Capacity for Global Health</h3>
+<p>The third study demonstrated that cohort-based online training can
+engage health professionals in data science skill-building, achieving
+completion rates substantially higher than typical MOOCs. Several
+aspects of the findings deserve further discussion.</p>
+<p>The strong performance of both asynchronous (video lessons) and
+synchronous (live workshops) components supports the pedagogical theory
+underlying the flipped classroom model: that learning is optimized when
+self-paced content delivery is paired with guided practice and
+instructor interaction [verify and cite: Bishop &amp; Verleger 2013].
+The particularly high value placed on instructor support during live
+workshops suggests that for programming education, where learners
+frequently encounter frustrating errors that are difficult to resolve
+independently, real-time human guidance remains indispensable.</p>
+<p>The finding that time constraints and competing work priorities were
+the primary barriers to completion highlights a fundamental tension in
+professional education: the working professionals who most need these
+skills are often those least able to commit sustained time to structured
+coursework. Potential solutions include more flexible scheduling
+options, dedicated catch-up weeks within the course calendar, and
+offering alternative tracks with different intensities (e.g., a
+slower-paced 16-week option alongside the standard 12-week
+programme).</p>
+<p>The association between full scholarship receipt and lower completion
+rates is a nuanced finding. While it may partly reflect the resource
+constraints that qualified scholarship recipients for financial aid in
+the first place, it also raises questions about how financial investment
+affects motivation and commitment. This is consistent with loss aversion
+effects documented in the MOOC literature, where learners who pay for
+verified certificates complete at substantially higher rates [verify and
+cite: Ho et al. 2015; Arkes &amp; Blumer 1985]. Programme designs that
+incorporate even modest financial commitments or achievement-based
+refund incentives might improve completion among scholarship
+recipients.</p>
+<h3 id="the-graph-courses-platform-development-and-broader-impact">The
+Graph Courses: Platform Development and Broader Impact</h3>
+<p>The development of The Graph Courses platform represented a
+substantial effort, spanning approximately one year of initial
+development and involving a team of over 10 contributors. The platform
+now offers a portfolio of courses in R programming, Python programming,
+generative AI for research productivity, and a French-language R course,
+serving learners from dozens of countries worldwide. Several courses are
+offered free of charge as self-paced tracks, including courses developed
+in collaboration with the World Health Organization on the Harmonized
+Health Facility Assessment (HHFA) and health inequality monitoring.</p>
+<p>Comprehensive course textbooks have been made freely available
+online. <em>Introduction to Data Analysis with R</em> (datawithr.com)
+and <em>Introduction to Data Science with Python</em>
+(pythondatabook.com) serve both as companion materials for enrolled
+students and as standalone resources for self-directed learners. These
+open educational resources extend the platform’s reach well beyond its
+enrolled student population.</p>
+<p>The platform has also served as infrastructure for training
+partnerships with external organizations. In addition to the WHO
+collaborations mentioned above, a course developed by the University of
+Oxford on infectious disease modelling is hosted on the platform. In
+this model, a centralized learning platform provides the technical
+infrastructure and pedagogical framework while external organizations
+contribute specialized content, offering an efficient approach to
+scaling data science training across the global health sector. It
+reduces the duplication of effort that occurs when individual
+organizations each build their own training platforms from scratch.</p>
+<p>The sustainability model, which combines grant funding (from the
+Ernst Goehner Foundation, the Global Fund, and others) with course
+revenue, has allowed the platform to maintain low fees and provide
+substantial financial aid to learners from lower-resource settings,
+which is critical for serving the LMIC populations that the platform
+aims to reach.</p>
+<h3 id="future-perspectives">Future Perspectives</h3>
+<p>Several directions for future work emerge from this thesis.</p>
+<p>For the HIV cascade studies, further research using more objective
+measures of HIV disease status (such as CD4 counts, which were
+unavailable in the current dataset) would strengthen the analysis of
+factors associated with viral suppression. Qualitative studies with both
+FSWs and healthcare providers could illuminate the specific mechanisms
+driving the observed improvements in testing and suppression rates over
+time, providing actionable insights for programme design. Additionally,
+extending the analysis to examine outcomes beyond 6-month viral
+suppression, including long-term retention in care, treatment switching,
+and mortality, would provide a more complete picture of the care cascade
+for this population.</p>
+<p>For PrEP continuation research, studies that incorporate data on
+individual-level risk behaviours, reasons for discontinuation, and
+biological adherence measures (such as drug-level monitoring) would
+provide much richer context for interpreting continuation patterns. The
+rollout of long-acting injectable PrEP in Nigeria and similar settings
+will also require dedicated evaluation to assess whether these newer
+modalities improve continuation among the KP groups identified as most
+vulnerable in this study.</p>
+<p>For the data science training programme, longitudinal follow-up
+studies tracking whether course completion translates into sustained R
+use and improved work outputs in professional practice would strengthen
+the evidence base for this training model. Controlled study designs
+comparing cohort-based and purely self-paced approaches remain a
+valuable future direction. Such a comparison was in fact the original
+research plan for this thesis component but was later adapted to an
+observational design as the programme scaled. The platform’s continued
+expansion to additional languages, topics (such as advanced statistics,
+machine learning, and causal inference), and the hosting of additional
+external courses from partner organizations offers the potential to
+further scale accessible data science training for the global health
+workforce.</p>
+<h3 id="limitations">Limitations</h3>
+<p>Several limitations should be considered when interpreting the
+findings of this thesis.</p>
+<p>For the HIV studies (Papers 1 and 2), the observational design
+precludes causal inference. Both studies relied on routinely collected
+programmatic data, which may be subject to measurement error, incomplete
+recording, and other data quality issues that the study team could not
+fully assess [verify and cite: Gloyd et al. 2016]. The analyses may have
+been affected by unmeasured confounding. For example, individual-level
+socioeconomic status, substance use, and psychosocial factors were not
+available in the dataset but likely influence both treatment and
+prevention outcomes. Additionally, the reliance on WHO clinical staging
+rather than CD4 counts to classify disease severity (in Paper 1)
+provides a less precise measure of immunological status. Finally, the
+findings from the Nigerian KP programme may not be directly
+generalizable to key populations in other settings with different
+epidemiological, legal, and service delivery contexts.</p>
+<p>For the training study (Paper 3), the absence of a comparison group
+prevents conclusions about whether the cohort-based format itself drives
+higher completion rates compared to alternative approaches. Survey
+respondents over-represented course completers, which likely biases
+satisfaction estimates upward. The study relied on self-reported data
+subject to recall and social desirability bias. No longitudinal
+follow-up was conducted to assess long-term skill retention or
+professional application. Finally, as authors affiliated with the
+organization that developed and delivers the course, our interpretation
+may be subject to bias toward favourable findings.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>The three studies in this thesis are united by the premise that
+data-driven decision-making can improve health outcomes for vulnerable
+populations, but only if both the data and the skills to analyse it are
+in place. The first two studies demonstrate this premise in action:
+routine programmatic data, subjected to rigorous analysis, revealed that
+Nigeria’s KP programme is achieving strong treatment outcomes for FSWs
+while facing a critical gap in PrEP continuation, particularly among
+transgender individuals and younger clients. These findings can directly
+inform programme design, but they required analytical skills that remain
+scarce in the settings where such programmes operate.</p>
+<p>The third study addresses this scarcity. By evaluating an online
+training programme that teaches health professionals the very skills
+used to produce the evidence in Papers 1 and 2, it closes the loop: from
+identifying health challenges through data analysis, to building the
+workforce that can perform such analysis at scale. The high completion
+rates and participant satisfaction suggest that cohort-based online
+training is a viable model for meeting this need.</p>
+<p>Ultimately, this thesis argues that strengthening the HIV response
+for key populations, and improving global health more broadly, depends
+not only on better interventions and better data, but on expanding who
+has the ability to turn data into evidence.</p>
+<hr />
+<h2 id="bibliography">Bibliography</h2>
+<p>[To be compiled in Vancouver format, combining references from the
+Introduction and Conclusions sections. References within the published
+papers are included within each paper’s own reference list.]</p>
+<hr />
+<h2 id="annexes">Annexes</h2>
+<p>[Any supplementary materials not included in the individual
+papers]</p>
+<div id="refs" class="references csl-bib-body">
+
+<div id="ref-UNAIDS2025" class="csl-entry">
+
+<p><span class="csl-left-margin">1.
+</span><span class="csl-right-inline">UNAIDS. Global AIDS update 2025
+[Internet]. Geneva, Switzerland: Joint United Nations Programme on
+HIV/AIDS; 2025. Available from: <a href="https://www.unaids.org/sites/default/files/2025-07/2025-global-aids-update-JC3153_en.pdf">https://www.unaids.org/sites/default/files/2025-07/2025-global-aids-update-JC3153_en.pdf</a></span></p>
+</div>
+
+<div id="ref-IHME2023" class="csl-entry">
+
+<p><span class="csl-left-margin">2.
+</span><span class="csl-right-inline">Institute for Health Metrics and
+Evaluation. GBD Results Tool [Internet]. 2023. Available from: <a href="https://vizhub.healthdata.org/gbd-results/">https://vizhub.healthdata.org/gbd-results/</a></span></p>
+</div>
+
+<div id="ref-GBD2023" class="csl-entry">
+
+<p><span class="csl-left-margin">3.
+</span><span class="csl-right-inline">Hay SI, Ong KL, Santomauro DF, et
+al. <a href="https://doi.org/10.1016/S0140-6736(25)01637-X">Burden of
+375 diseases and injuries, risk-attributable burden of 88 risk factors,
+and healthy life expectancy in 204 countries and territories, including
+660 subnational locations, 1990–2023: A systematic analysis for the
+<span class="nocase">Global Burden of Disease Study</span> 2023</a>. The
+Lancet. 2025;406(10513):1873–922. </span></p>
+</div>
+
+<div id="ref-UNAIDSestimates2025" class="csl-entry">
+
+<p><span class="csl-left-margin">4.
+</span><span class="csl-right-inline">Joint United Nations Programme on
+HIV/AIDS (UNAIDS). HIV estimates with uncertainty bounds, 1990–2025
+[Internet]. Spreadsheet; 2025. Available from: <a href="https://www.unaids.org/en/resources/documents/2025/HIV_estimates_with_uncertainty_bounds_1990-present">https://www.unaids.org/en/resources/documents/2025/HIV_estimates_with_uncertainty_bounds_1990-present</a></span></p>
+</div>
+
+<div id="ref-Mboup2006" class="csl-entry">
+
+<p><span class="csl-left-margin">5.
+</span><span class="csl-right-inline">Mboup S, Musonda R, Mhalu F, Essex
+M. HIV/AIDS. In: Jamison DT, Feachem RG, Makgoba MW, Bos ER, Baingana
+FK, Hofman KJ, et al., editors. Disease and mortality in sub-saharan
+africa [Internet]. 2nd ed. Washington, DC: The International Bank for
+Reconstruction; Development / The World Bank; 2006. Available from: <a href="https://www.ncbi.nlm.nih.gov/books/NBK2289/">https://www.ncbi.nlm.nih.gov/books/NBK2289/</a></span></p>
+</div>
+
+<div id="ref-WorldBank2010" class="csl-entry">
+
+<p><span class="csl-left-margin">6.
+</span><span class="csl-right-inline">World Bank. Southern Africa
+HIV/AIDS and tuberculosis plan of action, 2010–2011 [Internet].
+Washington, DC: The World Bank; 2010. Available from: <a href="https://documents1.worldbank.org/curated/en/568641468209966098/pdf/643430WP0South00Box0362535B0PUBLIC0.pdf">https://documents1.worldbank.org/curated/en/568641468209966098/pdf/643430WP0South00Box0362535B0PUBLIC0.pdf</a></span></p>
+</div>
+
+<div id="ref-UNAIDSGAM2022" class="csl-entry">
+
+<p><span class="csl-left-margin">7.
+</span><span class="csl-right-inline">UNAIDS. Indicators and questions
+for monitoring progress on the 2021 political declaration on HIV and
+AIDS: Global AIDS Monitoring 2023. Geneva, Switzerland: Joint United
+Nations Programme on HIV/AIDS; 2022. </span></p>
+</div>
+
+<div id="ref-Korenromp2024" class="csl-entry">
+
+<p><span class="csl-left-margin">8.
+</span><span class="csl-right-inline">Korenromp EL, Sabin K, Stover J,
+Brown T, Johnson LF, Martin-Hughes R, et al. <a href="https://doi.org/10.1097/QAI.0000000000003340">New HIV infections
+among key populations and their partners in 2010 and 2022, by world
+region: A multisources estimation</a>. JAIDS Journal of Acquired Immune
+Deficiency Syndromes. 2024;95(1S):e34–45. </span></p>
+</div>
+
+<div id="ref-Shannon2015" class="csl-entry">
+
+<p><span class="csl-left-margin">9.
+</span><span class="csl-right-inline">Shannon K, Strathdee SA,
+Goldenberg SM, Duff P, Mwangi P, Rusakova M, et al. <a href="https://doi.org/10.1016/S0140-6736(14)60931-4">Global epidemiology
+of HIV among female sex workers: Influence of structural
+determinants</a>. The Lancet. 2015;385(9962):55–71. </span></p>
+</div>
+
+<div id="ref-UNAIDSNigeria2024" class="csl-entry">
+
+<p><span class="csl-left-margin">10.
+</span><span class="csl-right-inline">UNAIDS. Nigeria [Internet]. 2024.
+Available from: <a href="https://www.unaids.org/en/regionscountries/countries/nigeria">https://www.unaids.org/en/regionscountries/countries/nigeria</a></span></p>
+</div>
+
+<div id="ref-Onovo2023" class="csl-entry">
+
+<p><span class="csl-left-margin">11.
+</span><span class="csl-right-inline">Onovo AA, Adeyemi A, Onime D,
+Kalnoky M, Kagniniwa B, Dessie M, et al. <a href="https://doi.org/10.1016/j.eclinm.2023.102098">Estimation of HIV
+prevalence and burden in Nigeria: A Bayesian predictive modelling
+study</a>. eClinicalMedicine. 2023;62:102098. </span></p>
+</div>
+
+<div id="ref-NAIIS2019" class="csl-entry">
+
+<p><span class="csl-left-margin">12.
+</span><span class="csl-right-inline">Federal Ministry of Health,
+Nigeria. <span class="nocase">Nigeria HIV/AIDS Indicator and Impact
+Survey (NAIIS) 2018</span>: Technical report. Abuja, Nigeria: Federal
+Ministry of Health; 2019. </span></p>
+</div>
+
+<div id="ref-FMOH2021" class="csl-entry">
+
+<p><span class="csl-left-margin">13.
+</span><span class="csl-right-inline">Federal Ministry of Health,
+Nigeria. HIV/STI integrated biological and behavioural surveillance
+survey (IBBSS). Abuja, Nigeria: Federal Ministry of Health; 2021.
+</span></p>
+</div>
+
+<div id="ref-Schwartz2015" class="csl-entry">
+
+<p><span class="csl-left-margin">14.
+</span><span class="csl-right-inline">Schwartz SR, Nowak RG, Orazulike
+I, Keshinro B, Ake J, Kennedy S, et al. <a href="https://doi.org/10.1016/S2352-3018(15)00078-8">The immediate
+effect of the Same-Sex Marriage Prohibition Act on stigma,
+discrimination, and engagement on HIV prevention and treatment services
+in men who have sex with men in Nigeria: Analysis of prospective data
+from the TRUST cohort</a>. The Lancet HIV. 2015;2(7):e299–306.
+</span></p>
+</div>
+
+</div>
+
+</body>
+</html>
