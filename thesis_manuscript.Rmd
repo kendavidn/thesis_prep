@@ -113,44 +113,57 @@ In Eswatini, for example, adult prevalence reached 27% and life expectancy dropp
 Since that time, significant progress has been made against the epidemic, largely driven by the scale-up of HIV antiretroviral therapy (ART) across the region.
 Modern ART regimens, typically taken as daily pill formulations of multiple drugs, suppress viral replication to undetectable levels, preventing progression to AIDS and rendering the individual effectively unable to transmit HIV [@Deeks2013].
 The number of people receiving ART in SSA grew from approximately 5 million in 2010 to about 22 million in 2024.
-Over that same period, new HIV infections in SSA fell by 55%, from 1.46 million to 650,000, and AIDS-related deaths fell by 60%, from 940,000 to 380,000 [@UNAIDSestimates2025].
-Despite this progress, the region continues to bear a disproportionate share of the global burden: 65% of all people living with HIV, 50% of new infections, and 60% of AIDS-related deaths [@UNAIDSestimates2025].
+Over that same period, new HIV infections in SSA dropped by 55%, from 1.46 million to 650,000, and AIDS-related deaths dropped by 60%, from 940,000 to 380,000 [@UNAIDSestimates2025].
+Despite this progress, the SSA region continues to bear a disproportionate share of the global burden, accounting for 65% of all people living with HIV, 50% of new infections, and 60% of AIDS-related deaths [@UNAIDSestimates2025].
 
 ### Key Populations in the HIV Epidemic
 
-Key populations are groups of people who, due to social or behavioral factors, have a higher risk and prevalence of HIV.
+Key populations (KPs) are groups of people who, due to social or behavioral factors, have a higher risk and prevalence of HIV.
 These include sex workers, men who have sex with men (MSM), people who inject drugs (PWID), and people in prisons and other closed settings [@UNAIDSGAM2022].
-For example, recent multicountry estimates put the risk of acquiring HIV at 23 times higher for MSM, 14 times higher for PWID, and 8.9 times higher for sex workers, compared with the general adult population [@Korenromp2024].
-Added together, KPs and their sex partners accounted for 55% of new adult HIV infections in 2022 [@Korenromp2024].
+For example, Korenromp et al. found that the risk of acquiring HIV was 23 times higher for MSM, 14 times higher for PWID, and 8.9 times higher for sex workers, compared with the general adult population [@Korenromp2024]. According to their estimates, KPs and their sex partners accounted for 55% of new adult HIV infections in 2022. This is an increase from 2010, when the figure was 44% [@Korenromp2024]. Thus, as general-population incidence declines, the global epidemic is increasingly concentrated among these KP groups.
 
-Beyond elevated acquisition risk, key populations living with HIV often experience worse outcomes along the care cascade.
-Across settings, key populations face pervasive stigma, discrimination, and criminalization that threaten their safety and undermine their rights [@Scorgie2012], and many report high levels of violence, with over half experiencing sexual, physical, psychological, or economic violence in some contexts [@Fawole2014; @Hubbard2003].
-These structural barriers have direct clinical consequences: co-morbid mental health conditions can undermine health-seeking behaviour, reduce treatment adherence, and increase mortality risk [@Mayston2012; @Antelman2007].
-Mental health conditions may also elevate HIV risk while limiting access to prevention, testing, and treatment [@Sin2014], yet such conditions frequently go undiagnosed and untreated in low-resource settings, where integration of mental health into HIV services remains uncommon [@Kaaya2013; @Parcesepe2018].
-Together, these factors contribute to delayed diagnosis, weaker retention in care, and lower rates of viral suppression among key populations.
+The reasons for the concentration of HIV among KPs are multifaceted.
+Part of the elevated risk reflects greater exposure to higher-transmission-risk events.
+Predominant sexual practices among MSM and transgender women have higher per-act transmission probabilities, sex workers often have more frequent sexual exposures, including unprotected sex, than the general population, and PWID face direct exposure through shared injecting equipment [@Baral2012; @UNAIDS2024].
+But these risk factors are amplified by structural and societal conditions that reduce access to prevention and care services.
 
-Given this disproportionate burden, targeted and population-specific HIV prevention and treatment programmes are essential.
-Effective responses include comprehensive packages of HIV prevention, sexually transmitted infection (STI) screening and treatment, HIV testing, and referral to ART, alongside legal and social support for those experiencing violence.
-Differentiated service delivery models, such as community-based clinics that co-locate prevention, testing, and treatment services for key populations under one roof, are designed to reduce barriers and improve engagement across the cascade of care.
-Because key populations play a disproportionate role in onward transmission, successfully engaging them across the treatment cascade is essential to reducing HIV transmission at a population level [@Mountain2014].
-Community-based and peer-led approaches, including outreach, condom promotion, HIV testing, ART linkage, and PrEP rollout, are central to improving access and outcomes, particularly when services are safe, non-discriminatory, and responsive to the specific needs of key populations.
+Chief among these is criminalization.
+As of 2025, 64 countries criminalized same-sex relations, 168 countries partly or wholly criminalized sex work, and 14 countries had laws that effectively criminalized transgender people [@UNAIDS2025].
+Such legal environments push KPs underground, exposing them to discrimination and violence, and deterring them from seeking testing and treatment [@Schwartz2015; @Shannon2015; @Scorgie2012].
+When diagnosis and treatment are delayed, individuals carry higher viral loads for longer, increasing the risk of onward transmission and sustaining the high circulation of HIV within these populations.
+Empirical studies confirm the link between criminalization and poorer HIV outcomes.
+For example, in a cross-national analysis of 194 countries, those that criminalized same-sex relations had 11 percentage points lower HIV status awareness and 8 percentage points lower viral suppression among people living with HIV, with similar deficits where sex work and drug use were criminalized [@Kavanagh2021]. In one notable case, Vasireddy et al. reported that weekly visits to drop-in centres serving KPs fell dramatically during the 2023 Anti-Homosexuality Act debate in Uganda, with at least four centres closing due to safety incidents [@Vasireddy2024].
+
+Because KPs have a high burden of HIV, play a disproportionate role in transmission, and face unique structural and societal barriers to healthcare access, effective global management of the HIV epidemic requires prevention and treatment programmes tailored to this population.
+A growing body of evidence supports moving care out of traditional hospital settings and into community-based clinics that offer bundled services, including pre-exposure prophylaxis (PrEP) for preventing infection, HIV testing services, concurrent STI screening and treatment, and antiretroviral therapy for those diagnosed with HIV [@WHO2022KP; @Ibiloye2022].
+There is also support for combining these clinical services with legal and social support structures, so that barriers beyond the biomedical, such as violence, discrimination, and legal vulnerability, can be addressed in the same visit [@WHO2022KP].
+Combining all such services under one roof, in so-called "One-Stop Shops," is increasingly considered best practice for KP service delivery.
+Finally, peer-led and mobile outreach models extend these services beyond fixed clinics, actively seeking out KP communities at venues and hotspots to facilitate engagement with prevention and care [@Kennedy2024].
+However, while these frameworks are widely endorsed, evidence on how they perform at scale remains limited, particularly from large programmatic settings in sub-Saharan Africa, where the HIV burden is greatest.
 
 
 ### Key Populations in Nigeria and the Programmatic Response
 
 Nigeria, the most populous country in Africa with over 220 million inhabitants, has the fourth-largest HIV epidemic globally [@UNAIDSNigeria2024; @Onovo2023].
-While the overall adult HIV prevalence is relatively low at approximately 1.3% [@NAIIS2019], the epidemic is severely concentrated among key populations.
-The 2020 Integrated Biological and Behavioural Surveillance Survey (IBBSS) reported HIV prevalence rates of 16% among FSWs and 25% among MSM in several Nigerian states, far exceeding the general population rate [@FMOH2021].
-These disparities are compounded by a hostile legal environment: Nigeria's Same-Sex Marriage Prohibition Act of 2014 criminalized homosexuality with sentences of up to 14 years imprisonment, and sex work exists in a grey legal zone where "living off the proceeds of prostitution" is criminalized [@Schwartz2015].
-Such laws drive key populations underground, fuel stigma and discrimination in healthcare settings, and create barriers to accessing HIV prevention, testing, and treatment services [@Schwartz2015; @Shannon2015].
+While the overall adult HIV prevalence is relatively low (estimated at 1.3% in the 2018 national household survey [@NAIIS2019]), the epidemic is severely concentrated among KPs.
+The 2020 Integrated Biological and Behavioural Surveillance Survey (IBBSS), which surveyed 17,975 KP members across 12 states, found HIV prevalence of 15.5% among FSWs, 25.0% among MSM, 28.8% among transgender individuals, and 10.9% among PWID, all far exceeding the general population rate [@Emmanuel2024].
 
+These disparities are compounded by a hostile legal environment.
+The Same-Sex Marriage Prohibition Act (SSMPA) of 2014 criminalized same-sex relationships with sentences of up to 14 years imprisonment [@HumanDignityTrust2026; @Schwartz2015], and its broad provisions also criminalize the gender expression of transgender individuals, for whom no legal pathway to gender recognition exists [@HumanDignityTrust2026].
+Drug use and possession are criminalized under the National Drug Law Enforcement Agency (NDLEA) Act of 1989, with penalties of up to 25 years imprisonment, restricting access to harm reduction services for people who inject drugs [@IDPC2025].
+Sex work occupies a grey legal zone: although selling sex is not itself an offence under the Criminal Code Act, Sections 223--225A criminalize related activities such as procurement, living off the proceeds of prostitution, and soliciting, effectively pushing sex workers outside the protection of the law [@Platt2018].
+Collectively, these laws drive key populations underground, creating barriers to accessing HIV prevention, testing, and treatment services [@Schwartz2015; @Shannon2015; @Kavanagh2021].
 
-In response to the concentrated HIV burden among key populations, a dedicated Key Populations programme was established in Nigeria with support from the United States President's Emergency Plan for AIDS Relief (PEPFAR) and the United States Agency for International Development (USAID).
-The programme, implemented by Heartland Alliance LTD/GTE and other non-governmental organizations, operates across seven Nigerian states (Akwa Ibom, Bayelsa, Cross River, Jigawa, Lagos, Niger, and Yobe) and provides a comprehensive package of HIV prevention, testing, care, and treatment services to FSWs, MSM, PWID, and transgender individuals.
+In response to the concentrated HIV burden among key populations, the Key Population Community HIV Services 
+Action and Response (KP-CARE 1) programme was established in Nigeria with support from USAID and implemented 
+by Heartland Alliance LTD/GTE [@Ochonye2024; @Nwosu2025PrEP].
+The programme delivers HIV prevention, testing, care, and treatment services for FSWs, MSM, PWID, and 
+transgender individuals across multiple Nigerian states through a differentiated service delivery model 
+centred on One-Stop Shops (OSS) and mobile outreach [@Onovo2022; @Ochonye2024; @Nwosu2025PrEP].
 
-Service delivery is organized around strategically located "One-Stop Shops" (OSS), which are community-based clinics that provide a range of services under one roof, including HIV testing and counselling, ART initiation and refills, pre-exposure prophylaxis (PrEP), sexually transmitted infection screening and treatment, and other ancillary services.
-This model is designed to be accessible and KP-friendly, reducing the stigma and discrimination that key populations frequently encounter in mainstream healthcare facilities [verify and cite].
-The programme also employs venue-based sampling and peer outreach strategies to engage key populations at hotspots such as brothels, bars, clubs, and other gathering places, delivering prevention services and facilitating linkage to care.
+The OSS's are strategically located clinics that provide a range of services under one roof, including HIV testing and counselling, ART initiation and refills, pre-exposure prophylaxis (PrEP), sexually transmitted infection screening and treatment, and psychosocial support [@Onovo2022; @Ochonye2024].
+This model is designed to be accessible and KP-friendly, reducing the stigma and discrimination that key populations frequently encounter in mainstream healthcare facilities [@Ibiloye2022; @Onovo2022].
+The programme also uses venue-based and hotspot outreach to engage key populations in brothels, streets, bars, clubs, and other gathering places, facilitating linkage to prevention and treatment services [@Onovo2022; @Nwosu2024VL].
 
 The KP programme uses an electronic data management system to track services provided to enrolled clients.
 This system generates a rich source of routine programmatic data that can be leveraged for research and programme improvement.

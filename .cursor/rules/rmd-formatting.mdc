@@ -1,0 +1,23 @@
+---
+description: Line formatting conventions for R Markdown prose
+globs: "**/*.Rmd"
+alwaysApply: false
+---
+
+# R Markdown sentence formatting
+
+- Each sentence starts on its own line.
+- Paragraphs are separated by a blank line.
+
+```markdown
+<!-- ✅ GOOD -->
+This is the first sentence of a paragraph.
+Here is a second sentence on a new line.
+
+This is a new paragraph after the blank line.
+Another sentence in the same paragraph.
+
+<!-- ❌ BAD -->
+This is the first sentence. Here is a second sentence on the same line.
+This is a new paragraph without a blank line separating it.
+```
