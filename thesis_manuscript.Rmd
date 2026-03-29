@@ -154,16 +154,16 @@ Drug use and possession are criminalized under the National Drug Law Enforcement
 Sex work occupies a grey legal zone: although selling sex is not itself an offence under the Criminal Code Act, Sections 223--225A criminalize related activities such as procurement, living off the proceeds of prostitution, and soliciting, effectively pushing sex workers outside the protection of the law [@Platt2018].
 Collectively, these laws drive key populations underground, creating barriers to accessing HIV prevention, testing, and treatment services [@Schwartz2015; @Shannon2015; @Kavanagh2021].
 
-In response to the concentrated HIV burden among key populations, the Key Population Community HIV Services 
-Action and Response (KP-CARE 1) programme was established in Nigeria with support from USAID and implemented 
+In response to the concentrated HIV burden among key populations, the Key Population Community HIV Services
+Action and Response (KP-CARE 1) programme was established in Nigeria with support from USAID and implemented
 by Heartland Alliance LTD/GTE [@Ochonye2024; @Nwosu2025PrEP].
-The programme delivers HIV prevention, testing, care, and treatment services for FSWs, MSM, PWID, and 
-transgender individuals across multiple Nigerian states through a differentiated service delivery model 
-centred on One-Stop Shops (OSS) and mobile outreach [@Onovo2022; @Ochonye2024; @Nwosu2025PrEP].
-
-The OSS's are strategically located clinics that provide a range of services under one roof, including HIV testing and counselling, ART initiation and refills, pre-exposure prophylaxis (PrEP), sexually transmitted infection screening and treatment, and psychosocial support [@Onovo2022; @Ochonye2024].
-This model is designed to be accessible and KP-friendly, reducing the stigma and discrimination that key populations frequently encounter in mainstream healthcare facilities [@Ibiloye2022; @Onovo2022].
-The programme also uses venue-based and hotspot outreach to engage key populations in brothels, streets, bars, clubs, and other gathering places, facilitating linkage to prevention and treatment services [@Onovo2022; @Nwosu2024VL].
+The programme delivers HIV prevention, testing, care, and treatment services for FSWs, MSM, PWID, and
+transgender individuals across multiple Nigerian states through a differentiated service delivery model
+centred on community-based One-Stop Shops (OSS) and mobile outreach [@Onovo2022; @Ochonye2024; @Nwosu2025PrEP].
+These OSS provide HIV testing and counselling, ART initiation and refills, pre-exposure prophylaxis (PrEP),
+sexually transmitted infection screening and treatment, and psychosocial support in KP-friendly settings
+designed to reduce stigma and improve access. In addition, venue-based and hotspot outreach helps link clients from brothels, bars, and other gathering places into prevention and treatment services
+[@Onovo2022; @Ochonye2024; @Ibiloye2022; @Nwosu2024VL].
 
 The KP programme uses an electronic data management system to track services provided to enrolled clients.
 This system generates a rich source of routine programmatic data that can be leveraged for research and programme improvement.
