@@ -165,9 +165,9 @@ sexually transmitted infection screening and treatment, and psychosocial support
 designed to reduce stigma and improve access. In addition, venue-based and hotspot outreach helps link clients from brothels, bars, and other gathering places into prevention and treatment services
 [@Onovo2022; @Ochonye2024; @Ibiloye2022; @Nwosu2024VL].
 
-The KP programme uses an electronic data management system to track services provided to enrolled clients.
-This system generates a rich source of routine programmatic data that can be used for programme evaluation and research.
-The first two studies in this thesis draw on these data to examine outcomes along the HIV prevention and care cascades.
+The KP-CARE 1 programme has an electronic data management system and database containing information on clients enrolled in prevention, testing and care services.
+This system is a rich source of large-scale routine programmatic data that can be used for both programme evaluations and research.
+The first two studies in this thesis use this data to analyse outcomes along the HIV prevention and care cascades.
 
 ### The HIV Care Cascade: Viral Load Testing and Suppression
 
