@@ -1,0 +1,539 @@
+Implementing Partners for the Global South Leaders in Epidemic Analytics and Response Network (GS LEARN)
+Contact information
+	Lead organisation: University of Geneva Institute of Global Health
+
+
+Type of lead organisation: Academic
+
+
+Country of the lead organisation: Switzerland
+	Web page:
+	https://unige.ch/medecine/isg/research/infectious-diseases-and-mathematical-modelling-professor-olivia-keiser
+https://thegraphcourses.org/
+
+	Name of the main contact: Olivia Keiser
+	Email:
+	Olivia.Keiser@unige.ch
+	
+
+1. Program summary
+	Target groups[a]
+	Target audience
+1. Public health-related professionals in LMICs interested in epidemic analysis. 
+2. Policy makers in Ministries of Health and other decision-making institutions.
+3. University students
+Geographic focus: Africa, Latin America, and South Asia
+Minimum requirements
+* For our beginner courses, we expect students to come in with basic computer and numerical literacy (no need for calculus, trigonometry, etc.)
+* Some familiarity with preparing graphs and tables. 
+* No medical, statistical, or coding knowledge is assumed. 
+* Some past experience with Excel is preferable but not required. 
+* The modelling courses assume knowledge of calculus and matrix algebra.[b][c]
+	Potential start and duration
+	Indicate the tentative start date and duration
+September 2025-August 2028
+	Proposed budget
+	Indicate total budget amount
+$2m USD
+	Partner groups[d][e]
+	Key partner groups for training activities:
+* CERTES, Mali
+* Institute Pasteur and FAAN hospital, Senegal
+* Institute MURAZ and Ki Zerbo University, Burkina Faso
+* Directorate of HIV, STI and Viral Hepatitis, Ministry of Health,  Malawi
+* Makerere University and Lira University, Uganda
+* Heartland Alliance, Nigeria
+* PIVOT, Madagascar
+A full list of current partners can be found in Appendix A.
+	Training languages
+	English, French, Spanish, Portuguese, Hindi. 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2. Program outline 
+	2.1 Training objectives
+	
+
+Skilled epidemiologists are the backbone of effective and efficient public health policy. However,
+a variety of bottlenecks obstruct the pipelines expected to  produce adequately trained quantitative researchers in LMICs. In the context of growing infectious disease threats, we propose a transformative training and mentorship program on policy-focused infectious disease modelling to support GS LEARN objectives, with the purpose of strengthening pandemic preparedness and response in the Global South. 
+
+
+Our goals are to:
+1. Build and sustain a multidisciplinary learning ecosystem with regional facilitator organisations and participants for training, mentorship, and collaboration in epidemic analytics and response.
+2. Develop a sequence of modular training courses on epidemic modelling techniques in R, customized to the needs of target trainees.
+3. Recruit and train diverse cohorts of learners from academic, government, and NGO backgrounds to develop expertise in infectious disease modelling, applied statistics, and strategic policy engagement.
+4. Strengthen research-to-policy pipelines by creating opportunities for genuine dialogue and mutually beneficial collaborations between modellers, epidemiologists, and policymakers.
+5. Evaluate program activities, report findings, and develop protocols to expand the learning ecosystem model to other Global South regions and institutions. 
+	2.2 Methodology and activities[f] 
+	Pathway to Pandemic Preparedness
+We aim to implement a robust training and mentorship program to train participants in infectious disease modelling, with a strong focus on response strategies and policy implications. Our training program is designed to transform beginners into competent modellers through skill-based learning, project-based coursework, intensive mentorship, and practical work experience (Fig. 1, Goals 2-4).
+
+
+  
+
+
+
+Figure 1: The Learning Pathway begins with training modules on fundamental modelling techniques with an emphasis on real-world applications. Trainees will collaborate with leading researchers to learn strategies to address real-world global health challenges and implement it into policy-making processes. 
+
+
+	2.2.1 Training material creation and delivery
+	Content:
+Our training program is strategically designed to serve two distinct tracks, each aligned with specific target audiences and objectives. Track 1, which follows the four-course sequence, directly supports Goal 2 by providing comprehensive training in infectious disease modelling for academic participants. This track emphasizes foundational and advanced skills in data analysis, statistical modelling, and infectious disease dynamics, preparing participants for impactful roles in public health research. Track 2, designed for policy-makers, aligns with Goal 4 and focuses on equipping decision-makers with the essential knowledge and tools to understand, assess, and apply infectious disease models in policy formulation. 
+Both tracks are structured to ensure that participants acquire the necessary expertise to contribute meaningfully to evidence-based public health decision-making, thereby addressing global health challenges effectively.
+Four-course Sequence
+This training program is designed  to build a comprehensive pathway to pandemic preparedness by equipping participants[g] with essential skills in infectious disease modelling. Beginning with foundational courses in data analysis and modelling, participants will progress through a carefully structured four-course sequence, each with a focus on practical, skill-based learning. To support Goal 2, we propose to administer the following training courses:
+Output 2.1: Introduction to R for Public Health
+Output 2.2: Introduction to Mathematical Modelling of Infectious Diseases
+Output 2.3: Applied Statistics for Epidemiology
+Output 2.4: Advanced Mathematical Modelling of Infectious Diseases
+Throughout these courses, students will develop technical expertise in data manipulation, statistical analysis, and infectious disease modelling through video-rich lessons, quizzes, and assignments that reinforce key concepts and skills. Each course culminates in a capstone project, allowing students to apply their learning to real-world health challenges. The program emphasizes hands-on experience, intensive mentorship, and collaboration with partner institutions, ensuring that students gain practical knowledge and are prepared to contribute to evidence-based decision-making in public health. This structured approach ensures graduates are well-equipped to tackle global health challenges. 
+The following four-course sequence outlines the detailed curriculum designed to guide students from foundational concepts to advanced modelling techniques. For a detailed breakdown of the lessons and cohort schedule example for the four-course sequence, please refer to Annexes 2.1 and 2.2.
+Course 1: Introduction to R for Public Health
+Overview
+This course offers an introduction to foundations for the R programming language, focusing on its application in public health data analysis. Students will explore essential concepts of R, progressions from basic syntax to an overview of widely used packages for data manipulation and visualization. Course modules involve a modem R curriculum, utilizing libraries like dplyr, ggplot2, and Rmarkdown to equip students to effectively communicate research findings through visual data representation and online publication.
+ Learning Outcomes
+At the end of the course, learners will be able to handle a wide spectrum of basic and intermediate data analysis tasks using R, including:
+* Installing and utilizing R & RStudio
+* How to read and write a programming script in R
+* How to use and navigate Rmarkdown scripts and RStudio projects
+* Importing datasets in R and performing exploratory analysis
+* Data manipulation through filtering, summarizing, transforming, joining, and pivoting
+* Visualizing data using the ggplot2 package
+* Publishing various output formats including reports, websites, and interactive dashboards
+* Version control and collaboration using Git and GitHub
+* Leveraging ChatGPT and other AI tools as a coding assistant
+* Course 2: Introduction to Mathematical Modelling of Infectious Diseases
+Overview
+This course offers a hands-on introduction to mathematical modeling of infectious diseases. Students will learn to construct models for specific research or policy questions, develop and implement these models using R, and analyze the resulting short- and long-term dynamics. The course will also cover essential techniques for effectively communicating  the modeling process and outcomes to audiences ranging from experts to non-specialists.
+ Learning Outcomes
+At the end of the course, students will be able to:
+* Write a simple mathematical model that is appropriate for a specific infectious disease and related research/policy question
+* Explain how critical transmission related parameters such as the reproduction number affect infectious disease dynamics
+* Critically examine the short- and long-term dynamics of a model
+* Compare and contrast different model outputs to evaluate the effectiveness of different public health interventions
+Course Outline
+* Module 1: The SIR Model
+* Module 2: Key Concepts in Mathematical Epidemiology
+* Module 3: SIR Model Extensions
+* Module 4: Stochastic Models
+* Module 5: Model Fitting
+* Capstone Project: SIR Model Application and Analysis
+Course 3: Applied Statistics for Epidemiology
+Overview
+This course offers a practical introduction to applied statistical methods in epidemiology. Students will learn to analyze health data to address research or policy questions, implement statistical models using R or Python, and interpret results within a public health context. The course also covers strategies for effectively communicating statistical analyses and findings to both technical and non-technical audiences.
+Learning Outcomes
+By the end of the course, students will be able to:
+* Match model type (linear regression, logistic regression, or survival analysis) to outcome data and understand underlying assumptions
+* Fit models and check underlying assumptions
+* Think critically about and use statistical models to solve epidemiological problems
+* Use statistical software confidently and interpret and communicate model output
+* Autonomously undertake your own statistical modelling
+Course Outline
+* Module 1: Introduction to Statistics for Public Health
+* Module 2: Probability & Inference
+* Module 3: Linear and Logistic Regression
+* Module 4: Multivariable Analysis
+* Module 5: Statistical Methods for Epidemic Modeling
+* Module 6: Survival Analysis
+* Module 7: Longitudinal Data Analysis
+* Module 8: Diagnostic Testing
+* Module 9: Bayesian Statistics
+* Capstone Project: Statistical Analysis and Modeling for Public Health
+Course 4: Advanced Mathematical Modelling of Infectious Diseases
+Overview
+Building on the Introductory course, this Advanced course explores advanced modelling techniques to address complex epidemiological questions. Students will be equipped with the skills needed to develop, analyze, and apply models to real-world infectious disease scenarios, empowering them to make data-driven decisions and develop effective intervention strategies.
+Learning Outcomes
+By the end of the course, students will:
+* Gain a solid foundation in the basic concepts and principles of infectious disease modelling.
+* Learn to develop various types of mathematical models (deterministic, stochastic, agent-based, and network models) to simulate infectious disease spread.
+* Master techniques for analyzing epidemiological data to inform model parameters and validate model outputs.
+* Evaluate the impact of public health interventions through model simulations to optimize disease control strategies.
+* Develop skills to effectively communicate modelling results and their implications to stakeholders, policymakers, and the public.
+* Engage in practical applications and case studies to apply modelling techniques to real-world infectious disease scenarios.
+Course Outline
+* Module 1: Model Estimation & Evaluation
+* Module 2: Thresholds & Equilibria
+* Module 3: Agent-Based Models
+* Module 4: Strategic Modeling for Decision Making
+* Module 5: Economic Impact and Cost-Effectiveness Analysis
+* Module 6: Real-Time Modeling of Emerging Epidemics
+* Capstone Project: Advanced Infectious Disease Modeling and Decision Analysis[h][i][j]
+Training for Policy-Makers
+Our Training for Policy-Makers course  is designed to provide public health decision-makers with a comprehensive introduction to infectious disease transmission models. This track begins with foundational concepts in epidemiology and modelling, progressing through an exploration of model types, structure, and function. Participants will gain the skills to critically assess the relevance and reliability of models, enabling them to make informed decisions based on model outputs. The course incorporates real-world case studies, demonstrating how models inform policy decisions and addressing key uncertainties in their application. To support Goal 4, we propose to administer the training course with the following overview and learning outcomes:
+Overview
+This course offers a comprehensive introduction to infectious disease transmission models for public health decision-makers. No prior experience or background in modeling is required. Students will learn the basics of model types, structure, and function, along with methods to assess their relevance and reliability. Through case studies, the course also covers how models inform policy decisions and highlights key uncertainties in their application. 
+Learning Outcomes
+At the end of the course, students will be able to:
+* Understand the basics of infections disease epidemiology and transmission and key components of infectious disease models
+* Formulate questions that can be answered by infectious disease transmission models and types of models used to answer each type of question
+* Describe how to assess whether or not a model is “good” or useful for informing policy
+* Identify the most important considerations for making decisions based on infectious disease transmission models
+
+
+	Delivery:[k]
+In order to effectively provide training, mentorship, and opportunities for collaboration among GS LEARN partner organisations and individuals, we will develop a Pathway to Pandemic Preparedness (PPP) learning ecosystem (Fig. 2, Goal 1).
+
+
+  
+
+Figure 2[l]: 
+Within the current proposal, we aim to deliver the four-course sequence described above as Guided Live Cohorts. However, delivery can be adapted to suit the needs of participants. The modular structure and multimodal teaching approach of our courses make them highly customizable.
+Main delivery models
+The GRAPH Courses 
+* Self-Paced Courses: Developed with the Universities of Geneva and Oxford, WHO, Bill & Melinda Gates Foundation, and the Global Fund, our growing catalog of courses combines rich videos, interactive quizzes, and practical assignments for data science expertise.
+* Live Bootcamps: In addition to our self-paced courses, we also offer a live 3-month course that brings together the best tools and practices for online pedagogy.  
+* Custom group training: We offer bespoke training with customized course content, tailored to the specific requirements of target trainees.
+  
+
+Figure 3: 
+Course Demo: Chapters and Lessons
+To give an example of our lesson content, let’s step into the Further data analysis with R course. 
+  
+
+Figure 4: Example lesson pages from the Further data analysis with R course. (A) Cover page. (B) Table of contents. (C) Learning objectives for the lesson and theoretical background. (D) Example outputs.
+
+
+The table of contents in Figure 4B lists the different chapters present in the course. Each chapter is made up of several lessons. Stepping into the Geospatial analysis chapter, we see how each lesson begins with specific learning objectives for the student, so that they can have a clear goal in mind and/or decide if this lesson is relevant to their learning needs (Fig. 4C). As it is the first lesson of the chapter, we then provide some motivational context for the topic, explaining why geospatial analysis is a relevant skill and showing examples of what the student might achieve by the end of the chapter (Fig. 4D).
+ 
+Next, we delve into the concrete coding demonstrations, which are immediately followed by practice examples (Fig. 5A). These practice examples are completed and autograded in Rmd scripts, as discussed in detail in the next section. 
+By the end of just a few lessons, the student will have acquired the theoretical knowledge and practical skills to generate a complex, multi-layered plot (Fig. 5B). 
+  
+
+Figure 5: 
+Lesson Structure
+Our courses provide a multimodal learning experience that includes video tutorials, reading materials, and interactive coding exercises (Fig. 6). 
+  
+
+Figure 6. Lesson components: video tutorials (A), written tutorials (B), practice questions (C), and code-along exercises. 
+Guided cohort courses (12 weeks each)
+Learning components
+The live cohorts will employ a blended learning approach, combining self-paced study with interactive workshops and personalized support. The format includes:
+1) Pre-work (6 hours per week)
+  
+
+	Video Tutorials
+Code along with the instructor in the video and do practice exercises in RStudio
+	  
+
+	Online quizzes 
+Multiple-choice theory questions and applied data analysis problems
+	
+
+2) Weekly Workshops (2 hours per week)
+Interactive sessions where students engage in collaborative data analysis exercises, applying pre-work content and developing new skills while interacting with peers and instructors.
+
+
+  
+
+	Whole-class teaching
+Instructors demonstrate new concepts
+	  
+
+	Group projects 
+Practice your skills with new datasets
+	3) Help Sessions (Two 2-hour sessions per week):
+Additional support sessions where students receive personalized guidance on the course material, troubleshoot coding issues and discuss project ideas with instructors.
+
+
+4) Final Projects (14 hours total):
+Capstone projects where students apply their acquired skills to significant public health data analysis topics. These projects will be presented to peers and evaluated by instructors, as a tangible demonstration of students' competencies.
+
+
+	2.2.2 Mentorship
+	[m]
+Content:
+Participants will receive continuous mentorship through all phases of the program. 
+
+
+Academic Advising
+Each trainee enrolled in the cohort courses will be matched to an academic advisor on the training team who will guide trainees through their academic journey during the 4-course sequence[n]. The goal of academic advising is to support student success in the courses and improve retention. The role of academic advisors includes:
+* Progress monitoring: Monthly one-on-one check ins with participants to track academic performance and identify areas for additional support
+* Capstone project guidance: Facilitate the application of newly acquired skills to the final data analysis project at the end of each course. Provide assistance with designing a research question and procuring appropriate data for the analysis.
+* Monitoring and evaluation: Administer pre- and post- training examinations at the beginning and end of each course (see section 2.3 for details).
+* Career development support: Provide training and support for applying to research grants/fellowships, conferences, degree programs, or employment.
+	2.2.3 Fostering Collaboration
+	[o]
+Content:
+* An online community of learners and mentors should be created – profiles with research interests, experience etc. to identify common interests. 
+* Communities of practice
+* Regional symposia bringing together training participants from different organisations/countries to meet up and skill share.
+* Skill sharing workshops
+* Facilitate matchmaking of trainees from different organisations into communities of practice based on their research interests, geographic region, or other factors. 
+Delivery:
+
+
+	2.2.4 Elevation of visibility of expertise
+	Support Participant attendance, presentation, or hosting conferences and symposia to showcase and share work/projects with a broad audience. 
+Facilitate integration of modelling output into public health policy and response strategies to ensure recognition of expertise and utilisation by policymakers.”
+ Elevating Visibility of Expertise in Policy-Focused Infectious Disease Modelling
+Objective: To establish and enhance the visibility of the proposed training and mentorship program in policy-focused infectious disease modelling, ensuring recognition as a pivotal contributor to pandemic preparedness and response in the Global South.
+________________
+
+
+Target Audiences:
+1. Primary:
+   * Academic researchers in epidemiology, statistics, and public health.
+   * Policymakers and government health officials in the Global South.
+   * NGOs and international agencies focused on public health and pandemic response.
+   * Early-career professionals and students in relevant fields.
+2. Secondary:
+   * Regional and global media outlets specializing in health and science reporting.
+   * Donors, funders, and stakeholders in global health initiatives.
+   * General public to build awareness about the importance of epidemic analytics.
+________________
+
+
+Key Messages:
+1. Impact Statement:
+   * “Building a resilient Global South through transformative training in infectious disease modelling.”
+2. Program Highlights:
+   * Modular, hands-on training courses in R for epidemic analytics.
+   * Mentorship opportunities bridging academia, policy, and practice.
+   * Multidisciplinary learning ecosystem fostering collaboration and innovation.
+3. Call to Action:
+   * “Join us in equipping the next generation of public health leaders. Together, we can strengthen pandemic preparedness.”
+________________
+
+
+Communications Channels and Strategies:
+1. Digital Media
+   * Website:
+      * Develop a dedicated program microsite with detailed information, training modules, success stories, and resources.
+      * Include a blog section highlighting program milestones, expert interviews, and participant stories.
+   * Social Media:
+      * Launch a hashtag campaign (#EpidemicAnalyticsGS, #ModelingForImpact).
+      * Share infographics, video testimonials, and live updates from workshops.
+      * Use LinkedIn and Twitter to target professionals and policymakers.
+   * Webinars:
+      * Host webinars introducing the program, with guest speakers sharing insights on epidemic modelling and its policy impact.
+2. Traditional Media
+   * Press Releases:
+      * Announce program launch, key milestones, and participant achievements.
+   * Media Features:
+      * Collaborate with health and science journalists for feature articles.
+   * Policy Briefs:
+      * Disseminate policy briefs summarizing program outcomes and their implications for pandemic preparedness.
+
+
+3. Events and Conferences
+   * Present program progress and outcomes at global health forums, such as the World Health Assembly and regional summits.
+   * Host an annual symposium showcasing participant projects and their real-world impact.
+4. Publications and Knowledge Sharing
+   * Encourage participants to publish case studies and research findings in open-access journals.
+   * Develop a knowledge repository with training materials and best practices for epidemic modelling.
+5. Networking and Partnerships
+   * Partner with academic institutions, regional health organizations, and NGOs to co-host events and expand reach.
+   * Create an alumni network for program graduates to foster ongoing collaboration and mentorship.
+________________
+
+
+Monitoring and Evaluation:
+1. Performance Metrics:
+   * Website analytics: Traffic, session duration, and resource downloads.
+   * Social media engagement: Follower growth, hashtag reach, and post interactions.
+   * Media coverage: Number and quality of media mentions and publications.
+   * Event participation: Number of attendees and post-event feedback.
+2. Feedback Mechanisms:
+   * Conduct surveys among participants and stakeholders to assess communication effectiveness.
+   * Host periodic focus groups to gather qualitative insights.
+3. Reporting:
+   * Develop quarterly reports summarizing communications activities, reach, and impact.
+   * Share success stories and lessons learned with stakeholders and funders.
+Delivery:
+Note: One of the deliverables/goals we are proposing is to write and publish an article documenting the development and evaluation of our training program, similar to this paper: https://doi.org/10.1371/journal.pone.0272793. This is strongly tied to Objective 5 (“Evaluate program activities, report findings, and develop protocols to expand the learning ecosystem model to other Global South regions and institutions.”)  
+
+
+Dissemination and communication plan 
+The findings of the study will be shared with all relevant stakeholders, namely the Gates Foundation, the Coalition for Epidemic Preparedness Innovations (CEPI), Ministries of Health, and the community through appropriate approaches such as customized reports, workshops, policy briefs, and community validation meetings. To the wider scientific community, scientific articles such as abstracts will be written and submitted to both national and international conferences as well as manuscript publication. To the lay public, blogs will be written. To support the process of scientific communication in a structured and organized manner, we will use the APHRC Policy Engagement and Communication (PEC) Unit.
+
+
+	2.2.5 Other relevant information
+	Indicate any other relevant information regarding the methodology/activities which is not captured in sections 2.2.1-2.2.4 (leave blank if not applicable).
+	2.3 Monitoring and evaluation[p]
+	Quality Assurance Throughout the Program
+
+
+A systematic monitoring process will track program implementation across all training phases. Before launching each course, expert panels will review and validate course content, learning objectives, and assessment tools through multiple rounds of feedback. During delivery, regular collection of both quantitative and qualitative data will enable continuous quality improvement.
+
+
+For the four-course sequence, weekly monitoring will include tracking attendance, completion rates of pre-work assignments, and participation levels in workshops and help sessions. Academic advisors will conduct monthly one-on-one check-ins with participants to identify learning barriers and provide targeted support. Course coordinators will hold bi-weekly meetings to discuss participant progress and address emerging challenges.
+
+
+For the research fellowship component, monthly reports from both fellows and mentors will document progress on research projects, skills development, and any implementation challenges. Regular video conferences between program leadership and host institutions will ensure alignment of fellowship experiences with program goals.
+
+
+Evaluation Framework
+
+
+The evaluation strategy employs the four-level Kirkpatrick model to assess program effectiveness:
+  
+
+
+
+Level 1 (Reaction) measures participant satisfaction and engagement through detailed feedback surveys after each course module and final project. Key metrics include satisfaction with course content, teaching methods, mentorship quality, and program logistics.
+
+
+Level 2 (Learning) assesses knowledge and skill acquisition through pre/post competency assessments for each course. These evaluations will test both theoretical understanding and practical application of epidemiological modeling concepts. Fellowship learning will be evaluated through research project deliverables and mentor assessments.
+
+
+Level 3 (Behavior) tracks how participants apply their training in their professional roles. Follow-up surveys at 6 and 12 months post-program will document implementation of modeling skills, research outputs, and policy engagement activities. Case studies will highlight examples of successful knowledge translation.
+
+
+Level 4 (Results) examines broader program impact through multiple indicators: publications in peer-reviewed journals, presentations at scientific conferences, successful grant applications, career advancement, and contributions to policy decisions. A particular focus will be placed on tracking South-South collaborations catalyzed through the training network.
+
+
+	
+
+
+
+
+
+3. Experience / knowledge
+	3.1 Modelling
+	Provide key information on the organisation and description of organisation modelling expertise
+
+
+The Infectious Diseases and Mathematical Modelling (IDMM)  division of the University of Geneva's Institute of Global Health conducts research in disease modeling to inform health policy, focusing on endemic diseases in low- and middle-income countries. Led by Professor Olivia Keiser, who has 24 years of experience in epidemiological research, the division includes twelve staff researchers based at UNIGE and engages with an extended network of over 100 collaborators, including public health specialists and graduate students worldwide.
+The division conducts policy-relevant modeling research on endemic diseases including HIV, tuberculosis, and viral hepatitis, informing both national policies and WHO recommendations (Keebler et al., 2014). The group’s modeling work has advanced understanding of critical areas including viral load monitoring strategies in adults (Estill et al., 2012) and children (Salazar-Vizcaya et al., 2014), the effectiveness of patient tracing systems (Estill et al., 2014), and approaches to prevent mother-to-child transmission (Tweya et al., 2016). During the COVID-19 pandemic, the team supported the WHO Regional Office for Africa (WHO AFRO), managing emergency information across the African region and developing evidence-based response strategies.
+IDMM employs diverse methodological approaches including disease progression simulations, dynamic transmission models, and agent-based modeling. The division uses specialized tools such as the TIME Impact model and Spectrum software, while contributing to open-source development through projects like the R package 'gems' (Blaser et al., 2015) for flexible disease progression modeling.
+
+
+The African Population and Health Research Center (APHRC) in Nairobi is a research-to-policy institution focused on generating evidence, strengthening research capacity, and engaging policymakers to inform action on health and development across sub-Saharan Africa. Over the last two decades, APHRC has implemented over 100 research and policy projects in more than 35 countries. 
+APHRC's modeling team has recently applied agent-based modeling (ABM) to study family planning interventions in Nairobi's urban slums, capturing the dynamics of fertility preferences, contraceptive use, and pregnancy-related outcomes. The group’s research on infectious diseases, including HIV, has informed policy by modeling intervention strategies to reduce disease burden.
+APHRC collaborates with numerous institutions across Africa, including 19 universities and research institutes, to develop evidence-based public health interventions. The Center leads several major initiatives: the Sida-funded Joint Programming Initiative on Antimicrobial Resistance (JPIAMR) Partnership, the WHO-funded Regional Sexual and Reproductive Health and Rights (SRHR) Implementation Research Hub, and the Consortium for Advanced Research Training in Africa (CARTA), and Capacity Development in Applied Epidemiology (CDAE) program. Additional programs include the Countdown to 2030 Fellowship Program (CD2030) and the Catalyze Impact Initiative, large projects that strengthen research capacity and inform context-specific health interventions across the continent.
+
+
+Fundação Getúlio Vargas School of Applied Mathematics (FGV-EMAp) in Rio de Janeiro brings expertise in mathematical, statistical, and computational modeling of epidemics to inform national policy, focusing on emerging arbovirus diseases. Led by Professor Favio Coelho, who has over 25 years of experience in infectious disease modeling, the research group has pioneered work in vector-borne disease epidemiology. Key projects include Infodengue, an early-warning system monitoring arboviral diseases across more than 5,300 Brazilian municipalities, and Mosqlimate, a web-based platform integrating epidemiological, climate, and demographic data for arbovirus forecasting.
+The group develops advanced modeling techniques to improve disease prediction and surveillance. This includes novel methods for estimating attack ratios in dengue transmission and approaches for connecting models with real-world data through parameter estimation (e.g., Coelho et al., 2011). FGV-EMap’s research also incorporates external factors like climate and social status (e.g., Coelho et al., 2020) and employs continuous disease surveillance to identify long-term risk trends (e.g., Almeida et al., 2023; Codeço et al., 2022).
+
+
+
+
+	3.2 Modelling training [and collaborations]
+	* Description of capacities in respect of work to be conducted under this training program:
+* Demonstrated experience delivering modelling training activities, particularly in LMICs
+* Demonstrated past and current collaboration and partnerships with LMIC-based institutions highlighting key role of the LMIC partners in the development and/or execution of projects 
+* Demonstrated experience in bridging communication between modellers, epidemiologists, and policymakers
+
+
+The IDMM division has extensive experience in delivering modelling training activities, particularly in low- and middle-income countries (LMICs). Through initiatives like the GRAPH Network, a joint venture with WHO AFRO connecting researchers from over 40 countries, IDMM strengthens partnerships across the Global South. The division collaborates closely with African health ministries, exemplified by the Umoyo+ project in Malawi evaluating the Option B+ strategy for HIV prevention (Haas et al., Lancet HIV 2016). These collaborations extend beyond research to include training local researchers in modelling techniques (Tweya et al., 2016).
+Other key training and collaboration activities include:
+* Developing and delivering open-access interactive lessons: With funding from WHO, the Bill & Melinda Gates Foundation, and the Global Fund, IDMM has created a training platform, The GRAPH Courses, with over 100 lessons with instructional videos and several textbooks  on foundational data analysis skills, reaching over 3,000 learners in more than 50 countries.  
+* Offering intensive online cohort courses: IDMM has guided over 300 students through intensive data analysis courses using real-world public health projects, with the majority of students coming from LMICs. These courses have consistently received excellent reviews, with a 100% satisfaction rate in a recent survey, highlighting the effectiveness of the training approach.
+* Creating customized training programs: Collaborating with WHO, IDMM has developed and delivered training programs tailored to the specific needs of LMICs, focusing on data cleaning, analysis, visualization, and reporting using R. Training materials have been developed for specific diseases, including HIV, TB, and malaria, and for the use of the EpiGraphHub platform (a data aggregation and visualisation/analysis platform developed by our teams).
+* Fostering partnerships with LMIC institutions: IDMM has collaborated with health ministries and universities in countries such as Malawi, DRC, Senegal, Nigeria, and Zimbabwe to deliver training and build local capacity. These partnerships have played a key role in the development and execution of projects, ensuring that training content is context-relevant and sustainable.
+
+
+Over the past two decades, APHRC has demonstrated its commitment to strengthening individual and institutional research capacities in sub-Saharan Africa. The organization has implemented over 100 research and policy projects in more than 35 countries, emphasizing modelling training activities in LMICs. The Center has realized this commitment through flagship programs such as the Consortium for Advanced Research Training in Africa (CARTA), African Doctoral Dissertation Research Fellowship (ADDRF), and the Countdown to 2030 Fellowship Program (CD2030).
+
+
+In 2013, recognizing unmet training needs, APHRC launched the Training Program (TP) to expand capacity strengthening in Africa. The TP aims to improve skills in areas such as Modelling in Data Science, Quantitative Data Analysis using R/STATA/Python, Structural Equation Modelling, and Implementation Research Methodology. Through these workshops, APHRC has become adept at delivering effective training programs tailored to the African context.
+
+
+Other key training activities and collaborations include:
+* Agent-Based Modelling (ABM) training programs: In April 2024, APHRC, in collaboration with the Center for Epidemiological Modelling and Analysis at the University of Nairobi, Strathmore University, Jomo Kenyatta University of Agriculture and Technology, and the Institute for Disease Modelling at the Bill & Melinda Gates Foundation, conducted a training program on ABM to equip participants with skills to simulate complex social and health systems. Through hands-on sessions, participants explored how individual-level behaviors and interactions influence population-level outcomes. A similar training is scheduled for May 2025 in Nairobi. 
+* Collaborating with LMIC-based institutions: APHRC works with multidisciplinary teams to model infectious diseases, integrating local data to inform context-specific interventions. Their extensive partnerships with over 19 universities and research institutes across Africa have been pivotal in advancing research and capacity-building.
+* Leading major collaborative initiatives: APHRC leads initiatives such as the Sida-funded Joint Programming Initiative on Antimicrobial Resistance (JPIAMR) Partnership—a $7.2 million global collaborative platform engaging 29 nations to curb antimicrobial resistance; the WHO-funded Regional Sexual and Reproductive Health and Rights (SRHR) Implementation Research and Knowledge Translation Hub; the Sida-funded Consortium for Advanced Research Training in Africa (CARTA); the Countdown to 2030 Fellowship Program (CD2030); and the Immunization Advocacy Initiative (IAI)—an approximately $6 million project funded by the Bill & Melinda Gates Foundation.
+* Bridging communication among stakeholders: APHRC effectively bridges communication gaps between modellers, epidemiologists, and policymakers by convening multidisciplinary workshops that bring together these groups to co-create solutions tailored to regional health challenges. APHRC develops user-friendly reports and presentations, translating complex research findings into accessible formats for policymakers.
+
+
+Fundação Getúlio Vargas School of Applied Mathematics (FGV-EMAp) in Rio de Janeiro brings expertise in mathematical, statistical, and computational modelling of epidemics to inform national policy. Led by Professor Favio Coelho, who has over 25 years of experience in infectious disease modelling, the team is committed to education and open-source resources.
+Key training activities and collaborations include:
+* Providing open-source educational materials: FGV-EMAp open-sources its course materials through GitHub and shares mathematical modelling lectures are available on YouTube. Course exercises based on the open-source mathematical software Sagemath are provided, which can be run locally or online.
+* Developing open-source software packages: The team has authored several open-source software packages (e.g., Epigrass, Epimodels, PySUS) designed for epidemic modelling, enhancing accessibility to advanced modelling tools.
+* Collaborating with government entities: FGV-EMAp works with the Brazilian Ministry of Health to ensure research informs policy decisions. They offer training courses for government officials on interpreting model forecasts, bridging gaps between modellers, epidemiologists, and policymakers.
+
+
+	3.3 Training program delivery
+	Documented ability and capacity to perform similar work to a high standard, on time, and within budget
+
+
+Our consortium demonstrates extensive experience in delivering high-quality training programs in epidemiological modeling and data analysis. Through multiple successful initiatives, we have consistently shown the ability to execute complex training programs on time and within budget, reaching diverse audiences across the Global South.
+
+
+Digital Learning and Information Platforms:
+* The GRAPH Courses Platform: Development of over 100 interactive lessons with instructional videos, reaching 3,500+ learners across 50 countries. Funded by WHO, Gates Foundation, and Global Fund, delivered on schedule with comprehensive learning management systems.
+* InfoDengue Early Warning System: FGV-EMAp's successful implementation of monitoring platform across 5,300+ Brazilian municipalities, including training modules for health officials and researchers.
+
+
+Intensive Workshops and Cohort Training Programs:
+* Data Science Bootcamps: IDMM's delivery of 10 successful GRAPH Courses cohorts training 300+ students in real-world public health projects, maintaining 100% satisfaction rate with affordable tuition costs.
+* Agent-Based Modeling Workshops: APHRC's specialized training programs in collaboration with University of Nairobi, Strathmore University, and Gates Foundation, delivered on schedule with measurable outcomes.
+* Government Official Training: FGV-EMAp's regular delivery of targeted courses for Brazilian Ministry of Health officials on model interpretation and application.
+* APHRC Training Program: Successfully conducted 100+ workshops benefitting 4,000+ participants since 2015, consistently meeting delivery targets and budget constraints. As one example, in the team’s research on air pollution and health impacts in African cities, workshops brought together air quality modellers, epidemiologists, and urban planners.
+* Masters of Advanced Studies Program: IDMM has coordinated and delivered the Master of advanced studies in Public Health at the University of Geneva for two years.
+* Data Science Without Borders: APHRC is leading a recently-inaugurated  initiative to build data science capacity across Ethiopia, Cameroon, and Senegal. The program includes PhD scholarships, hands-on workshops, and development of local research capabilities through partnerships with LSHTM, CODATA, and Africa CDC.
+
+
+Open Educational Resources:
+* Online Learning Materials: Development and maintenance of multiple GitHub repositories, YouTube channels, and interactive course materials by all partners, ensuring global access to training resources.
+* Policy Communication Resources: Development of user-friendly reports and visualizations translating complex research for policymakers, exemplified by APHRC's climate change report and the GRAPH Network’s COVID-19 situation reports. 
+* Stakeholder Engagement Materials: Established regular communication through factsheets and blogs, demonstrated through successful Ministry of Health engagements on topics like Women in Leadership research.
+* Multilingual Content: Creation of training materials in multiple languages (English, French, Portuguese) to serve diverse global audiences, with regular updates and quality control.
+
+
+	
+
+
+
+4. Personnel & Environment 
+	Consortium description
+	Consortium Partners
+Our consortium comprises three principal institutions—each contributing complementary expertise in mathematical modeling, capacity strengthening, and data-driven policy engagement—and the GRAPH Network, which provides the overarching framework for coordination and online learning.
+1. University of Geneva, Institute of Global Health (UNIGE-ISG)
+   * Infectious Diseases and Mathematical Modelling (IDMM) Division:
+Led by Professor Olivia Keiser, the IDMM division focuses on epidemiological and health policy research for endemic diseases. IDMM will lead project coordination, curriculum development, and training delivery using its proven online pedagogy.
+   * Global Research and Analyses for Public Health (GRAPH) Network:
+Established in collaboration with WHO AFRO, the GRAPH Network is a global community of health professionals and academic partners from 30+ countries. Its online training platform, The GRAPH Courses, will serve as the consortium’s main tool for delivering and managing all training, mentoring, and community-building activities.
+   2. African Population and Health Research Center (APHRC)
+   * Research Division (Data Science Program, Modelling Working Group)
+APHRC brings Africa-wide reach and deep experience in capacity strengthening, with a focus on infectious disease modeling, policy engagement, and evidence-based interventions. Through its regional offices in Nairobi and Dakar, APHRC will lead efforts to mentor participants in real-world modeling projects, emphasizing local relevance.
+   * Research-Related Capacity Strengthening (RRCS) Division
+The RRCS Division ensures that training content is context-specific and that local researchers and policymakers can apply new modeling and analytic skills for immediate policy impact.
+   * Policy Engagement and Communications (PEC) Division
+This division specializes in bridging the gap between research and policymaking, ensuring that modeling outcomes are effectively communicated to and used by decision-makers.
+      3. Fundação Getúlio Vargas School of Applied Mathematics (FGV-EMAp)
+      * Center for Mathematical Epidemiology
+Led by Professor Favio Coelho, FGV-EMAp contributes advanced expertise in epidemic modeling, open-source software development, and training in computational methods. Their team will design specialized modules (e.g., Shiny App development, real-world data interpretation) and support collaborative research.
+Roles and Responsibilities
+         * Overall Coordination and Management
+Professor Keiser (UNIGE-IDMM) will serve as the main contact point with CEPI and oversee the consortium’s strategic direction. A dedicated General Coordinator (Dr. Sara Botero) will manage day-to-day operations, ensure timely progress, and maintain liaison with regional facilitator organizations and participants.
+         * Curriculum Development and Delivery
+            * UNIGE-IDMM & GRAPH Core Team: Create and deliver training modules on infectious disease modeling, global health economics, and data analysis. Manage The GRAPH Courses online platform, develop interactive lessons, and guide participants through project-based assignments.
+            * APHRC
+            * FGV-EMAp: Develop advanced modeling and data analytics modules (R/Python coding, Shiny Apps) and supervise specialized training content.
+            * Mentorship and Capacity Building
+            * APHRC: Lead participant mentoring and ensure training content and collaborative projects reflect local priorities across Africa. Leverage existing partnerships with health ministries and academic institutions to facilitate on-the-ground capacity building and policy engagement.
+            * UNIGE & FGV: Provide additional mentorship and technical support, particularly for advanced computational tasks.
+            * Policy Engagement and Communication
+            * APHRC & GRAPH Network: Translate complex modeling results into accessible formats for policymakers. Organize workshops that bring together stakeholders, including local decision-makers, to ensure research findings inform public health strategies.
+Examples of Previous Collaborative Work
+            * Global Research and Analyses for Public Health (GRAPH) Network
+During the COVID-19 pandemic, UNIGE (IDMM) and FGV-EMAp jointly established the GRAPH Network to track COVID-19 in 35 African countries. This effort produced epidemiological reports, offered R-based training for in-country analysts, and informed regional COVID-19 response strategies.
+            * EpiGraphHub Platform
+Following the success of the initial COVID-19 response, the teams developed EpiGraphHub—a secure, open-source data integration and analysis platform—further strengthening joint training capabilities.
+            * Memorandum of Understanding (MOU) between APHRC and the GRAPH Network
+In 2023, APHRC signed an MOU with the GRAPH Network to formalize collaboration on capacity strengthening and research. As part of this partnership, several APHRC team members have completed The GRAPH Courses in R and Python, enhancing their modeling and data analysis skills. In return, APHRC’s research outputs—particularly those focusing on sub-Saharan Africa—have been shared with GRAPH/IDMM to help inform decisions on priority research areas and contextualize modeling projects.
+
+
+These collaborations demonstrate our ability to execute complex, time-sensitive projects and build multinational networks of researchers, policymakers, and technical specialists.
+
+
+	IT equipment
+	Please provide an overview of your organisation’s technical infrastructure and resources (e.g access to computer systems, platforms, etc) intended to be used for creation of training material and delivery of training in the desired format (delivery of webinars/remote training sessions, remote mentoring) and technical support.
+The GRAPH Network has robust technical infrastructure and resources to support the creation and delivery of training materials and remote mentoring. We have access to high-performance computing resources at the University of Geneva, as well as secure cloud-based platforms for data storage, analysis, and visualization (e.g., EpiGraphHub). We are proficient in using various software tools and platforms for online training and collaboration, including video conferencing software (e.g., Zoom), communication platforms (e.g., Slack), and learning management systems (e.g., Moodle, our custom-built platform at thegraphcourses.org). Our experience in developing and delivering online courses ensures that we can provide high-quality remote training and support to participants.
+	
+

@@ -1,0 +1,84 @@
+﻿Shape, circle
+
+Description automatically generated 
+ Text
+
+Description automatically generated 
+
+
+
+  
+
+Strengthening Data Science Capacity to Enable Data-Centred Public Health Intervention in Africa    
+
+
+A technical proposal submitted by the Global Research and Analyses for Public Health (GRAPH) Network
+Geneva, Switzerland 
+13 January 2022
+
+
+
+
+1. EXECUTIVE SUMMARY
+The African region is faced with limited data-driven responses to public health threats due to limited capacity and lack of access to open source data analytics tools for public health. There are training programmes on academic degrees in epidemiologic analysis but there are only very few persons with such training making the number of personnel trained sub-optimal. Since the core sets or epidemiological data analysis can be acquired outside of degree programs, through targeted online courses. Therefore, we propose to develop a data analysis training platform (using the open source analysis program R). The training platform will be coupled to an open source data application that allows to integrate different data sources in a secure way. We will develop the platform and train the trainers in parallel. The trainers will then be offering the training at local levels in Malawi and Zimbabwe. For participants from outside these countries, either face to face or online training will be organised. The training will focus on data management, analysis and automated reporting using R. The datasets to be used for the training sessions will be from publicly or administratively available sources in Malawi and Zimbabwe.
+2. PROBLEM STATEMENT 
+Skilled epidemiologists are the backbone of effective and efficient public health response. These personnel are the critical link in the chain from outbreak signals to outbreak containment. They also guide data-driven responses to other infectious and non-infectious public health threats. Recognizing this value, the WHO has recommended that countries have at least one trained field epidemiologist/analyst per 200,000 population. Unfortunately, this target is often not met in SSA countries. While the training of epidemiologists through traditional degree programs can be time consuming and costly, the core skill sets for epidemiological data analysis can be acquired outside of degree programs, through targeted online courses. If well-executed, such courses can rapidly expand the number of individuals actively involved in public health surveillance, forecasting, and analysis in SSA countries, and can do so at a fraction of the cost of more traditional methods. A number of options currently exist for individuals seeking to acquire epidemiological and data analysis skills online, but there are significant limitations in all current offerings. We therefore propose to develop a data analysis training platform (using the open source analysis program R). The training platform will be coupled to an open source data application that allows to integrate different data sources in a secure way. 
+3. PROPOSED TECHNICAL APPROACH 
+The training platform will be integrated with a data storage and visualization platform “EpiGraphHub” which will be developed in parallel and which allows to have a customizable training platform to work with various stakeholders (e.g. ministries of health, African based Universities, local NGOs). 
+1. Web-Based Platform (The EpiGraphHub / Deliverable 1): To provide a central repository for open data of use to public health analysis, secure integration with sensitive health data, the analytical tools necessary to turn those data into insights, and communication tools that translate those insights into actionable information ready for decision-makers. The platform will allow for: data aggregation; data cleaning and storage; data analysis and visualization.
+2. Online Training Platform (Deliverable 2): To build capacity through introduction to best practices in data quality, management, and analysis, and by adapting the web-based platform to actual specific needs. This will be accomplished through the development of three online courses:
+   * Introduction to EpiGraphHub – Aims at enabling Public Health students and professionals to engage as advanced users with the EpiGraphHub platform.
+   * Introduction to Epidemiological Analysis – Covers the key elements of R as a statistical programming language, as well as basic statistical and epidemiological concepts using R.
+   * Epidemic Reporting – Teaches efficient data pre-processing, analysis and reporting from epidemic line list data using R. 
+More details can be found in the following sections.
+   1. Deliverable 1:  EpiGraphHub
+      1. Data Aggregation and Cleaning
+This “EpiGraphHub'' will have a relational database design, based on the open-source PostgreSQL database server. In order to bring data into the platform, data fetching code will be developed for each data-source. Whenever possible, the code will be designed to track updates in the original sources. Transparency regarding the provenance of the data being integrated is a key feature of the platform. Data storage will happen in two stages. First, the “raw data '', will be stored in EpiGraphHub’s central server (data lake), but outside the relational database, maintaining their original format. The second stage is then the storage of the cleaned and transformed data in the platform’s data warehouse, ready to be visualized/explored and used in downstream analyses (described below).
+      2. Data Cleaning and Storage
+The data cleaning will be preceded by a detailed data inspection and quality assessment, which will also generate a report which can be shared with those responsible for the original data to help with improvements in the data creation and management. Since the original data will be kept in the platform’s data lake, the cleaning and transformation steps can be redone at any time.
+      3. Analysis and Visualization 
+The platform will provide an interactive, web-based, environment for exploratory analyses and visualization of the data, as well as an API (application programming Interface), giving access for more technical analysts to fetch the clean data and analyze it according to their own needs. The web applications will be developed using the R-Shiny framework. These apps are designed to consume data curated by the EpiGraphHub platform but at the same to be standalone apps which can be deployed anywhere, serving as templates for community developed apps built upon the data services provided by EpiGraphHub. 
+   2. Deliverable 2: Training Platform
+The training platform will have the following features: 1) User tracking; 2) Placement tests will be offered, to ensure that students are learning at the horizons of their abilities. 3) Assessments and progress tracking will be built in, to keep learners accountable and provide a clear measure of growing competence. 4) Certificates will be given to demonstrate mastery of the skills learned. 5) Fora and comments sections will be available, for students to ask questions and engage in discussions with other students. 6) Incentives for students to participate actively in such fora will be provided. This can be achieved through the assignment of learning credits and reputation points for useful answers and questions. Additionally, a shareable profile page for each learner that highlights their contribution to the community will be available. Learners can share this profile on their CVs, for example. 7) Enrolment will be free or for a nominal cost. 8) A multi-tier system will be built. Learners will receive feedback through computer-graded quizzes and a built-in peer review system for more complex assessments. In a paid tier, learners would receive feedback and grading from hired instructors and assistants. This latter tier could be particularly useful in university programs. 9) Tutorials will (at least partly) be crowdsourced to create a truly scalable ecosystem of courses. While a core team of expert instructors will determine the overall curriculum shape. 10) Incentives for contributors to create courses will be offered. Shareable links to author pages will be one incentive. Modest financial incentives (a percentage of earnings from paid-tier learners) could also be considered for course contributors.
+
+
+Analysis concepts and code will be taught in the context of realistic projects. Such projects will be based on real datasets and real data problems and designed to mirror the kinds of tasks that an epidemiologist would encounter. The outputs of these projects should be concrete, shareable documents, dashboards, and presentations that can serve as a showcase of learners' abilities. We have no illusions that these features will be built in a single iteration of the platform. Indeed, we believe that they will require several iterations, with feedback from learners and instructors continually informing further improvements.  We intend to produce detailed course materials for three courses initially:
+
+
+1. Introduction to the EpiGraphHub Platform – This course will require minimal technical knowledge of informatics and aims to enable public health students and professionals to engage as advanced users with the EpiGraphHub platform. During this course they will learn: 1) How to browse the available datasets 2) How to use the interactive query interface to develop exploratory analyses. 3) Basic SQL query language: how to import data into the Hub from CSV files as well as Excel and Google spreadsheet 4) How to create powerful data visualizations and interactive dashboards without writing code.
+2. Introduction to R – This course will cover the key elements of R as a statistical programming language, as well as basic statistical and epidemiological concepts. Topics covered will include: 1) Data structures and getting data into R; 2) Data filtering and cleaning in R; 3) Simple data transformations (e.g., crosstabs, lengthening of wide data); Basic statistical tests (t-tests, chi-square tests); Introductory visualization (ggplot2).
+3. Epidemic Reporting with R – This course will teach efficient data pre-processing, analysis and reporting from epidemic line list data using R. Topics will include: 1) Data aggregation and per-group summaries; 2)Deriving and plotting of epidemic curves; Calculation of incidence, prevalence, CFRs, and growth rates; 3) Rmarkdown reporting (with DOCX, PPTX, PDF and flexdashboard outputs).
+4. CORE TEAM 
+The project will be overseen by Dr. Cleophas Chimbetete as the Principal Investigator (from Zimbabwe) in close collaboration with the co-PI’s; Professor Flávio Codeço Coelho (from Brazil) and Mr. Wingston Ng’ambi (from Malawi). 
+Name and position
+	Brief description of role
+	
+
+Dr. Cleophas Chimbetete (Principal Investigator)      PhD
+	Dr. Chimbetete is a Public Health Physician with extensive experience in Public Health research and health policy engagement. He is the Research and Training Director at Newlands Clinic in Harare, Zimbabwe. He has strong research and training experience in infectious and non-infectious diseases. He also has strong computing and analytics skills in Stata and R. In this project, Dr. Chimbetete will be the Principal Investigator.
+	
+
+Prof. Flávio Codeço Coelho (Co-Principal Investigator) PhD
+	Prof. Coelho develops research in the area of mathematical, statistical and computational modelling of infectious diseases. He has strong computational and data science skills in R and Python programming languages. He has also developed several infectious and health system modelling ShinyApps for automated reporting. Prof. Coelho will oversee the development and implementation of the EpiGraphHub.
+	
+
+Mr. Wingston Ng’ambi   (Co-Principal Investigator)        MSc
+	Mr. Ng’ambi is a statistician with strong data management, analysis and reporting skills. He has strong R and Python data analytics skills. He is also a trainer on data use to inform policy and public health practice. In this project, Mr. Ng’ambi will be the Co-PI and he will oversee the implementation of the training aspect of the project. Mr. Ng’ambi is a Lecturer in Epidemiology and Statistics at Kamuzu University of Health Sciences.
+	
+
+Software Developers           To be determined
+	We will hire computer scientists with data science skills in R and Python. The ideal candidates are expected to be trained to a minimum of a Master of Science in Data Science or Computer Science or related field. They will also be expected to have had a minimum of five years of working experience in public health or global health related fields. The ideal candidates will be hired from across Africa.
+	5. DATA SOURCES
+The datasets to be integrated in the EpiGraphHub training platform will include:
+1. Global COVID-19 cases, testing, vaccination datasets from Our World in Data
+2. COVID-19 linelists from Malawi and Brazil (these will be used as “use cases” since the data are available to the public)
+3. Country-level COVID-19 data published openly to the WHO COVID dashboard
+4. COVID-19 linelists from African countries (pending agreement)
+5. Demographic and Health Surveys (DHS) data will be mapped for integration pending agreement for data use as determined by the data holders on case-by-case bases for specific projects. To be clear, this data will not be accessible to other projects beyond the approved purpose, and will thus need to be uploaded individually each time. However, the mapping of the data fields and formats will be accessible across the platform to automate interoperability.
+6. Fine-scale open demographic and geospatial datasets from the WorldPop Project, including the Gridded Population Density of the World (GPW) v4; WorldBank economic data; DataForGood national or subnational mobility data from Facebook
+7. COVID-19 response stringency indices from The Oxford Covid-19 Government Response Tracker (OxCGRT)
+6. STAKEHOLDERS AND COMMUNITY ENAGEMENT
+This project will involve the researcher, students, Ministry of Health policy makers and Health Economics and Policy Laboratory of Malawi’s Kamuzu University of Health Sciences and other African universities. Furthermore, the project will promote innovative collaborations between public health data science and other fields of study such as mathematics, statistics, computer science, engineering, physics, and biology to create synergistic modes of data-driven discoveries.
+7. PATH TO IMPACT
+The project aims to bridge the data science capacity gaps in Africa by bringing in cutting edge technologies in data visualization and analytics to researchers, policy makers and students from the Africa Region. Furthermore, automated data analytics tools along with data science capacity will be provided to the researchers, policy makers and students from the Africa Region.
+ | Page

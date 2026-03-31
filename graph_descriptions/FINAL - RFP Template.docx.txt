@@ -1,0 +1,619 @@
+﻿Shape, circle
+
+Description automatically generated 
+ Text
+
+Description automatically generated 
+
+
+
+  
+
+                 Statistics outline   
+
+
+________________
+ Diagram
+
+Description automatically generated 
+  
+  
+  
+  
+  
+  
+  
+  
+ Shape, circle
+
+Description automatically generated 
+ Text
+
+Description automatically generated 
+
+Table of Contents
+
+
+1        EXECUTIVE SUMMARY        2
+1.1        Understanding the Situation of Data-Driven Public Health Responses in Africa        2
+1.2        Examining Drivers and Needs        4
+1.3        Leveraging the GRAPH Network: Qualifications and Competence        4
+1.4        Our Integrated Solution: A Holistic Approach        5
+2        APPROACH/METHODOLOGY - PROPOSED SOLUTION        8
+2.1        Project 1:  Web-Based Platform (Deliverable 1)        8
+2.1.1        Approach/ Methodology        8
+2.1.2        Proposed Solution        9
+2.1.3        Tasks Description (Timeline section 3)        10
+2.2        Project 2: Online Training Platform for Epidemiological Analysis (Deliverable 2)        12
+2.2.1        Approach/Methodology        12
+2.2.2        Proposed Solution        15
+2.3        Project 3: Strengthening monitoring and measurement of unsafe abortion and its consequences (Deliverables 3 and 4)        18
+2.3.1        Phase 1 Approach/ Methodology        18
+2.3.2        Phase 2 Approach/ Methodology        20
+2.3.3        Proposed solution        22
+2.3.4        Description of Deliverables 3 & 4        22
+2.3.5        Phase 1. Tasks Description (Timeline in Section 3):        23
+3        TIMELINE        25
+3.1        Deliverable 1 Gantt Chart        25
+3.2        Deliverable 2 Gantt Chart        25
+3.3        Deliverable 3 & 4 Gantt Chart        26
+
+
+________________
+
+
+
+
+1. EXECUTIVE SUMMARY
+Association Action en Santé Publique (ASP) is a Geneva-based institution founded in 1998 by the former directors of the Global Health Institute at the University of Geneva (UNIGE). With more than 20 years of experience in managing health projects at the Institute as well as in Europe, Asia, and Africa. ASP is currently in partnership with the Global Research and Analyses for Public Health Network (GRAPH Network) – a multidisciplinary collaborative network that supports disease surveillance and data analysis for public health across the globe. 
+The ASP/GRAPH Network collaboration has its origin in June of 2020 when HIM-WHO AFRO mandated ASP and its partner the division of Infectious Diseases and Mathematical Modelling of UNIGE to support and strengthen the emergency information management for COVID-19 in the African region. 
+
+
+   1. Understanding the Situation of Data-Driven Public Health Responses in Africa
+Each year, over 100 acute public health events are reported by Member States to the WHO Regional Office for Africa (WHO AFRO). Many of these emergencies result in high morbidity, mortality, and socioeconomic disruptions, which threaten national and regional health security. Although communicable diseases account for 80% of health emergencies in Sub-Saharan Africa, non-communicable diseases, maternal, neonatal, and nutritional diseases also contribute a substantial part of disease burden. These recurrent health challenges illustrate the urgent need to develop robust global disease control strategies. While national surveillance structures exist in African countries, the scale of operations are often not equipped to sufficiently address high-risk public health events, and the limitations of disease response in Africa was further exemplified by the COVID-19 pandemic.
+The global COVID-19 pandemic is a potent reminder of the need for robust disease surveillance systems and timely responses to nascent epidemics. To an unprecedented degree, public health decision-makers have required detailed outbreak analytics (situation reports and dashboards, risk indices, growth rate estimates) to guide their decisions. Indeed, it is countries with strong data collection-analysis-reporting pipelines for the outbreak data that have been able to respond adequately to the pandemic with public health measures. However, resources for outbreak analytics are often poorly allocated and are focused where emerging pathogens are the least likely to originate. The pandemic thus provides an opportunity to take stock of where these often-ignored gaps in public health data pipelines leave the world most vulnerable.
+In our work with WHO AFRO, the ASP/GRAPH Network collaboration identified three important gaps in the ability of partner countries to process and analyse data for public health surveillance:
+1. Under-utilization of programmatic tools for data cleaning, analysis and reporting
+Extracting insights from raw data requires a substantial amount of data cleaning and manipulation. We found that countries often relied on manual procedures to transform and clean their outbreak data, using spreadsheet software like Microsoft Excel. These manual manipulations introduce expensive time delays into the data pipeline and are unfeasibly laborious when datasets get large.
+Similarly, for the creation of epidemiological reports (daily and weekly situation reports), countries relied on the manual functionalities of text-processing software, reducing the timeliness of report generation, and limiting the frequency with which the reports could be created.
+1. Shortage of personnel trained in programmatic data science
+The above shortcoming was unavoidable because personnel in the health ministries of many WHO Afro countries are not skilled with programmatic data science tools that can automate data cleaning, manipulation and visualization. Uptake of code-based data science (with R or Python) is limited and graphic-user-interface (GUI) applications, which offer little opportunity for automation, remain dominant.
+In addition to hindering automation, the use of GUI software means countries cannot access the wealth of open-source code libraries, hundreds of packages developed by professional epidemiologists and statisticians, that might assist in the statistical analysis of outbreak and disease surveillance data.
+1. Dependence on external sources for outbreak data analysis
+Due to the poor uptake of programming-based data science, countries' capacities to carry out complex outbreak analysis were limited, necessitating external reinforcement. Thus, WHO Afro stepped in to assist countries, and engaged the ASP/GRAPH network collaboration and other consultants to offer them direct analytics support. Such external consultancies, while currently unavoidable, are not ideal in a period of crisis, given the time needed for the onboarding of consultants. Autonomous solutions would allow for swifter, smarter outbreak response.
+Based on lessons learned from the COVID-19 pandemic, the GRAPH Network is committed to enhance health data analysis and reporting capacities within the WHO Region of Africa and other low resource settings. Through the development of an open-source public-health data management, analysis, and reporting tool alongside a training platform for public health officials and academic institutions, the GRAPH Network aims to support the in-country response to various public health challenges. Ultimately, the long-term goal of the Network is to facilitate South-to-South collaborative partnerships to empower countries in the Global South with autonomy in surveillance and disease analysis.
+
+
+   2. Examining Drivers and Needs
+Although the under-utilization of programmatic tools, shortage of trained personnel in data science, and dependence on external sources remain a concern in many low and middle-income countries (LMICs), their potential for growth in building capacities in health data generation, analysis, dissemination, and use is strong. Gaps in data analytics for public health surveillance characterized during the ASP/GRAPH Network and WHO AFRO collaboration enabled our interdisciplinary task force to define four fundamental needs which have also been highlighted in the RFP Bid Reference 2021-033_DDI-DNA_HealthData requirements and expectations: 
+* Open-source Application - Used to aggregate, clean, and analyse data to track disease outbreaks and response in African countries 
+
+* Training Platform - Available to enhance the data analysis capacity in local countries in collaboration with local governments, academic institutions, and research communities to build the next generation of public health experts all while fostering South-South collaboration in partnership with centres in high-resource settings
+
+* Generation of Data and Development of Indicators - With a focus on reproductive and sexual health and rights (SHRH) that will allow for measuring and tracking SHRH in countries
+
+
+   * Implementation of Data into Open-source Application - To use generated data to summarize and map the data and tools 
+
+
+   3. Leveraging the GRAPH Network: Qualifications and Competence 
+The GRAPH Network and its members have been operating in the fields of epidemiology, data analysis application development, and capacity building for public health and epidemiology assessment for many years. With a proven track record of successfully carrying out the duties specified in this call, we are uniquely positioned to carry out the required work. Our management of both personnel and financial resources, prompt delivery of quality products, progress reporting, and performance evaluation is established and field-tested, giving us a realistic understanding of how to reach the objectives.
+
+
+The work of our core team and network members located within both WHO AFRO and local African health ministries (e.g., Malawi, DRC, Senegal, to name a few) over the past 15 months has given us the opportunity to develop open-source applications for health data collection, analysis, reporting, and visualization while simultaneously incorporating and training local partners. For instance, automated data reporting dashboards developed by key team data scientists have already been implemented within WHO AFRO. Contact-tracing and active case-finding applications which we have built in collaboration with WHO AFRO are currently being piloted in Niger, Uganda, DRC, Congo, and South Africa thanks to specific funding through the COVID-19 Solidarity Response Fund (SRF). Finally, we have successfully discussed to implement our training program and open-source public health data management, reporting/visualization solution directly with the health ministries and Universities of Malawi, Burkina Faso, Guinea, Republic Democratic of Congo, Kenya, Zambia, and Zimbabwe as we work to secure funding to launch these pilot programs off the ground. Overall, the relationships we have built are helping to promote a culture of data quality and utility that will empower LMICs to take timely and evidence-based decisions.
+
+
+Specific domain expertise applied by active network members across various projects include sexual and reproductive health and rights, mortality data collection and analysis, infectious disease epidemiology especially in low resource settings, ecology and epidemiology of vector-transmitted pathogens in sub-tropical environments, development of collection and analysis tools for contact-tracing and active case-finding in epidemic situations, public health crisis incident management including economics, database management, dashboarding, geospatial data analyses, infectious disease field ecology at the human-animal interface including nutrition, and other “One-Health”- relevant social studies.
+
+
+   4. Our Integrated Solution: A Holistic Approach 
+Here, we propose a set of solutions that can be applied to specific public health concerns, while also building a common backbone of tools and competencies that can be applied more broadly. At the heart of the issue of resource limitation and capacity is a need to apply solutions that are sustainable. While a pandemic, common endemic diseases with seasonal variation, and sexual health and reproductive rights may seem disparate fields, the way we meet the challenge of ensuring that public health decisions are made based on evidence is the same: facilitating data discoverability and interoperability, development of open and adaptable analysis and results communication tools, and training a workforce capable of not only utilizing the tools but building them from the ground up. Furthermore, such diverse public health problems often rely nonetheless on very similar data needs. Demographic and social data, ecological data, surveys and questionnaires, patient linelists or alert databases, laboratory results, etc - which are typically sourced and harmonized over and over by different groups for different projects, but each with nearly identical purposes: adding context to epidemiological data to make informed decisions. 
+
+
+To address the needs previously described above, the GRAPH Network has created innovative solutions that combine the four interconnected deliverables into three complementary sub-projects: 
+
+
+
+   1. Web-based Platform (The EpiGraphHub / Deliverable 1) - to provide a central repository for open data of use to public health analysis, secure integration with sensitive health data, the analytical tools necessary to turn those data into insights, and communication tools that translate those insights into actionable information ready for decision-makers
+   1. Data Aggregation 
+   2. Data Cleaning and Storage
+   3. Data Analysis and Visualization
+
+
+   1. Online Training Platform (Deliverable 2) - to build capacity through introduction to best practices in data quality, management, and analysis, and by adapting the web-based platform to actual specific needs. This will be accomplished through the development of three online courses:
+   1. Introduction to EpiGraphHub aims at enabling public Health students and professionals to engage as advanced users with the EpiGraphHub platform.
+   2. Introduction to Epidemiological Analysis will cover the key elements of R as a statistical programming language, as well as basic statistical and epidemiological concepts using R.
+   3. Epidemic Reporting will teach efficient data pre-processing, analysis and reporting from epidemic line list data using R.
+
+
+   1. Strengthening Monitoring and Measurement of Unsafe Abortion and its Consequences (Deliverable 3 & 4) - to develop and deploy a multidimensional indicator for safe and unsafe abortion practices in order to communicate a more comprehensive picture of its effects on health and well-being. This project acts to demonstrate the breadth of public health topics on which The GRAPH Network convenes expertise and to which the EpiGraphHub (Deliverable 1) can be applied, supported by and grown through its training platform (Deliverable 2).
+
+
+The project will be implemented in two phases over 18 months. The WHO RFP mandate will fund the first stage (Phase 1) of the outlined project.
+
+
+Phase 1: Literature search, data mapping and formative evaluation
+An in-depth review (Deliverable 3) of existing indicators, literature and on-the-ground mapping of current data sources will identify opportunities for harmonization and the need for further primary studies to fill critical gaps. As existing data sources are identified, the data will be integrated into the EpiGraphHub’s data lake (Deliverable 4). This data lake will facilitate further analysis, development, and eventual deployment of the indicator in a sustainable and reproducible manner.
+
+
+Phase 2: Primary data collection and development of the multidimensional indicator
+   1. The methodology for developing a meaningful multidimensional indicator to measure and quantify the burden of unsafe abortions will be described.
+   2. Deployment of the indicator via the web-based EpiGraphHub platform developed in Project 1 will allow for the sharing of results to both technical audiences and to decision-makers and provide reproducibility and transparency in how it was calculated.
+________________
+   1.    2. APPROACH/METHODOLOGY - PROPOSED SOLUTION 
+
+
+The 4 deliverables are grouped into 3 sub-projects, which are described in more detail below.
+
+
+   5. Project 1:  Web-Based Platform (Deliverable 1)
+Based on observed bottlenecks in the response to the COVID-19 pandemic and previous global health threats, the need for more efficient integration of public health data such as disease surveillance data, immunization records, mortality data and others, has become self-evident. Here we propose a cloud-based platform to achieve this integration while maintaining high standards of data security and enforcing ethical guidelines for data usage. This platform will be delivered with complete documentation regarding its usage.
+
+
+   1. Approach/ Methodology
+   1. Data Aggregation
+One of the greatest challenges in the evaluations of global health threats is the lack of a common data schema[1] for health data collection and management. Rather than proposing a theoretically optimal data schema for health data, we will work by finding the commonalities between datasets available from various countries and design an extensible data schema optimized for each application. This data schema design will also take into consideration the schemas of already existing public health data aggregations such as “Our world in Data” and others.
+
+
+This data schema (named “EpiGraphHub”) will be materialized as a relational database design, based on the open-source PostgreSQL database server. A relational database model is the ideal solution, as it minimizes the replication of data. For example, all health event records must make reference to a geographical location, however instead of having geographical information repeated on every dataset, they can all make reference to a standardized single table of locations.
+
+
+In order to bring data into the platform, data fetching code will be developed for each data-source selected for integration. Whenever possible, the code will be designed to track updates in the original sources thereby maintaining the data in the platform up-to-date. Transparency regarding the provenance of the data being integrated is a key feature of the platform.
+
+
+Data storage will happen in two stages. First, the “raw data”, meaning the data that comes from external sources, will be stored in EpiGraphHub’s central server (data lake), but outside the relational database, maintaining their original format. This will allow for the application of different cleaning and transformation pipelines at any point in time, as well as for troubleshooting or quality control. The second stage is then the storage of the cleaned and transformed data in the platform’s data warehouse, ready to be visualized/ explored and used in downstream analyses (described below).
+   2. Data Cleaning and Storage
+In order to prepare the data for storage in the database tables created according to our data schema, some level of cleaning and transformations are required. Human supervision is recommended in this stage, but all the automated pre-processing steps will be available as a well-documented software library, in order to facilitate the creation of new customized data cleaning and transformation pipelines, without prejudice to existing ones. 
+
+
+The data cleaning will be preceded by a detailed data inspection and quality assessment, which will also generate a report which can be shared with those responsible for the original data to help with improvements in the data creation and management.
+
+
+Since the original data will be kept in the platform’s data lake, the cleaning and transformation steps can be redone at any time in order to accommodate any changes to the data schema as well as different analytical requirements.
+
+
+   3. Data Analysis and Visualization
+Once the data has been cleaned and stored, it is finally ready for data analysis and visualization. The platform will provide an interactive, web-based, environment for exploratory analyses and visualization of the data, as well as an API (application programming Interface), giving access for more technical analysts to fetch the clean data and analyze it according to their own needs. 
+
+
+The web applications will be developed using the R-Shiny framework to e.g., tackle COVID line-list analysis and contact-tracing. These apps are designed to consume data curated by the EpiGraphHub platform but at the same to be standalone apps which can be deployed anywhere, serving as templates for community developed apps built upon the data services provided by EpiGraphHub.
+
+
+   2. Proposed Solution
+The implemented solution incorporating the components describe above will consist of the following:
+   1. Deployment of the EpiGraphHub Server, publicly available at the https://epigraphhub.org URL. This website will give access to our interactive web-based data exploration tool.
+   2. Central PostgreSQL database with PostGIS extensions to Host all the datasets aggregated by the platform. Open datasets will be available through the web frontend. Datasets to be integrated in the first six months will include:
+   1. Global COVID-19 case, testing, and vaccination datasets from Our World in Data
+   2. COVID-19 linelists from Colombia and Brazil (these will be used as “use cases” since the data are available to the public)
+   3. Country-level COVID-19 data published openly to the WHO COVID dashboard
+   4. COVID-19 linelists from African countries (pending agreement)   
+   5. Demographic and Health Surveys (DHS) data will be mapped for integration pending agreement for data use as determined by the data holders on case-by-case bases for specific projects. To be clear, these data will not be accessible to other projects beyond the approved purpose, and will thus need to be uploaded individually each time. However, the mapping of the data fields and formats will be accessible across the platform to automate interoperability. 
+   6. Fine-scale open demographic and geospatial datasets from the WorldPop Project, including the Gridded Population Density of the World (GPW) v4.
+   7. WorldBank economic data?
+   8. DataForGood national or subnational mobility data from Facebook?
+   9. COVID-19 response stringency indices from The Oxford Covid-19 Government Response Tracker (OxCGRT) 
+   1. An open-source software library tested and documented, for data collection and aggregation, will be made available on The Graph Network Github organization page[2].
+   2. A Python client library for programmatic access to data from WHO’s Global Health Observatory, named GHOClient. This library will be open source and available through the Python Package Index with the source code fully available on Github. Its documentation will also be made available online.
+   3. A Shiny-based web application[3] designed for COVID-19 contact-tracing. This application will be fully hosted and ready to be used, with user documentation. 
+   4. Shiny application designed for Epidemiological report generation from line-list data.
+
+
+   3. Tasks Description (Timeline section 3)
+Below is a brief description of the tasks which appear on the Gantt chart, for deliverable 1.
+
+
+   1. EpiGraphHub Server: Alpha version of the platform server, Along with Web frontend with guest user access.
+   2. Integration of Datasets: Integration of the following public health datasets: 
+   3. GHO client library: Release of a stable version of the GHOClient library, along with complete documentation and usage examples. 
+   4. EpiGraphHub R & Python libraries: Release of Python and R libraries for data collection, aggregation, and cleaning.
+   5. Contact Tracing application: Release of Contact-tracing Shiny app
+   6. Report-Generation application: Release of the Report generation Shiny app
+
+
+
+
+________________
+
+
+
+
+   6. Project 2: Online Training Platform for Epidemiological Analysis (Deliverable 2)
+   1. Approach/Methodology
+Skilled epidemiologists are the backbone of effective and efficient outbreak response. These personnel are the critical link in the chain from outbreak signals to outbreak containment. They also guide data-driven responses to non-infectious public health threats. Recognizing this value, the WHO has recommended that countries have at least one trained field epidemiologist/analyst per 200,000 population. 
+
+
+Unfortunately, this target is often not met in SSA countries. A variety of bottlenecks obstruct the traditional pipelines that should produce adequately trained health data analysts. This scarcity is felt acutely in times of health crises, as the last two years have been indeed several of our country partners have highlighted the lack of skilled data analysts as an important obstacle in their response to the COVID-19 pandemic.
+
+
+While the training of epidemiologists through traditional degree programs can be time-consuming and costly, the core skill sets for epidemiological data analysis can be acquired outside of degree programs, through targeted online courses. If well-executed, such courses can rapidly expand the number of individuals actively involved in public health surveillance, forecasting, and analysis in SSA countries, and can do so at a fraction of the cost of more traditional methods.
+
+
+A number of options currently exist for individuals seeking to acquire epidemiological and data analysis skills online, but there are significant limitations in all current offerings (see table below for feature comparison); none are ideal for learning the needs of would-be analysts in SSA countries.
+
+
+Through conversations with public health professionals and students and drawing on our combined > 90 years of experience with epidemiological analysis and > 40 years of experience in teaching, we have identified a number of key features (outlined below) required for a truly scalable and sustainable online training platform for health analysis.
+   4. Features of an ideal learning platform
+   * User tracking
+   * Placement tests should be offered, to ensure that students are learning at the horizons of their abilities.
+   * Rigorous assessments and progress tracking should be built in, to keep learners accountable and provide a clear measure of growing competence.
+   * Accredited certificates should be given out, to demonstrate mastery of the skills learned.
+
+      * A learning community
+      * Fora and comments sections should be available, for students to ask questions and engage in discussions with other students. Such a lively community is inherently motivating to learners. It also reduces the need for paid learning assistants.
+      * Incentives for students to participate actively in such fora should be provided. This can be achieved through the assignment of learning credits and reputation points for useful answers and questions. Additionally, a shareable profile page for each learner that highlights their contribution to the community would be valuable. Learners can share this profile on their CVs, for example. 
+
+         * Affordable
+         * Enrolment should be free or for a nominal cost. This is particularly important since the target audience is students and health professionals in LMICs, many of whom have limited financial resources.
+         * A multi-tier system could be ideal. In a free tier, learners would receive feedback through computer-graded quizzes and a built-in peer review system for more complex assessments. In a paid tier, learners would receive feedback and grading from hired instructors and assistants. This latter tier could be particularly useful in university programs.
+
+            * Crowd-sourced
+            * Tutorials should be (at least partly) crowdsourced to create a truly scalable ecosystem of courses. While a core team of expert instructors can determine the overall curriculum shape, a significant proportion of the creation of lesson videos, text, and quizzes can be crowdsourced from a global community of epidemiologists and, eventual alumni of the training platform. 
+            * Incentives for contributors to create courses should be offered. Visibly emphasized authorship credit (as in academic papers), and shareable links to author pages will be one incentive. Modest financial incentives (a percentage of earnings from paid-tier learners) could also be considered for course contributors.
+            * Reuse of existing open-source materials should be possible. This is possible if content is created under a CC-BY-SA license, as creators can take advantage of the wealth of other material that bears this license.
+
+               * Project-based
+               * Analysis concepts and code should be taught in the context of their application to authentic, realistic projects. Such projects would be based on real datasets and real data problems and designed to mirror the kinds of tasks that an epidemiologist would encounter.
+               * The outputs of these projects should be concrete, shareable documents, dashboards, and presentations that can serve as a showcase of learners' abilities.
+
+                  * Modular
+                  * Individual courses should be short, but they should be composable into longer learning paths. This modularity will allow students to focus on those areas of the greatest relevance to them and their work.
+
+                     * Cohort-friendly
+                     * Course coordinators should be able to create cohorts of learners within the platform, whose course experience can be modified to accommodate learners' needs.
+                     * Cohort-specific accommodations such as customized learning paths, schedules, announcements, and discussion forums should therefore be possible
+
+
+Table: Feature comparison. Existing landscape of online resources for learning epidemiological analysis
+
+
+
+	DATA SCIENCE LEARNING PLATFORMS:
+	HIGHER-ED MOOC PLATFORMS:
+	BOOKS:
+	BUILD YOUR OWN PATH
+	OUR PROPOSED PLATFORM
+	
+
+	Datacamp, Dataquest & others
+	Coursera, EdX & others
+
+
+	EpiRhandbook, R4epis book  & others
+	Resouces from Youtube, RStudio Edu & others
+	
+
+	User tracking
+	 Badge New with solid fill 
+
+	 Badge New with solid fill 
+
+	 A picture containing text, sign
+
+Description automatically generated 
+
+	 A picture containing text, sign
+
+Description automatically generated 
+
+	 Badge New with solid fill 
+
+	A learning community
+	 A picture containing text, sign
+
+Description automatically generated 
+
+	 Shape
+
+Description automatically generated with low confidence 
+
+	 Shape
+
+Description automatically generated with low confidence 
+
+	 Shape
+
+Description automatically generated with low confidence 
+
+	 Badge New with solid fill 
+
+	Affordable
+	 A picture containing text, sign
+
+Description automatically generated 
+
+	 Shape
+
+Description automatically generated with low confidence 
+
+	 Badge New with solid fill 
+
+	 Badge New with solid fill 
+
+	 Badge New with solid fill 
+
+	Crowd-sourced
+	 A picture containing text, sign
+
+Description automatically generated 
+
+	 Badge New with solid fill 
+
+	 Badge New with solid fill 
+
+	 Badge New with solid fill 
+
+	 Badge New with solid fill 
+
+	Project-based
+
+
+	 Shape
+
+Description automatically generated with low confidence 
+
+	 Shape
+
+Description automatically generated with low confidence 
+
+	 Shape
+
+Description automatically generated with low confidence 
+
+	 Shape
+
+Description automatically generated with low confidence 
+
+	 Badge New with solid fill 
+
+	Modular
+
+
+	 Shape
+
+Description automatically generated with low confidence 
+
+	 Badge New with solid fill 
+
+	 Badge New with solid fill 
+
+	 Badge New with solid fill 
+
+	 Badge New with solid fill 
+
+	Cohort-friendly
+
+
+	 A picture containing text, sign
+
+Description automatically generated 
+
+	 Shape
+
+Description automatically generated with low confidence 
+
+	 A picture containing text, sign
+
+Description automatically generated 
+
+	 Shape
+
+Description automatically generated with low confidence 
+
+	 Badge New with solid fill 
+
+	
+
+                     2. Proposed Solution
+The solution we propose will incorporate the features outlined above. We have no illusions that these features will be built in a single iteration of the platform and within a short period only. Indeed, we believe that they will require several iterations, with feedback from learners and instructors continually informing further improvements. The prototype application, with some sample lessons, can be found at thegraphnetwork.training. 
+
+
+At the end of the first 6 months of development, we intend to produce detailed course materials for three courses:
+
+
+1.         Introduction to the EpiGraphHub platform (1 ECTS; 3 weeks for 4 hours a week). This course will require minimal technical knowledge of informatics and aims to enable public Health students and professionals to engage as advanced users with the EpiGraphHub platform. During this course they will learn:
+                     * How to browse the available datasets
+                     * How to use the interactive query interface to develop Exploratory analyses.
+                     * Basic SQL query language
+                     * How to import data into the Hub from CSV files as well as Excel and Google spreadsheets
+                     * How to create powerful data visualizations and interactive dashboards without writing code.
+
+2.         Introduction to R (2 ECTS; 6 weeks for 4 hours a week): This course will cover the key elements of R as a statistical programming language, as well as basic statistical and epidemiological concepts. Topics covered will include:
+                        * Data structures and getting data into R
+                        * Data filtering and cleaning in R
+                        * Simple data transformations (e.g., crosstabs, lengthening of wide data)
+                        * Basic statistical tests (t-tests, chi-square tests)
+                        * Introductory visualization (ggplot2)
+
+3. Epidemic Reporting with R (2 ECTS; 6 weeks for 4 hours a week): This course will teach efficient data pre-processing, analysis and reporting from epidemic line list data using R. Topics will include:
+                           * Data aggregation and per-group summaries
+                           * Deriving and plotting of epidemic curves
+                           * Calculation of incidence, prevalence, CFRs, and growth rates 
+                           * Rmarkdown reporting (with DOCX, PPTX, PDF and flexdashboard outputs)
+
+
+                           5. Course datasets
+The datasets will be real-world epidemiological data, preferably from SSA epidemics. Notably, datasets will be made available through the EpiGraphHub. One such dataset is a Covid dataset from Yaoundé about seroprevalence survey. Others will be obtained from the DHS program or from partner universities. 
+
+
+                           6. Course content & Structure
+For the first course (Introduction to the EpiGraphHub platform), which is not code based, the course will be structured by a sequence of "tasks." Each task will be demonstrated and explained with instructional text and instructional video where necessary. 
+
+
+For subsequent code-based courses (2. Introduction to R and 3. Epidemic Reporting with R), each sequence of tasks will be designed around a central analytic question. Each sequence will include some data wrangling and visualization. A clear deliverable (e.g., figure, table, paper, dashboard) will be created at the end of each sequence. 
+Each task will include: 
+                           * A live coding walkthrough of a tutorial script
+                           * Ungraded, untracked practice exercises will allow interactive application of the task demonstrated in the video. 
+                           * Graded and tracked quizzes to assess comprehension. 
+
+
+Existing R resources will be referenced throughout the courses. These will include
+                           * For R basics, Roger Peng's R programming for Data Science
+                           * For visualizations, Rob Kabacoff's Data Visualization with R
+                           * For the Epidemic Reporting with R course, the EpiRHandbook 
+                           * Other resources from the Big Book of R
+                           * Additional resources from the Acute Jaundice Syndrome (AJS) outbreak in Chad 
+                           1. Assessment of Courses:
+                           * The majority of assessments will be computer-graded multiple choice or short answer questions. 
+                           * For more complex assessments, a built-in peer review system will be set up for free-tier learners. 
+                           * Paid-tier learners will receive feedback and grading from hired instructors and assistants. 
+                           * A certificate for a course will be delivered to those who complete and pass all graded assessments.
+
+
+________________
+
+
+                           7. Project 3: Strengthening monitoring and measurement of unsafe abortion and its consequences (Deliverables 3 and 4)
+Despite global health commitments, the Guttmacher-Lancet Commission has documented continued gaps in the protection of sexual and reproductive health and rights, including those related to contraception and access to safe abortion. The Sub-Saharan Africa (SSA) is also disproportionately affected by the high burden and risk of unsafe abortion practices, primarily due to the illegal status of abortion in most countries. The proposed project will use a mixed-methods approach to determine the incidence of abortion and the burden of unsafe abortion in six selected SSA countries[4], Malawi and Nigeria (strict abortion legislation[5]), Kenya, Zimbabwe, and Cameroon (moderate abortion legislation), and Zambia, and Republic of South Africa[6] (liberal abortion legislation) through the development of an abortion monitoring dashboard.
+
+
+The ultimate goal of this unsafe abortion assessment project is to develop a methodology for the creation of a multidimensional indicator that measures and quantifies the burden of unsafe abortions, and to deploy the indicator in a transparent way that is accessible to decision makers. In this subsection, we present the full methodology of the project, which will be carried out in two phases over 18 months. The WHO RFP mandate will fund the first stage (Phase 1) of the outlined project. We subsequently only outline the deliverables and timeline for Phase 1 of this project. 
+
+
+Phase 1 - Literature search, data mapping and formative evaluation
+Timeline: 6 months (November 2021 to April 2022)
+
+
+We will gather publicly available data and key informant interviews to capture context-specific information in the landscape of abortion in SSA. We will work with GRAPH Network members in the selected six countries to provide more in-depth information on abortion care and monitoring. This phase will involve assessing the data sources available to develop detailed methodology to create a multidimensional indicator. We will review all the data sources and literature as stated in Phase 1 Timeline.
+                           3. Phase 1 Approach/ Methodology
+                           1. Literature review & country profiles
+We will first conduct a review of all prior work on quantifying the burden of safe and unsafe abortions, including methodologies applied to the full range of global contexts to assess the current state of best practices and known limitations. Existing indicators will be included in the set of secondary data sources extracted (see below) where available. 
+
+
+Country profiles for the six participating SSA countries will be created using publicly available data. Each profile will describe the legal and social contexts regarding safe or unsafe abortion practices. The profiles will also inform health consequences, identify available data sources (online datasets, platforms, and on-the-ground abortion/ sexual & reproductive health service providers) and uncover research gaps. The country profiles will provide a contextual base for conducting this project. The identification and collection of data for the country profiles will also provide us with the available data needed to characterize current data sources and those that are not yet available. We aim to create a utilitarian document that assists in forging the path to access data (e.g., institution, contact, and procedure required to obtain data/ information) instead of creating a limited list of resources. 
+
+
+                           2. Secondary data source assessment and consolidation
+We will extract secondary data from publicly available datasets including the Demographic Health Surveys (DHS), District Health Information Software 2 (DHIS2)[7], Service Provision Assessment (SPA), Service Availability and Readiness (SARA) surveys, the Global Abortion Incidence Dataset[8], and other identified public data for the period between 2000 and 2020. Variables of interest include socio-demographic factors, contraceptive use, wanted pregnancies, past termination of pregnancies, and availability of abortion services (obtained from Medical Abortion Commodities Database (MACD)) and post-abortion care (PAC) services. 
+
+
+These data will be consolidated by integrating into the EpiGraphHub’s data lake (developed in Project 1). This data lake will facilitate further analysis, development, and deployment of the indicator in a sustainable and reproducible manner during Phase 2. 
+
+
+Phase 2 - Primary data collection, development, and deployment of the multidimensional indicator 
+Timeline: 12 months (May 2022 to May 2023)
+
+
+Based on the data collected (literature reviews, country profiles, & data source mapping) during Phase 1, Phase 2 involves the collection of primary data (both quantitative and qualitative) that will fill research gaps and will strengthen the development of the multidimensional indicator. We will then work together with the EpiGraphHub development team for backend and front-end development of the abortion monitoring dashboard[9], including data ingestion and cleaning pipelines, visualisations, and pilot testing. This process will involve substantial consultations with national governments, academic institutions, Ministries of Health (MoH), and WHO country offices. 
+                           4. Phase 2 Approach/ Methodology
+                           1. Primary data collection: 
+
+
+ Diagram
+
+Description automatically generated 
+
+
+
+Quantitative data: The GRAPH network has established partnerships with local institutions and research organisations across the six study locations and field researchers will conduct interviews with women and men of reproductive age (15-49) among selected communities. This data will be used to fill gaps that are not covered by existing surveys or clinical records.  
+Qualitative data: The qualitative data will involve a review of the available data collection tools through field interviews with various types of health professionals, policy makers, and public health officials. Respondents will be interviewed in person regarding their perceptions of safe and unsafe abortion provision (i.e., availability of services, knowledge of health risks/complications, sources of post-abortion care, etc.). Data will be analysed via a content analysis and thematic approach; codes will be defined and synthesised into themes. 
+
+
+Qualitative and quantitative results will be triangulated and integrated with existing secondary data acquired during Phase 1 via the EpiGraphHub. 
+
+
+                           2. Developing a multidimensional indicator
+Although studies have called for the standardisation of abortion indicators, many indicators focus on access to abortion services, availability, and provision of care, while not focusing enough on physical health, mental health, and quality of life[10]. We propose developing a composite universal indicator to monitor abortion incidence and the burden of unsafe abortion practices (via proxy variables). We plan to create the indicator over the following 24 months. The indicator will incorporate measures from pre-existing indicators[11] including the number of women that have had and/or have not had an abortion, number of women that accessed medical or non-medical abortion, number of women that accessed PAC, and number of women that sought health care for post-abortion effects per 1,000 women, in addition to including indicators that specifically focus on women’s physical and mental health as well as quality of life. In developing the multi-dimensional indicator, we will adapt and modify the methodology outlined by UNDP and OPHI[12].
+
+
+                           3. Data visualisation and communication of results 
+We will host all primary and secondary data on the EpiGraphHub (Project 1), a secure data analytic platform developed by the GRAPH Network. Through the EpiGraphHub, a dashboard will be developed (utilising both primary data [collected during Phase 2] and secondary data [collected during Phase 1]) to visually summarise data on abortion and the burden of unsafe abortion practises in the six selected SSA countries. The dashboard will be securely shared with local partner institutions and MoHs that approved and granted access to their countries’ data. The dashboard will not be made publicly available.
+
+
+                           5. Proposed solution
+This project overall aims to:
+                           1. Determine the incidence rate of abortion and burden of unsafe abortion in the selected SSA countries through collection of primary and secondary data.
+                           2. Develop a methodology to create a multidimensional proxy indicator that measures and quantifies the burden of unsafe abortions.
+                           3. Calculate the indicator for the six participating SSA countries and share the data and results via the EpiGraphHub’s secure interactive platform. 
+
+
+This information will assist policy makers at the national and international level in determining the best approaches to reduce unsafe abortion in African settings. 
+                           6. Description of Deliverables 3 & 4 
+                           * Deliverable 3: Formative evaluation report
+The report will comprehensively outline the results, resources, and tools discovered during Phase 1, which are necessary for the implementation of Phase 2 of this project.
+
+
+The report will include:
+
+
+                           1. Literature review: An inventory of pre-existing indicators, data, and methodologies that will be used to develop the multidimensional indicator.
+                           2. Country profiles: A catalogue of the spectrum of policy/legal variables affecting safe abortion in the selected six countries in the form of country profiles (Country profile structure: legal context, accessibility and availability of services, abortion estimates, unsafe abortion health burdens; country profile Annex: list of on-the-ground NGOs, national and academic institutions, and available data sources).
+                           3. Data source maps: Maps of available data collection tools for monitoring and measurement of unsafe abortion and its consequences in the six study cases. Should include all publicly available datasets that contain variables on abortion, maternal health, and sexual and reproductive health for each of the six countries (i.e. list all available sources of data and describe the path to access to the data [available institutions, persons of contact, procedures needed to follow]).
+                           4. DHS & DHIS2[13] data assessment report: Assessment of DHS & DHIS2 data availability, quality, and completeness for the six selected countries. 
+                           5. Outline of current abortion research gaps and both quantitative and qualitative surveys designed based on the identified research gaps. 
+
+
+                           * Deliverable 4: Stocked EpiGraphHub data lake 
+All data sources identified during the production of Deliverable 3 will be integrated into the EpiGraphHub’s data lake. This will allow for all potential data needed during the course of Phase 2 to be readily accessible and consolidated in one secure physical web-accessible place. While openly sourced data will become part of the wider EpiGraphHub project, sensitive primary and secondary data sources will be accessible only to those granted access through the agreements made with data providers (country MOH, WHO) via secure access log-ins.
+                           7. Phase 1. Tasks Description (Timeline in Section 3): 
+
+
+In the first six months the GRAPH Network will do the following for Deliverables 3 and 4:
+
+
+Literature search & data source mapping: 
+                           1. November - December: Generate country profiles (Country profile structure: legal context, accessibility and availability of services, abortion estimates, unsafe abortion health burdens; country profile Annex: list of on-the-ground NGOs, national and academic institutions, and available data sources).
+                           2. November - January: Map public (Geneva team) and national (Geneva team and local researchers) available datasets with variables on unsafe abortion and its consequences for each of the 6 study cases (i.e., list all available sources of data, describe the path to access to the data, (institution, person of contact, and procedure needed to get the information).
+                           3. November - January: Map available data collection tools for monitoring and measurement of unsafe abortion and its consequences in the six study cases.
+                           4. November - December: Assess DHS & DHIS2 data availability, quality, and completeness for the six selected countries 
+                           5. December - January: Analyse DHS variable data on safe and unsafe abortion 
+                           6. January - April: Begin developing the methodology for computing the indicator on unsafe abortion by legal status of the selected African countries (this will be continuously updated of methodology - phase 2 - beginning the methodology process). 
+                           7. February - March: National datasets available will be accessed, cleaned, and analysed as well as harmonized and integrated into the EpiGraphHub 
+                           8. February - April: Gather and merge secondary data on un-safe abortion from DHS or other surveys across countries by legal status
+
+
+Formative evaluation: 
+                           1. February - April: Begin write-up of methodology and tool for the implementation of phase 2 
+                           2. February: Identify research gaps (from country profiles and data mapped). We will come up with a brief report analysing the gaps of each country and what gaps are “shared gaps” between the countries (note: analysing this information is the methodology for creating this survey). Include variables needed for the development of indicator.
+                           3. February - March: Identify variables: Select pre-existing indicators and data that will be used to develop the multidimensional indicator or to develop the methodology that will allow us to create a composed indicator. 
+                           4. February - March: Design quantitative and qualitative research surveys based on research gaps (primary data surveys will be conducted in Phase 2).
+                           5. 30 April: Finalise formative evaluation report.
+
+
+EpiGraphHub data lake:
+                           1. December - April:  Data identified throughout the course of Phase 1 will be integrated into the EpiGraphHub’s data lake on an on-going basis as soon as the hub is capable of accepting new data sources. 
+
+
+________________
+
+
+                           3. TIMELINE
+
+
+                           8. Deliverable 1 Gantt Chart
+ Chart
+
+Description automatically generated with medium confidence 
+
+
+
+                           9. Deliverable 2 Gantt Chart
+ Timeline
+
+Description automatically generated with low confidence 
+
+
+
+
+
+                           10. Deliverable 3 & 4 Gantt Chart
+ Chart
+
+Description automatically generated with medium confidence 
+
+ | Page    
+
+
+________________
+[1] Precise definition of which variables should be collected along with their required data types and semantic definition.
+[2] https://github.com/thegraphnetwork
+[3] https://shiny.rstudio.com/
+[4] These countries were selected based on their varied abortion laws. Starrs et al. (2018). Accelerate progress—sexual and reproductive health and rights for all: report of the Guttmacher–Lancet Commission. The Lancet Commissions. https://files.emrsdgslearn.net/uploads/Accelerate%20progress%20srh.pdf
+[5] From these three countries, two will be selected based on data availability.
+[6] Participation to be confirmed
+[7] To be confirmed. DHIS2 data will be analysed based on data availability.
+[8] Global Abortion Incidence Dataset. https://osf.io/5k7fp/
+[9] Given the political and social sensitivity regarding abortion in certain countries, countries will be consulted on the acceptable naming of the dashboard.
+[10] Abortion metrics: A scoping review of abortion measures and indicators. BMJ Global Health. https://gh.bmj.com/content/6/1/e003813.long
+[11] Pre-existing indicators will be selected from publicly available data and the WHO document on Monitoring Reproductive Health: Selecting a short list of national and global indicators.https://apps.who.int/iris/bitstream/handle/10665/64008/WHO_RHT_HRP_97.26.pdf
+[12]  UNDP & OPHI. How to Build a National Multidimensional Poverty Index (MPI): Using the MPI to inform the SDGs. (2019). p.160.
+[13]  To be confirmed. DHS data availability will be subject to data use approval. DHIS2 data will be analysed based on data availability.
