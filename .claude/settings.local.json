@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:pubmed.ncbi.nlm.nih.gov)",
+      "WebFetch(domain:scholar.google.com)",
+      "WebFetch(domain:www.cochranelibrary.com)",
+      "WebFetch(domain:www.frontiersin.org)"
+    ]
+  }
+}

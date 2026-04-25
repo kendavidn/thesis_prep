@@ -40,13 +40,15 @@ Geneva, 2026
 
 ### Published articles
 
-1. **Nwosu KD**, Kalaiwo A, Ngambi WF, Estill J, Omo-Emmanuel UK, Emmanuel G, Keiser O. Factors associated with viral load testing and viral suppression among HIV-positive female sex workers in Nigeria. *PLoS ONE* 2024; 19(5): e0304487. doi: 10.1371/journal.pone.0304487
+1. **Nwosu KD**, Kalaiwo A, Ng'ambi W, Oyelaran O, Umoh P, Estill J, Keiser O. Oral PrEP continuation rates among key populations in Nigeria: a retrospective cohort study of a large-scale HIV prevention programme. *BMJ Global Health* 2025; 10(12): e018739. doi: 10.1136/bmjgh-2024-018739
 
-2. **Nwosu KD**, Kalaiwo A, Ng'ambi W, Oyelaran O, Umoh P, Estill J, Keiser O. Oral PrEP continuation rates among key populations in Nigeria: a retrospective cohort study of a large-scale HIV prevention programme. *BMJ Global Health* 2025; 10(12): e018739. doi: 10.1136/bmjgh-2024-018739
+2. **Nwosu KD**, Kalaiwo A, Ngambi WF, Estill J, Omo-Emmanuel UK, Emmanuel G, Keiser O. Factors associated with viral load testing and viral suppression among HIV-positive female sex workers in Nigeria. *PLoS ONE* 2024; 19(5): e0304487. doi: 10.1371/journal.pone.0304487
 
 ### Manuscripts in preparation
 
 3. **Nwosu KD**, [co-authors to be finalized]. R Basics and Beyond: Outcomes of a Cohort-Based Online Programming Course for Health Professionals. *[Target journal: Cogent Education]*.
+
+In this thesis, these works are referred to as **Paper 1** (PrEP continuation; *BMJ Global Health* 2025), **Paper 2** (viral load testing and suppression among female sex workers; *PLoS ONE* 2024), and **Paper 3** (R Basics and Beyond bootcamp evaluation; in preparation).
 
 ---
 
@@ -62,22 +64,22 @@ Strengthening the HIV response therefore depends not only on generating programm
 ### Objectives
 
 This thesis addresses both needs.
-The first two studies analyse routine programmatic data from Nigeria’s National HIV Key Populations programme, examining (a) factors associated with viral load testing and suppression among HIV-positive female sex workers initiating antiretroviral therapy, and (b) oral PrEP continuation rates and associated factors among key populations.
+Papers 1 and 2 analyse routine programmatic data from Nigeria’s National HIV Key Populations programme, examining (a) oral PrEP continuation rates and associated factors among key populations, and (b) factors associated with viral load testing and suppression among HIV-positive female sex workers initiating antiretroviral therapy.
 Such analyses require data science skills that remain scarce in the countries most affected by HIV.
-The third study therefore evaluates the flagship course of The Graph Courses, an online training platform developed to strengthen these skills among health professionals in low- and middle-income countries.
+Paper 3 therefore evaluates the flagship course of The Graph Courses, an online training platform developed to strengthen these skills among health professionals in low- and middle-income countries.
 
 ### Methods
 
 All three studies employed retrospective analyses of routinely collected data.
-The first two analyzed programmatic data from Nigeria's KP CARE 1 programme using mixed-effects logistic regression with random intercepts for service delivery facilities and multiple imputation by chained equations for missing data.
-The third analyzed administrative enrollment rosters and post-course survey responses from nine cohorts of an online R programming bootcamp, using logistic regression for quantitative outcomes and thematic coding for open-ended survey responses.
+Papers 1 and 2 analyzed programmatic data from Nigeria's KP CARE 1 programme using mixed-effects logistic regression with random intercepts for service delivery facilities and multiple imputation by chained equations for missing data.
+Paper 3 analyzed administrative enrollment rosters and post-course survey responses from nine cohorts of an online R programming bootcamp, using logistic regression for quantitative outcomes and thematic coding for open-ended survey responses.
 
 ### Results
 
-Among 34,976 FSWs initiating ART between 2016 and 2022, 97.1% received at least one viral load test and 94.5% achieved viral suppression, with the likelihood of both outcomes improving over time.
-Advanced clinical stage at baseline was associated with lower odds of suppression, underscoring the importance of early diagnosis.
 Among 43,788 key population clients initiating oral PrEP between 2020 and 2023, the 6-month continuation rate was only 11.5%, revealing a critical gap on the prevention side of the cascade.
 Transgender individuals had the lowest continuation rate (3.5%), while female sex workers had the highest (13.7%).
+Among 34,976 FSWs initiating ART between 2016 and 2022, 97.1% received at least one viral load test and 94.5% achieved viral suppression, with the likelihood of both outcomes improving over time.
+Advanced clinical stage at baseline was associated with lower odds of suppression, underscoring the importance of early diagnosis.
 Across nine cohorts of the R Basics and Beyond bootcamp, over half of enrolled health professionals completed the course, with high satisfaction; both pre-recorded video lessons and live workshop interaction were highly valued, while time constraints were the primary barrier.
 
 ### Conclusions
@@ -95,6 +97,8 @@ Scaling access to the analytical skills demonstrated in these studies, as the tr
 ---
 
 ## General Introduction
+
+**I. HIV PREVENTION AND CARE AMONG KEY POPULATIONS**
 
 ### The Global Burden of HIV and the Disproportionate Impact on Sub-Saharan Africa
 
@@ -167,71 +171,53 @@ designed to reduce stigma and improve access. In addition, venue-based and hotsp
 
 The KP-CARE 1 programme has an electronic data management system and database containing information on clients enrolled in prevention, testing and care services.
 This system is a rich source of large-scale routine programmatic data that can be used for both programme evaluations and research.
-The first two studies in this thesis use this data to analyse outcomes along the HIV prevention and care cascades.
-
-### The HIV Care Cascade: Viral Load Testing and Suppression
-
-The concept of the HIV care cascade, also referred to as the continuum of care, describes the sequential stages through which people living with HIV must progress to achieve optimal health outcomes: from diagnosis, to linkage to care, to ART initiation, to adherence and retention in care, and ultimately to sustained viral suppression [Gardner et al., 2011: https://pubmed.ncbi.nlm.nih.gov/21332264/].
-Each transition in the cascade represents a potential point of attrition, and understanding the factors that promote or impede progression through these stages is essential for strengthening the overall HIV response.
-
-Viral suppression, defined as achieving and maintaining an undetectable or very low viral load (typically < 1000 copies/mL), is the ultimate goal of ART.
-Individuals who achieve viral suppression experience dramatically better health outcomes and, critically, have effectively zero risk of transmitting HIV to sexual partners, a concept captured by the widely promoted "Undetectable = Untransmittable" (U=U) message [verify and cite: Cohen et al. 2016].
-The UNAIDS 95-95-95 targets call for 95% of people living with HIV to know their status, 95% of those diagnosed to receive ART, and 95% of those on ART to achieve viral suppression, placing viral suppression at the apex of the care cascade framework.
-
-For female sex workers, achieving viral suppression is particularly consequential given their high number of sexual partners and consequent potential for onward transmission.
-However, FSWs face unique barriers that may impede their progression through the care cascade, including stigma and discrimination in healthcare settings, criminalization of sex work, high mobility, substance use, mental health challenges, and competing economic priorities [verify and cite: Shannon et al. 2015; Lancaster et al. 2016].
-Despite the importance of understanding these barriers, relatively few large-scale studies have examined factors associated with viral load testing and suppression specifically among FSWs in sub-Saharan Africa.
-Most existing evidence on the FSW care cascade comes from small-scale studies or qualitative research, and large programmatic datasets have been underutilized for this purpose [verify and cite: Nnko et al. 2019].
-
-The first study in this thesis addresses this gap by analyzing routine programmatic data from nearly 35,000 FSWs enrolled in the Nigerian KP programme to identify factors associated with receipt of viral load testing and achievement of viral suppression.
+Papers 1 and 2 in this thesis use this data to analyse outcomes along the HIV prevention and care cascades.
 
 ### HIV Prevention: Pre-Exposure Prophylaxis and the Challenge of Continuation
 
-While ART and viral suppression address the treatment side of the HIV response, pre-exposure prophylaxis (PrEP) represents a cornerstone of HIV prevention.
-PrEP involves the use of antiretroviral medications by HIV-negative individuals to reduce the risk of acquiring HIV infection.
-Randomized controlled trials have demonstrated that daily oral PrEP with tenofovir-based regimens can reduce HIV acquisition risk by up to 92% when taken consistently [verify and cite: Grant et al. 2010; McCormack et al. 2016].
+Pre-exposure prophylaxis (PrEP) drugs are antiretroviral medications (ARVs) taken by HIV-negative people to prevent HIV acquisition. 
+The most common PrEP medications consist of daily oral tablets of tenofovir disoproxil fumarate combined with either emtricitabine (FTC) or lamivudine (3TC) [@Schaefer2021].
+Clinical trial and cohort evidence shows that tenofovir-based PrEP can substantially reduce HIV acquisition when taken consistently [@Grant2010; @McCormack2016; @Molina2017].
 
-Despite its proven efficacy, PrEP's real-world effectiveness is substantially limited by challenges in uptake and continuation.
-A global systematic review found that approximately 70% of PrEP users across studies had discontinued treatment or shown suboptimal adherence within 6 months of initiation [verify and cite: Zhang et al. 2022].
-Factors contributing to poor continuation include side effects, social stigma, logistical challenges in accessing refills, and fluctuating perceptions of HIV risk [verify and cite: Pillay et al. 2020].
-These challenges are likely amplified among key populations in resource-limited settings, where structural barriers to healthcare access are compounded by criminalization and discrimination.
+Despite their proven biological efficacy, the overall impact of PrEP regimens is limited by low uptake among key populations and low continuation after starting.
+In a global meta-analysis of 59 studies covering over 43,000 participants, 41% had discontinued PrEP within six months of starting, and among those continuing, 37.7% had suboptimal adherence patterns.
+In sub-Saharan Africa, discontinuation was 47.5% [@Zhang2022].
+Commonly reported reasons for discontinuation included side effects (25 studies), low perceived risk of infection (21 studies), cost or lack of health insurance (10 studies), and inaccessible care (nine studies).
+Issues of cost and access are likely to be worse for key populations, who often face criminalization, stigma, and other barriers to routine health services.
 
-In Nigeria, PrEP rollout for key populations is a critical component of the national HIV prevention strategy [verify and cite: NACA 2022].
-The KP CARE 1 programme has been actively providing oral PrEP to eligible KP clients, using a provider-facilitated approach in which individuals testing HIV-negative are offered PrEP as part of a comprehensive prevention package.
-However, prior to the second study in this thesis, data on PrEP continuation rates among key populations in Nigeria were very limited, hindering evidence-based programme improvement.
+In Nigeria, PrEP rollout for key populations is an important component of the national HIV prevention strategy [@NACA2022]. 
+The KP-CARE-1 programme works to provide PrEP to eligible KP clients using a provider-facilitated approach in which individuals testing HIV-negative are offered oral PrEP as part of a comprehensive prevention package.
+Paper 1 of this thesis analyzes data from over 43,000 KP clients who initiated PrEP through the KP-CARE-1 programme. The large sample size makes it one of the largest PrEP continuation studies among key populations in sub-Saharan Africa. We report the 6-month continuation rates and identify factors associated with sustained PrEP use across different KP groups.
 
-The second study in this thesis analyzes data from over 43,000 KP clients who initiated PrEP through the Nigerian KP programme, making it one of the largest PrEP continuation studies among key populations in sub-Saharan Africa.
-It examines 6-month continuation rates and identifies factors associated with sustained PrEP use across different KP groups.
+### The HIV Care Cascade: Viral Load Testing and Suppression
+
+The HIV Care Cascade is a conceptual model used to monitor the progression of people with HIV through key stages of medical care. It includes testing and diagnosis, linkage to care, initiation of ART, adherence to treatment, viral load testing and viral suppression [@Gardner2011]. Attrition happens at each stage of this cascade; understanding each point of attrition is important for evaluating and improving HIV programmes.
+
+Viral suppression is defined as having a very low viral load, commonly < 1000 copies/mL, and is the main goal of ART. Successful viral suppression improves health outcomes and greatly reduces the risk of onward HIV transmission. It is reflected in the UNAIDS 95-95-95 targets, which are global goals targeting a minimum of 95% awareness of status among people living with HIV, 95% ART access among those diagnosed, and 95% viral suppression among those on ART. In 2024, global estimates were still below these targets, with an estimated 87% aware of their status, 77% of those accessing ART, and 73% of those on ART being virally suppressed [@UNAIDS2025].
+
+Viral load testing and suppression are especially critical for female sex workers living with HIV because they have a high transmission potential, given their high number of sexual partners. Existing FSW cascade evidence in sub-Saharan Africa is limited and usually is not based on large programme datasets [@Nnko2019]. 
+
+This thesis (paper 2) addresses this gap by analyzing routine programmatic data from nearly 35,000 FSWs enrolled in the Nigerian KP programme to identify factors associated with receipt of viral load testing and achievement of viral suppression.
+
+**II. DATA SCIENCE CAPACITY BUILDING FOR GLOBAL HEALTH**
 
 ### Bridging HIV Research and Data Science Capacity
 
-The analyses presented in the first two studies of this thesis, which identified factors associated with viral load testing, viral suppression, and PrEP continuation using large-scale programmatic data, required substantial data science skills.
-These included proficiency in statistical programming (specifically R), data cleaning and manipulation of large routine datasets, mixed-effects regression modelling, multiple imputation for missing data, and effective data visualization.
+Data analysis skills are increasingly important for the global health workforce.
+The digitization of health systems, from electronic health records to surveillance and monitoring platforms, generates large volumes of data that can be analysed to improve programme design and delivery, such as in the HIV studies presented in this thesis.
+Analysing these data sources requires practical data science skills, from cleaning routine datasets and running reproducible analyses to interpreting results for programme use.
 
-Such skills are increasingly essential across the global health workforce.
-The digitization of health information systems, from electronic health records to outbreak surveillance platforms to routine programme monitoring tools, has generated vast quantities of data with the potential to inform clinical and public health decision-making [verify and cite: Rajamani et al. 2025].
-Yet the capacity to analyze these data remains critically limited, particularly in low- and middle-income countries.
-Surveys of public health professionals consistently reveal significant skill gaps in data analysis, with much health data remaining underutilized due to limited analytical capacity in health institutions [verify and cite: Kiosia et al. 2024].
-The WHO African Regional Office has identified the training of health workers in data analysis as a priority for strengthening public health systems on the continent [verify and cite: Bonkoungou et al. 2025].
+These data science skills are still limited in many low- and middle-income countries (LMICs), where they are often needed most.
+As a result, large amounts of routine health data are under-analysed, and programmes in these countries often rely on external technical support for advanced analyses [@Kiosia2024].
+As a native of Nigeria who has seen these gaps firsthand, helping reduce the shortage of health data professionals in Africa was a core motivation for this doctoral work. 
 
-As a native of Nigeria who observed these capacity gaps firsthand, addressing the shortage of data analysis skills among health professionals in Africa was a core motivation for this doctoral research.
-The practical experience of building analytical pipelines for the HIV cascade studies reinforced the importance of making these skills widely accessible.
+Innovative approaches are required to effectively fill the data science skill gap in LMICs. Short in-person professional workshops are one popular format, wherein instructors deliver intensive instruction with hands-on practice, often over a few days to groups of health professionals [@Forsetlund2009]. However, such workshops can be difficult to scale due to their time and financial costs and geographical limitations [@Bonkoungou2025].
 
-### Approaches to Data Science Training
+Massive open online courses are another useful education mode for filling the data skills gap. They provide world-class educational content at low or no cost to anyone with access to the internet [verify and cite: Pappano 2012]. MOOC platforms like Coursera and EdX became very popular in the 2010s, but enthusiasm for this kind of learning has reduced due to the notoriously low completion rates, often in the single digits [verify and cite: Jordan 2014; Khalil & Ebner 2014]. Without a live instructor to provide accountability when student motivation waivers, or support when students get stuck, most learners will quickly disengage and dropout [verify and cite: Kizilcec et al. 2017; Reich & Ruipérez-Valiente 2019].
 
-Multiple approaches have been used to strengthen data science skills in the health workforce.
-Short in-person workshops remain a popular format, delivering intensive instruction with hands-on practice and real-time feedback [verify and cite: Forsetlund et al. 2009].
-International health organizations have long favored this model for its ability to build competencies rapidly in targeted groups.
-However, in-person workshops are difficult to scale: they are constrained by costs, geographical limitations, instructor availability, and the time required for organization and delivery [verify and cite: Bonkoungou et al. 2025].
-
-Massive open online courses (MOOCs), which gained prominence in the early 2010s, offered a potential solution by providing access to educational content from world-class institutions at minimal cost to an unlimited number of participants [verify and cite: Pappano 2012].
-However, MOOCs have been plagued by notoriously low completion rates, often in the single digits [verify and cite: Jordan 2014; Khalil & Ebner 2014].
-Without the accountability structures, instructor interaction, and peer support that characterize in-person training, many online learners struggle to self-regulate their learning, leading to disengagement and dropout [verify and cite: Kizilcec et al. 2017; Reich & Ruipérez-Valiente 2019].
-
-These challenges are likely amplified for programming and data science training.
-Learning to code requires not just understanding syntax but developing problem-solving and debugging skills that are difficult to acquire without guidance.
+These challenges are likely stronger for programming and data science training.
 R, the programming language used for all three studies in this thesis, is powerful and free but has a steep learning curve, particularly for users without prior programming experience [verify and cite].
-Neither purely self-paced online courses (which leave learners stranded when they encounter errors) nor intensive in-person workshops (which may not provide sufficient time for sustained practice) are ideally suited to building programming fluency.
+For building programming fluency in such a language, self-paced MOOCs unlikely to be successful, as they leave learners stranded when they encounter errors, but intensive in-person workshops are also unlikely to be ideal, because they do not provide sufficient time for sustained practice.[need some kind of citation here too]
 
 Cohort-based online courses represent a promising middle ground.
 These programmes typically use a flipped classroom model: learners engage with asynchronous content (pre-recorded videos, readings, exercises) on their own schedule, then participate in scheduled live sessions for instructor-led problem-solving and peer interaction [verify and cite: Bishop & Verleger 2013].
@@ -240,38 +226,63 @@ The normalization of videoconferencing during the COVID-19 pandemic has created 
 
 ### The GRAPH Network and The Graph Courses
 
-The GRAPH Network (Global Research and Analyses for Public Health) was established in 2020 as part of a collaboration between the University of Geneva's Institute of Global Health and the WHO African Regional Office to support the sub-Saharan African COVID-19 response [verify and cite: Botero-Mesa et al. 2022].
-Initially focused on producing rapid analytical outputs for public health decision-makers, the network evolved to address a deeper underlying challenge: the shortage of data analysis capacity among health professionals in the region.
+The GRAPH Network (Global Research and Analyses for Public Health) is an interdisciplinary network of researchers and health professionals headquartered at the University of Geneva's Institute of Global Health.
+It was established in 2020 in collaboration with the WHO African Regional Office to support the sub-Saharan African COVID-19 response [verify and cite: Botero-Mesa et al. 2022].
+During the height of the pandemic, many ministries of health in the African region faced an unprecedented influx of data on test positivity, hospitalizations, and case counts, but lacked the analytical capacity to translate these data into timely, actionable insights.
+An interdisciplinary team that eventually grew to include more than sixty members across two dozen countries, drawn from fields including epidemiology, statistics, software development, and clinical medicine, was assembled to address this gap, producing epidemiological dashboards, situation reports, and analytical outputs for countries across the African region.
 
-Out of this recognition, The Graph Courses (thegraphcourses.org) was developed as a dedicated online training platform for data science and AI in health and life sciences.
-The platform is headquartered at the University of Geneva and is legally housed under ASCRES (Association de Soutien aux Centres de Recherche, Enseignement et Soins en milieux à ressources réduites).
-Its flagship programme, the R Basics and Beyond (RBB) bootcamp, is a 12-week part-time online course that introduces R programming and data analysis to researchers and practitioners in health-related fields.
-The course uses a flipped classroom model: each week, students complete 2–3 hours of self-paced prework (pre-recorded video lessons, handouts, and quizzes), followed by a 2-hour live workshop featuring collaborative small-group problem-solving and instructor guidance.
+Through this work, three critical bottlenecks in the ability of partner countries to process and analyse public health data became apparent: many health ministries had not adopted code-based tools for routine data processing, instead relying on time-consuming manual workflows in spreadsheet software; few staff had been trained in statistical programming languages such as R or Python; and as a result, countries frequently depended on external consultants when complex analyses were needed.
+These bottlenecks were not specific to the pandemic; they reflected a chronic structural deficit in data science capacity across health systems in low- and middle-income countries.
+The network therefore evolved beyond crisis response to address this underlying gap in analytical workforce capacity.
 
-The third study in this thesis evaluates the educational outcomes of the RBB programme across nine cohorts from 2023 to 2025, using enrollment data and post-course surveys to assess completion rates, participant satisfaction, and the experience of learners.
+Out of this recognition, The Graph Courses (thegraphcourses.org) was developed as a dedicated training platform for data science and AI in health and life sciences.
+Co-founded by me during the doctoral period with the support of international organizations and foundations, the platform is headquartered at the University of Geneva and operates as a project of the GRAPH Network.
+Its mission is to make data science and AI skills accessible and affordable to health professionals, researchers, and students worldwide, with a particular emphasis on learners in low- and middle-income countries.
+
+The platform delivers training through two complementary models.
+First, **live cohort-based bootcamps** employ the flipped classroom approach described above: each week, learners complete several hours of asynchronous prework (pre-recorded video lessons, interactive coding exercises, and online quizzes), then attend a two-hour live workshop featuring instructor-led demonstrations, collaborative small-group problem-solving, and peer interaction, with optional help sessions available throughout the week.
+Each bootcamp runs for approximately 12 weeks, equivalent to 4 ECTS credits, and is designed for learners with no prior programming experience.
+The platform currently offers four live bootcamps:
+(a) *R Basics and Beyond* (RBB), the flagship course and the subject of Paper 3 in this thesis, which introduces R programming and data analysis for health research, covering R fundamentals, data manipulation with the tidyverse, visualization with ggplot2, reproducible reporting with R Markdown, and version control with Git and GitHub;
+(b) a *Beginner Python Bootcamp*, covering data manipulation with pandas, interactive visualization with Plotly, and dashboard deployment;
+(c) *Generative AI for Work and Research Productivity*, a hands-on course on applied AI tools for literature synthesis, automated data tasks, and AI-assisted research communication; and
+(d) *Formation R*, a French-language version of the introductory R course, expanding the platform's linguistic accessibility.
+
+Second, **free self-paced courses** provide the same lesson content as the bootcamps, including video tutorials, coding exercises, and quizzes, but without live workshops or instructor interaction, allowing learners anywhere in the world to study at their own pace at no cost.
+Self-paced tracks are available in R (covering foundations, data wrangling, visualization, further data analysis, and epidemiological reporting), Python (data foundations and data manipulation with pandas), and statistics (a course on fundamentals of statistical software and analysis).
+
+To complement its courses, the platform has produced open-access textbooks that serve both as companion materials for enrolled students and as standalone resources for self-directed learners.
+*Introduction to Data Analysis with R* (datawithr.com) and *Introduction to Data Science with Python* (pythondatabook.com), both led by me, are freely available online and were developed with contributions from numerous authors and editors.
+As open educational resources, they extend the platform's educational reach well beyond its enrolled student population.
+
+The platform also functions as infrastructure for training partnerships with external organizations.
+Several courses have been developed in collaboration with the World Health Organization, including courses on the Harmonized Health Facility Assessment (HHFA) and a four-course sequence on Health Inequality Monitoring.
+A course on infectious disease modelling developed by the University of Oxford is also hosted on the platform.
+In this model, the platform provides the technical infrastructure and pedagogical framework while partner organizations contribute specialized content, enabling data science training to scale across the global health sector without each organization building its own learning platform from scratch.
+
+As of early 2026, The Graph Courses has served over 7,000 learners from more than 50 countries across its self-paced and cohort-based offerings, with over 500 graduates from the intensive live bootcamps.
+More than 30 organizations, spanning academia, NGOs, and global health agencies, have engaged the platform for team training.
+The WHO Director-General, Dr Tedros Adhanom Ghebreyesus, has endorsed the GRAPH Network's educational mission, stating that its work is "focused on strengthening the capacities of ministries of health to collect, analyze and use public health data for effective health policy interventions" [verify and cite].
+
+Paper 3 evaluates the educational outcomes of the R Basics and Beyond bootcamp, the platform's flagship course, across nine cohorts from 2023 to 2025.
+Using enrollment rosters and post-course survey data, it assesses completion rates, participant satisfaction, and the experience of learners, providing the first systematic evaluation of this training model.
 
 ### Thesis Objectives
 
 This thesis has three specific objectives:
 
 1.
-**To examine factors associated with viral load testing and viral suppression among HIV-positive female sex workers initiating antiretroviral therapy in Nigeria** (Paper 1).
-Using routine programmatic data from nearly 35,000 FSWs enrolled in the National HIV KP programme, this study identifies demographic, clinical, and structural factors associated with receipt of viral load testing and achievement of viral suppression.
+**To investigate oral PrEP continuation rates and associated factors among key populations in Nigeria** (Paper 1).
+Using data from over 43,000 KP clients who initiated oral PrEP through the KP CARE 1 programme, this study examines 6-month continuation rates across different KP groups and identifies factors associated with sustained PrEP use.
 
 2.
-**To investigate oral PrEP continuation rates and associated factors among key populations in Nigeria** (Paper 2).
-Using data from over 43,000 KP clients who initiated oral PrEP through the KP CARE 1 programme, this study examines 6-month continuation rates across different KP groups and identifies factors associated with sustained PrEP use.
+**To examine factors associated with viral load testing and viral suppression among HIV-positive female sex workers initiating antiretroviral therapy in Nigeria** (Paper 2).
+Using routine programmatic data from nearly 35,000 FSWs enrolled in the National HIV KP programme, this study identifies demographic, clinical, and structural factors associated with receipt of viral load testing and achievement of viral suppression.
 
 3.
 **To evaluate the educational outcomes of a cohort-based online R programming course for health professionals** (Paper 3).
 Using enrollment rosters and post-course survey data from nine cohorts of the R Basics and Beyond bootcamp, this study assesses completion rates, participant satisfaction, highlights, and challenges.
 
-### Additional Research During the Doctoral Period
-
-In addition to the three core thesis papers, this doctoral period also produced a first-authored publication in *Nature Communications* on SARS-CoV-2 antibody seroprevalence in Yaoundé, Cameroon (Nwosu et al. 2021).
-That study, which originated from the candidate's Master's thesis project, estimated the prevalence of anti-SARS-CoV-2 IgG antibodies in a random sample of residents in a health district of Yaoundé and found an adjusted seroprevalence of 29.2%, approximately 322 times greater than the attack rate implied by official case counts at the time.
-The study highlighted the extent of unreported SARS-CoV-2 circulation in sub-Saharan Africa during the early pandemic period.
-While not directly related to the thesis themes, this work contributed to the broader research mission of the doctoral period and demonstrates the application of epidemiological and data analysis skills across different public health domains.
 
 ---
 
@@ -279,28 +290,31 @@ While not directly related to the thesis themes, this work contributed to the br
 
 ### Overview
 
-The candidate played a central role in all three studies comprising this thesis: leading the data analysis and manuscript preparation for the HIV-related studies (Papers 1 and 2), and founding and leading the development of the training platform and evaluation study (Paper 3).
-This section details the candidate's specific contributions to each study.
+I played a central role in all three studies comprising this thesis: leading the data analysis and manuscript preparation for the HIV-related studies (Papers 1 and 2), and founding and leading the development of the training platform and evaluation study (Paper 3).
+This section details my specific contributions to each study.
 
-### Paper 1: Viral Load Testing and Suppression Among FSWs
+### Paper 1: PrEP Continuation Among Key Populations
 
-For the first study, the candidate led the statistical analysis, which involved processing and cleaning routine programmatic data from over 34,000 individuals, implementing mixed-effects logistic regression models with random intercepts for 16 care facilities, and conducting multiple imputation by chained equations (25 imputed datasets) for missing covariates.
-The candidate produced all figures and tables, wrote the original manuscript draft, and coordinated revisions with co-authors through to publication in *PLoS ONE*.
-The candidate also contributed to the study design and methodology, in close collaboration with the PhD supervisor and senior co-authors.
-
-### Paper 2: PrEP Continuation Among Key Populations
-
-For the second study, the candidate again led the data analysis and manuscript writing.
+For Paper 1, I led the data analysis and manuscript writing.
 This involved analysing data from over 43,000 PrEP clients, implementing mixed-effects logistic regression with random intercepts for service delivery sites, and applying MICE with 10 imputations.
-The candidate designed the analytical approach, coordinated with the Heartland Alliance monitoring and evaluation team on data quality checks (deduplication, logic checks for date and categorical variables), and wrote the original manuscript draft.
-The candidate coordinated the revision process through to publication in *BMJ Global Health*.
+I designed the analytical approach, coordinated with the Heartland Alliance monitoring and evaluation team on data quality checks (deduplication, logic checks for date and categorical variables), and wrote the original manuscript draft.
+I coordinated the revision process through to publication in *BMJ Global Health*.
+
+### Paper 2: Viral Load Testing and Suppression Among FSWs
+
+For Paper 2, I led the statistical analysis, which involved processing and cleaning routine programmatic data from over 34,000 individuals, implementing mixed-effects logistic regression models with random intercepts for 16 care facilities, and conducting multiple imputation by chained equations (25 imputed datasets) for missing covariates.
+I produced all figures and tables, wrote the original manuscript draft, and coordinated revisions with co-authors through to publication in *PLoS ONE*.
+I also contributed to the study design and methodology, in close collaboration with the PhD supervisor and senior co-authors.
 
 ### Paper 3: Evaluation of the R Basics and Beyond Bootcamp
 
-For the third study, the candidate's role extended far beyond the analysis.
-As co-founder of The Graph Courses, the candidate led the development of the RBB curriculum, the online learning platform, and the instructional delivery over approximately one year of initial development, coordinating a team of more than 10 contributors including instructors, teaching assistants, and content developers.
-The candidate also served as lead author of the accompanying open-access course textbooks (*Introduction to Data Analysis with R*, available at datawithr.com, and *Introduction to Data Science with Python*, available at pythondatabook.com).
-For the evaluation study itself, the candidate designed the post-course survey instrument, led the data analysis (including the logistic regression of completion predictors and LLM-assisted qualitative coding of open-ended responses), and wrote the original manuscript draft.
+For Paper 3, I was a co-founder and lead developer of the graph courses initiative, which served as the training platform for the R Basics and Beyond bootcamp.
+This involved developing the platform's pedagogical approach, the website and learning management system, and the curriculum for several bootcamps run by the network.
+I coordinated and hired a core team of instructors, teaching assistants, and content developers through the initial development phase and subsequent iterations. I also served as lead author of two open-access textbooks that serve as companion materials for enrolled students and as standalone learning resources, *Introduction to Data Analysis with R* (datawithr.com) and *Introduction to Data Science with Python* (pythondatabook.com).
+
+For the R Basics and Beyond bootcamp, I led the curriculum development and the live workshop facilitation for a majority of the cohorts.
+
+For the evaluation study itself, I designed the post-course survey instrument, led the data analysis (including logistic regression of completion predictors and LLM-assisted qualitative coding of open-ended responses), and wrote the original manuscript draft.
 
 ### Common Methodological Threads
 
@@ -313,15 +327,7 @@ All analyses were performed using R statistical software, and the code and summa
 
 ## Articles
 
-### Article 1
-
-**Nwosu KD**, Kalaiwo A, Ngambi WF, Estill J, Omo-Emmanuel UK, Emmanuel G, Keiser O. Factors associated with viral load testing and viral suppression among HIV-positive female sex workers in Nigeria. *PLoS ONE* 2024; 19(5): e0304487.
-
-[INSERT PUBLISHED PDF]
-
----
-
-### Article 2
+### Paper 1 (PrEP; *BMJ Global Health* 2025)
 
 **Nwosu KD**, Kalaiwo A, Ng'ambi W, Oyelaran O, Umoh P, Estill J, Keiser O. Oral PrEP continuation rates among key populations in Nigeria: a retrospective cohort study of a large-scale HIV prevention programme. *BMJ Global Health* 2025; 10(12): e018739.
 
@@ -329,11 +335,19 @@ All analyses were performed using R statistical software, and the code and summa
 
 ---
 
-### Article 3
+### Paper 2 (Viral load and suppression; *PLoS ONE* 2024)
+
+**Nwosu KD**, Kalaiwo A, Ngambi WF, Estill J, Omo-Emmanuel UK, Emmanuel G, Keiser O. Factors associated with viral load testing and viral suppression among HIV-positive female sex workers in Nigeria. *PLoS ONE* 2024; 19(5): e0304487.
+
+[INSERT PUBLISHED PDF]
+
+---
+
+### Paper 3 (R Basics and Beyond evaluation; in preparation)
 
 **Nwosu KD**, [co-authors]. R Basics and Beyond: Outcomes of a Cohort-Based Online Programming Course for Health Professionals.
 
-[EMBED PDF generated from: /Users/kendavidn/Dropbox/tgc_github_projects/tgc_paper/paper/tgc_paper.Rmd]
+[TO DO: EMBED PDF generated from /Users/kendavidn/Dropbox/tgc_github_projects/tgc_paper/paper/tgc_paper.Rmd]
 
 ---
 
@@ -344,25 +358,25 @@ All analyses were performed using R statistical software, and the code and summa
 This thesis set out to generate programmatic evidence for the HIV response among key populations in Nigeria and to evaluate a scalable approach for building the analytical capacity on which such evidence depends.
 The three studies, while spanning different domains, are linked by a common logic: that routine health programme data, when analysed with appropriate methods, can reveal where interventions are succeeding or failing, but only if the workforce has the skills to perform such analyses.
 
-The first study examined viral load testing and suppression among nearly 35,000 HIV-positive female sex workers in Nigeria and found encouragingly high rates of both testing (97.1%) and suppression (94.5%).
-These figures compare favourably with overall viral suppression rates in Nigeria's general HIV programme, which stood at approximately 80% in the same period [verify and cite: UNAIDS Nigeria country data].
-The temporal trend, with increasing odds of both testing and suppression for those initiating ART in more recent years, reflects the maturation of the KP programme over time, including expanded viral load testing infrastructure and improved service delivery.
-The study also identified that FSWs presenting with more advanced HIV disease at baseline had significantly lower odds of achieving viral suppression, underscoring the importance of early diagnosis and treatment initiation.
-
-The second study, analyzing PrEP continuation among over 43,000 key population clients, revealed a starkly different picture.
+Paper 1 analyzed PrEP continuation among over 43,000 key population clients.
 The 6-month continuation rate of 11.5% indicates that the vast majority of individuals who initiate PrEP discontinue within the first six months.
 This rate is lower than comparable estimates from Cameroon (28%) and Zambia (25%) [verify and cite: Ndenkeh et al. 2022; Claassen et al. 2021].
 The particularly low continuation rate among transgender individuals (3.5%) raises serious concerns and likely reflects the compounded effects of stigma, discrimination, and healthcare avoidance.
 Age and employment status emerged as additional predictors, with younger and unemployed clients less likely to continue PrEP, suggesting that economic insecurity may disrupt sustained engagement.
 
-The third study demonstrated that a cohort-based online R programming course can achieve meaningful completion rates among health professionals.
+Paper 2 examined viral load testing and suppression among nearly 35,000 HIV-positive female sex workers in Nigeria and found encouragingly high rates of both testing (97.1%) and suppression (94.5%).
+These figures compare favourably with overall viral suppression rates in Nigeria's general HIV programme, which stood at approximately 80% in the same period [verify and cite: UNAIDS Nigeria country data].
+The temporal trend, with increasing odds of both testing and suppression for those initiating ART in more recent years, reflects the maturation of the KP programme over time, including expanded viral load testing infrastructure and improved service delivery.
+The study also identified that FSWs presenting with more advanced HIV disease at baseline had significantly lower odds of achieving viral suppression, underscoring the importance of early diagnosis and treatment initiation.
+
+Paper 3 demonstrated that a cohort-based online R programming course can achieve meaningful completion rates among health professionals.
 Over half of enrolled students completed the 12-week programme, substantially exceeding the single-digit completion rates typical of self-paced MOOCs [verify and cite: Jordan 2014].
 Pre-recorded video lessons and live workshop facilitator interaction were both highly valued, supporting the pedagogical logic of the flipped classroom model.
 Time constraints and competing work priorities emerged as the dominant barriers to completion, consistent with the broader literature on adult online learning [verify and cite: Shapiro et al. 2017].
 
 ### The HIV Cascade for Key Populations: Treatment Success, Prevention Gap
 
-Juxtaposing the findings from the first two studies reveals a striking asymmetry in the Nigerian KP programme's performance.
+Juxtaposing the findings from Papers 1 and 2 reveals a striking asymmetry in the Nigerian KP programme's performance.
 On the treatment side, the programme has achieved remarkable success: once FSWs are diagnosed and linked to care, nearly all receive viral load testing and the vast majority achieve viral suppression.
 This demonstrates that community-based, KP-friendly service delivery models can overcome many of the structural barriers that typically impede care cascade progression for marginalized populations.
 
@@ -384,11 +398,11 @@ Turning them into the evidence presented in Papers 1 and 2 (involving mixed-effe
 These are precisely the competencies that the R Basics and Beyond bootcamp was designed to build.
 The course teaches health professionals to clean, manipulate, and visualize data in R, and to interpret statistical output.
 These are the foundational skills for the type of analysis demonstrated in Papers 1 and 2.
-In this sense, the three studies form a single arc: the first two show what is possible when analytical capacity meets programmatic data; the third addresses how to make that capacity more widely available, particularly among health professionals in the low- and middle-income countries where such data are most abundant and least utilized [verify and cite: Kiosia et al. 2024].
+In this sense, the three studies form a single arc: Papers 1 and 2 show what is possible when analytical capacity meets programmatic data; Paper 3 addresses how to make that capacity more widely available, particularly among health professionals in the low- and middle-income countries where such data are most abundant and least utilized [verify and cite: Kiosia et al. 2024].
 
 ### Implications for HIV Treatment and Viral Suppression
 
-The high rates of viral load testing and suppression observed in the first study are encouraging, but several findings warrant attention for continued programme improvement.
+The high rates of viral load testing and suppression observed in Paper 2 are encouraging, but several findings warrant attention for continued programme improvement.
 First, the association between advanced WHO clinical stage at baseline and lower odds of viral suppression reinforces the well-established finding that late diagnosis compromises treatment outcomes [verify and cite: Kitahata et al. 2009; Boyd et al. 2019].
 This is particularly concerning given the barriers to early testing among FSWs, including fear of disclosure, stigma, and distrust of healthcare providers.
 Strategies to promote earlier diagnosis, such as community-based testing, self-testing, and integration of HIV testing with other services used by FSWs, should be prioritized [verify and cite].
@@ -401,7 +415,7 @@ Identifying and documenting the specific programmatic changes that drove these i
 
 ### Addressing the PrEP Continuation Crisis
 
-The very low PrEP continuation rates observed in the second study demand urgent attention.
+The very low PrEP continuation rates observed in Paper 1 demand urgent attention.
 Several strategies merit consideration.
 
 First, the provider-facilitated approach to PrEP initiation, while effective at driving uptake, may inadvertently enrol individuals who are not fully ready to commit to sustained use.
@@ -423,7 +437,7 @@ By reducing the burden of daily pill-taking, these newer modalities may improve 
 
 ### Building Data Science Capacity for Global Health
 
-The third study demonstrated that cohort-based online training can engage health professionals in data science skill-building, achieving completion rates substantially higher than typical MOOCs.
+Paper 3 demonstrated that cohort-based online training can engage health professionals in data science skill-building, achieving completion rates substantially higher than typical MOOCs.
 Several aspects of the findings deserve further discussion.
 
 The strong performance of both asynchronous (video lessons) and synchronous (live workshops) components supports the pedagogical theory underlying the flipped classroom model: that learning is optimized when self-paced content delivery is paired with guided practice and instructor interaction [verify and cite: Bishop & Verleger 2013].
@@ -437,22 +451,23 @@ While it may partly reflect the resource constraints that qualified scholarship 
 This is consistent with loss aversion effects documented in the MOOC literature, where learners who pay for verified certificates complete at substantially higher rates [verify and cite: Ho et al. 2015; Arkes & Blumer 1985].
 Programme designs that incorporate even modest financial commitments or achievement-based refund incentives might improve completion among scholarship recipients.
 
-### The Graph Courses: Platform Development and Broader Impact
+### The Graph Courses: Broader Impact and Lessons Learned
 
-The development of The Graph Courses platform represented a substantial effort, spanning approximately one year of initial development and involving a team of over 10 contributors.
-The platform now offers a portfolio of courses in R programming, Python programming, generative AI for research productivity, and a French-language R course, serving learners from dozens of countries worldwide.
-Several courses are offered free of charge as self-paced tracks, including courses developed in collaboration with the World Health Organization on the Harmonized Health Facility Assessment (HHFA) and health inequality monitoring.
+Beyond the evaluation of the RBB bootcamp presented in Paper 3, the development of The Graph Courses platform during this doctoral period offers several broader lessons for scaling data science training in global health.
 
-Comprehensive course textbooks have been made freely available online.
-*Introduction to Data Analysis with R* (datawithr.com) and *Introduction to Data Science with Python* (pythondatabook.com) serve both as companion materials for enrolled students and as standalone resources for self-directed learners.
-These open educational resources extend the platform's reach well beyond its enrolled student population.
+First, the platform's growth from a single R course to a portfolio spanning four programming languages and topic areas (R, Python, generative AI, and statistics), alongside partnerships with WHO and the University of Oxford, suggests that a centralized training infrastructure model can be an efficient approach to capacity building.
+Rather than each organization building its own learning platform from scratch, external partners contribute specialized content to a shared infrastructure, reducing duplication of effort and allowing each organization to focus on its domain expertise.
+This hub model may be particularly relevant for international organizations that need to train health workforces across multiple countries and contexts.
 
-The platform has also served as infrastructure for training partnerships with external organizations.
-In addition to the WHO collaborations mentioned above, a course developed by the University of Oxford on infectious disease modelling is hosted on the platform.
-In this model, a centralized learning platform provides the technical infrastructure and pedagogical framework while external organizations contribute specialized content, offering an efficient approach to scaling data science training across the global health sector.
-It reduces the duplication of effort that occurs when individual organizations each build their own training platforms from scratch.
+Second, the combination of free self-paced courses alongside paid live bootcamps has proven effective for balancing accessibility with sustainability.
+The free tracks, which have reached thousands of learners globally, lower the barrier to entry and serve learners who cannot afford tuition or prefer self-directed study.
+The live bootcamps, supported by a sustainability model that combines grant funding with course revenue, enable the platform to maintain low fees and provide substantial financial aid to learners from lower-resource settings.
+This dual model ensures that the platform can serve the LMIC populations it aims to reach while generating the revenue needed to sustain operations and continued course development.
 
-The sustainability model, which combines grant funding (from the Ernst Goehner Foundation, the Global Fund, and others) with course revenue, has allowed the platform to maintain low fees and provide substantial financial aid to learners from lower-resource settings, which is critical for serving the LMIC populations that the platform aims to reach.
+Third, the open-access textbooks (*Introduction to Data Analysis with R* at datawithr.com and *Introduction to Data Science with Python* at pythondatabook.com) have demonstrated the value of freely available educational resources as a complement to structured courses.
+These textbooks extend the platform's educational impact to self-directed learners worldwide who may never enroll in a formal course, contributing to a broader ecosystem of open resources for health data science.
+
+The endorsement of the GRAPH Network's educational mission by the WHO Director-General, noted in the Introduction, reflects the alignment of this training effort with the priorities of global health leadership and suggests that the platform has achieved recognition beyond its immediate user base.
 
 ### Future Perspectives
 
@@ -468,7 +483,11 @@ The rollout of long-acting injectable PrEP in Nigeria and similar settings will 
 For the data science training programme, longitudinal follow-up studies tracking whether course completion translates into sustained R use and improved work outputs in professional practice would strengthen the evidence base for this training model.
 Controlled study designs comparing cohort-based and purely self-paced approaches remain a valuable future direction.
 Such a comparison was in fact the original research plan for this thesis component but was later adapted to an observational design as the programme scaled.
-The platform's continued expansion to additional languages, topics (such as advanced statistics, machine learning, and causal inference), and the hosting of additional external courses from partner organizations offers the potential to further scale accessible data science training for the global health workforce.
+More broadly, The Graph Courses platform is positioned for continued expansion along several axes.
+Thematically, the addition of courses in advanced statistics, machine learning, and causal inference would extend the curriculum beyond introductory data skills into the more specialized competencies increasingly demanded by global health research.
+Linguistically, the existing French-language R course could be joined by courses in Spanish and Portuguese, languages with large populations of health professionals in LMICs.
+Institutionally, the hosting of additional external courses from partner organizations, building on the existing collaborations with WHO and the University of Oxford, offers the potential to establish the platform as a shared infrastructure for data science training across the global health sector.
+Finally, the platform's training model and curriculum could serve as the foundation for additional collaborations with universities and training consortia, further embedding its educational resources within formal capacity-building programmes.
 
 ### Limitations
 
@@ -478,7 +497,7 @@ For the HIV studies (Papers 1 and 2), the observational design precludes causal 
 Both studies relied on routinely collected programmatic data, which may be subject to measurement error, incomplete recording, and other data quality issues that the study team could not fully assess [verify and cite: Gloyd et al. 2016].
 The analyses may have been affected by unmeasured confounding.
 For example, individual-level socioeconomic status, substance use, and psychosocial factors were not available in the dataset but likely influence both treatment and prevention outcomes.
-Additionally, the reliance on WHO clinical staging rather than CD4 counts to classify disease severity (in Paper 1) provides a less precise measure of immunological status.
+Additionally, the reliance on WHO clinical staging rather than CD4 counts to classify disease severity (in Paper 2) provides a less precise measure of immunological status.
 Finally, the findings from the Nigerian KP programme may not be directly generalizable to key populations in other settings with different epidemiological, legal, and service delivery contexts.
 
 For the training study (Paper 3), the absence of a comparison group prevents conclusions about whether the cohort-based format itself drives higher completion rates compared to alternative approaches.
@@ -490,10 +509,10 @@ Finally, as authors affiliated with the organization that developed and delivers
 ### Conclusion
 
 The three studies in this thesis are united by the premise that data-driven decision-making can improve health outcomes for vulnerable populations, but only if both the data and the skills to analyse it are in place.
-The first two studies demonstrate this premise in action: routine programmatic data, subjected to rigorous analysis, revealed that Nigeria's KP programme is achieving strong treatment outcomes for FSWs while facing a critical gap in PrEP continuation, particularly among transgender individuals and younger clients.
+Papers 1 and 2 demonstrate this premise in action: routine programmatic data, subjected to rigorous analysis, revealed a critical gap in PrEP continuation (Paper 1), particularly among transgender individuals and younger clients, while also showing that Nigeria's KP programme is achieving strong treatment outcomes for FSWs on the care cascade (Paper 2).
 These findings can directly inform programme design, but they required analytical skills that remain scarce in the settings where such programmes operate.
 
-The third study addresses this scarcity.
+Paper 3 addresses this scarcity.
 By evaluating an online training programme that teaches health professionals the very skills used to produce the evidence in Papers 1 and 2, it closes the loop: from identifying health challenges through data analysis, to building the workforce that can perform such analysis at scale.
 The high completion rates and participant satisfaction suggest that cohort-based online training is a viable model for meeting this need.
 
