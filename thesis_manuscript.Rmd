@@ -201,7 +201,7 @@ This thesis (paper 2) addresses this gap by analyzing routine programmatic data 
 
 **II. DATA SCIENCE CAPACITY BUILDING FOR GLOBAL HEALTH**
 
-### Bridging HIV Research and Data Science Capacity
+### Bridging Public Health Research and Data Science Capacity
 
 Data analysis skills are increasingly important for the global health workforce.
 The digitization of health systems, from electronic health records to surveillance and monitoring platforms, generates large volumes of data that can be analysed to improve programme design and delivery, such as in the HIV studies presented in this thesis.
@@ -209,63 +209,51 @@ Analysing these data sources requires practical data science skills, from cleani
 
 These data science skills are still limited in many low- and middle-income countries (LMICs), where they are often needed most.
 As a result, large amounts of routine health data are under-analysed, and programmes in these countries often rely on external technical support for advanced analyses [@Kiosia2024].
-As a native of Nigeria who has seen these gaps firsthand, helping reduce the shortage of health data professionals in Africa was a core motivation for this doctoral work. 
+As a native of Nigeria who has seen these gaps firsthand, helping reduce the shortage of health data professionals in Africa was a core motivation for my doctoral pursuits. 
+
+Thus, a large fraction of my time during my doctoral work has been engaged in building an educational platform and courses, under the banner of the GRAPH Courses, that are aimed at providing affordable and high-quality educational experiences to help build out data capacity in health progressionals globally.
+
+### Approaches to Data Science Education 
 
 Innovative approaches are required to effectively fill the data science skill gap in LMICs. Short in-person professional workshops are one popular format, wherein instructors deliver intensive instruction with hands-on practice, often over a few days to groups of health professionals [@Forsetlund2009]. However, such workshops can be difficult to scale due to their time and financial costs and geographical limitations [@Bonkoungou2025].
 
-Massive open online courses are another useful education mode for filling the data skills gap. They provide world-class educational content at low or no cost to anyone with access to the internet [verify and cite: Pappano 2012]. MOOC platforms like Coursera and EdX became very popular in the 2010s, but enthusiasm for this kind of learning has reduced due to the notoriously low completion rates, often in the single digits [verify and cite: Jordan 2014; Khalil & Ebner 2014]. Without a live instructor to provide accountability when student motivation waivers, or support when students get stuck, most learners will quickly disengage and dropout [verify and cite: Kizilcec et al. 2017; Reich & Ruipérez-Valiente 2019].
+Massive open online courses are another useful education mode for filling the data skills gap. They provide world-class educational content at low or no cost to anyone with access to the internet [@Pappano2012]. MOOC platforms like Coursera and EdX became very popular in the 2010s, but enthusiasm for this modality has reduced due to their notoriously low completion rates, often in the single digits [@Jordan2014; @Khalil2014]. Without a live instructor to provide accountability when student motivation wavers, or support when students get stuck, most learners will quickly disengage and drop out [@Kizilcec2017; @Reich2019].
 
-These challenges are likely stronger for programming and data science training.
-R, the programming language used for all three studies in this thesis, is powerful and free but has a steep learning curve, particularly for users without prior programming experience [verify and cite].
-For building programming fluency in such a language, self-paced MOOCs unlikely to be successful, as they leave learners stranded when they encounter errors, but intensive in-person workshops are also unlikely to be ideal, because they do not provide sufficient time for sustained practice.[need some kind of citation here too]
+These challenges are particularly relevant for programming and data science training.
+R, the programming language used for all three studies in this thesis, is powerful and free but has a steep learning curve, particularly for users without prior programming experience.
+For building programming fluency in such a language, self-paced MOOCs are unlikely to be successful, as they leave learners stranded when they encounter errors or lose motivation, but intensive in-person workshops are also not ideal, because they do not provide sufficient time for sustained practice. 
 
-Cohort-based online courses represent a promising middle ground.
-These programmes typically use a flipped classroom model: learners engage with asynchronous content (pre-recorded videos, readings, exercises) on their own schedule, then participate in scheduled live sessions for instructor-led problem-solving and peer interaction [verify and cite: Bishop & Verleger 2013].
-The asynchronous component provides flexibility and reduces total contact hours, while the synchronous component provides accountability, community, and direct support, all of which are often absent from purely self-paced courses [verify and cite: Shapiro et al. 2017].
-The normalization of videoconferencing during the COVID-19 pandemic has created new opportunities to deliver such programmes at scale, even to learners in geographically dispersed settings [verify and cite: Dhawan 2020].
+Cohort-based online courses are a promising middle ground that blend the flexibility of self-paced courses with the accountability of in-person workshops.
+These programmes typically use a flipped classroom model: learners engage with asynchronous content (pre-recorded videos, readings, exercises) on their own schedule, then participate in scheduled live sessions for instructor-led problem-solving and peer interaction [@Bishop2013].
+The asynchronous component provides flexibility and reduces total contact hours, while the synchronous component provides accountability, community, and direct support, all of which are often absent from purely self-paced courses [@Shapiro2017].
+The rise in remote working during the COVID-19 pandemic created new opportunities to deliver such programmes at scale, because many learners in LMICs became familiar with the videoconferencing software needed for such sessions [@Dhawan2020].
 
 ### The GRAPH Network and The Graph Courses
 
 The GRAPH Network (Global Research and Analyses for Public Health) is an interdisciplinary network of researchers and health professionals headquartered at the University of Geneva's Institute of Global Health.
-It was established in 2020 in collaboration with the WHO African Regional Office to support the sub-Saharan African COVID-19 response [verify and cite: Botero-Mesa et al. 2022].
-During the height of the pandemic, many ministries of health in the African region faced an unprecedented influx of data on test positivity, hospitalizations, and case counts, but lacked the analytical capacity to translate these data into timely, actionable insights.
-An interdisciplinary team that eventually grew to include more than sixty members across two dozen countries, drawn from fields including epidemiology, statistics, software development, and clinical medicine, was assembled to address this gap, producing epidemiological dashboards, situation reports, and analytical outputs for countries across the African region.
-
-Through this work, three critical bottlenecks in the ability of partner countries to process and analyse public health data became apparent: many health ministries had not adopted code-based tools for routine data processing, instead relying on time-consuming manual workflows in spreadsheet software; few staff had been trained in statistical programming languages such as R or Python; and as a result, countries frequently depended on external consultants when complex analyses were needed.
-These bottlenecks were not specific to the pandemic; they reflected a chronic structural deficit in data science capacity across health systems in low- and middle-income countries.
-The network therefore evolved beyond crisis response to address this underlying gap in analytical workforce capacity.
-
-Out of this recognition, The Graph Courses (thegraphcourses.org) was developed as a dedicated training platform for data science and AI in health and life sciences.
-Co-founded by me during the doctoral period with the support of international organizations and foundations, the platform is headquartered at the University of Geneva and operates as a project of the GRAPH Network.
-Its mission is to make data science and AI skills accessible and affordable to health professionals, researchers, and students worldwide, with a particular emphasis on learners in low- and middle-income countries.
+It was established in 2020 in collaboration with the WHO African Regional Office to support the sub-Saharan African COVID-19 response [@BoteroMesa2022].
+Through the organization's work with partner countries, we observed firsthand the widespread use of manual processes for data processing, as few staff had been trained in statistical programming languages, limiting the speed and quality of analyses.
+Out of this recognition, I proposed and developed The GRAPH Courses (thegraphcourses.org) as a dedicated training platform for data science and AI in health and life sciences.
 
 The platform delivers training through two complementary models.
-First, **live cohort-based bootcamps** employ the flipped classroom approach described above: each week, learners complete several hours of asynchronous prework (pre-recorded video lessons, interactive coding exercises, and online quizzes), then attend a two-hour live workshop featuring instructor-led demonstrations, collaborative small-group problem-solving, and peer interaction, with optional help sessions available throughout the week.
-Each bootcamp runs for approximately 12 weeks, equivalent to 4 ECTS credits, and is designed for learners with no prior programming experience.
-The platform currently offers four live bootcamps:
-(a) *R Basics and Beyond* (RBB), the flagship course and the subject of Paper 3 in this thesis, which introduces R programming and data analysis for health research, covering R fundamentals, data manipulation with the tidyverse, visualization with ggplot2, reproducible reporting with R Markdown, and version control with Git and GitHub;
-(b) a *Beginner Python Bootcamp*, covering data manipulation with pandas, interactive visualization with Plotly, and dashboard deployment;
-(c) *Generative AI for Work and Research Productivity*, a hands-on course on applied AI tools for literature synthesis, automated data tasks, and AI-assisted research communication; and
-(d) *Formation R*, a French-language version of the introductory R course, expanding the platform's linguistic accessibility.
+First, live cohort-based bootcamps use the flipped classroom approach described above: each week, learners complete several hours of asynchronous prework (pre-recorded video lessons, interactive coding exercises, and online quizzes), then attend a 2–3 hour live workshop featuring instructor-led demonstrations, collaborative small-group problem-solving, and peer interaction, with optional help sessions available throughout the week.
 
-Second, **free self-paced courses** provide the same lesson content as the bootcamps, including video tutorials, coding exercises, and quizzes, but without live workshops or instructor interaction, allowing learners anywhere in the world to study at their own pace at no cost.
-Self-paced tracks are available in R (covering foundations, data wrangling, visualization, further data analysis, and epidemiological reporting), Python (data foundations and data manipulation with pandas), and statistics (a course on fundamentals of statistical software and analysis).
+Over three years, we developed five programs: (a) R Basics and Beyond (RBB), the flagship course and the subject of Paper 3 in this thesis, which introduces R programming and data analysis for health research (first offered September 2022); (b) Formation R, a French-language version of the introductory R course, expanding the platform's linguistic accessibility (first offered Q1 2024); (c) R Masterclass, an intermediate course building on the skills taught in RBB (first offered Q2 2024); (d) Python Basics and Beyond, a beginner Python bootcamp covering data manipulation with pandas, interactive visualization with Plotly, and dashboard deployment (first offered Q4 2024); and (e) Generative AI for Work and Research Productivity, a hands-on course on applied AI tools for literature synthesis, automated data tasks, and AI-assisted research communication (first offered Q2 2025).
 
-To complement its courses, the platform has produced open-access textbooks that serve both as companion materials for enrolled students and as standalone resources for self-directed learners.
-*Introduction to Data Analysis with R* (datawithr.com) and *Introduction to Data Science with Python* (pythondatabook.com), both led by me, are freely available online and were developed with contributions from numerous authors and editors.
-As open educational resources, they extend the platform's educational reach well beyond its enrolled student population.
+Second, free self-paced courses provide similar content to the bootcamps—including video tutorials, coding exercises, and quizzes—but without live workshops or instructor interaction, allowing learners anywhere in the world to study at their own pace at no cost.
 
-The platform also functions as infrastructure for training partnerships with external organizations.
-Several courses have been developed in collaboration with the World Health Organization, including courses on the Harmonized Health Facility Assessment (HHFA) and a four-course sequence on Health Inequality Monitoring.
-A course on infectious disease modelling developed by the University of Oxford is also hosted on the platform.
-In this model, the platform provides the technical infrastructure and pedagogical framework while partner organizations contribute specialized content, enabling data science training to scale across the global health sector without each organization building its own learning platform from scratch.
+To complement our courses, we have produced open-access textbooks that serve both as companion materials for enrolled students and as standalone resources for self-directed learners.
+Introduction to Data Analysis with R [@Nwosu2025R] (datawithr.com) and Introduction to Data Science with Python [@Nwosu2025Python] (pythondatabook.com) are freely available online and were developed with contributions from numerous authors and editors.
+As open educational resources, they extend the platform's educational reach beyond the formally enrolled students.
 
-As of early 2026, The Graph Courses has served over 7,000 learners from more than 50 countries across its self-paced and cohort-based offerings, with over 500 graduates from the intensive live bootcamps.
-More than 30 organizations, spanning academia, NGOs, and global health agencies, have engaged the platform for team training.
-The WHO Director-General, Dr Tedros Adhanom Ghebreyesus, has endorsed the GRAPH Network's educational mission, stating that its work is "focused on strengthening the capacities of ministries of health to collect, analyze and use public health data for effective health policy interventions" [verify and cite].
+The platform also hosts courses from partner organizations, including material from the World Health Organization (on Harmonized Health Facility Assessment and a four-course Health Inequality Monitoring sequence) and a University of Oxford course on introductory statistics.
+In these cases, partners contribute domain content while the platform provides hosting, instructional design support, and delivery infrastructure.
 
-Paper 3 evaluates the educational outcomes of the R Basics and Beyond bootcamp, the platform's flagship course, across nine cohorts from 2023 to 2025.
-Using enrollment rosters and post-course survey data, it assesses completion rates, participant satisfaction, and the experience of learners, providing the first systematic evaluation of this training model.
+As of early 2026, The GRAPH Courses has served over 9,000 learners from more than 60 countries across its self-paced and cohort-based offerings, with over 500 graduates from the intensive live bootcamps.
+
+Paper 3 (manuscript), evaluates the educational outcomes of the R Basics and Beyond bootcamp across nine cohorts from 2023 to 2025.
+Using enrollment rosters and post-course survey data, our study assesses completion rates, participant satisfaction, and learner experience.
+
 
 ### Thesis Objectives
 
@@ -296,32 +284,25 @@ This section details my specific contributions to each study.
 ### Paper 1: PrEP Continuation Among Key Populations
 
 For Paper 1, I led the data analysis and manuscript writing.
-This involved analysing data from over 43,000 PrEP clients, implementing mixed-effects logistic regression with random intercepts for service delivery sites, and applying MICE with 10 imputations.
-I designed the analytical approach, coordinated with the Heartland Alliance monitoring and evaluation team on data quality checks (deduplication, logic checks for date and categorical variables), and wrote the original manuscript draft.
-I coordinated the revision process through to publication in *BMJ Global Health*.
+This involved analysing data from over 43,000 PrEP clients, implementing mixed-effects logistic regression with random intercepts for service delivery sites.
+I designed the analytical approach, coordinated with the Heartland Alliance monitoring and evaluation team on data quality checks (deduplication, logic checks for date and categorical variables).
+I produced all figures and tables, wrote the original manuscript draft, and coordinated revisions with co-authors through to publication in *BMJ Global Health*.
 
 ### Paper 2: Viral Load Testing and Suppression Among FSWs
 
-For Paper 2, I led the statistical analysis, which involved processing and cleaning routine programmatic data from over 34,000 individuals, implementing mixed-effects logistic regression models with random intercepts for 16 care facilities, and conducting multiple imputation by chained equations (25 imputed datasets) for missing covariates.
+For Paper 2, I led the statistical analysis, which involved processing and cleaning routine programmatic data from over 34,000 individuals, implementing mixed-effects logistic regression models with random intercepts for 16 care facilities.
 I produced all figures and tables, wrote the original manuscript draft, and coordinated revisions with co-authors through to publication in *PLoS ONE*.
 I also contributed to the study design and methodology, in close collaboration with the PhD supervisor and senior co-authors.
 
 ### Paper 3: Evaluation of the R Basics and Beyond Bootcamp
 
-For Paper 3, I was a co-founder and lead developer of the graph courses initiative, which served as the training platform for the R Basics and Beyond bootcamp.
-This involved developing the platform's pedagogical approach, the website and learning management system, and the curriculum for several bootcamps run by the network.
-I coordinated and hired a core team of instructors, teaching assistants, and content developers through the initial development phase and subsequent iterations. I also served as lead author of two open-access textbooks that serve as companion materials for enrolled students and as standalone learning resources, *Introduction to Data Analysis with R* (datawithr.com) and *Introduction to Data Science with Python* (pythondatabook.com).
+For Paper 3, I was a co-founder and lead developer of the GRAPH Courses initiative, which served as the training platform for the R Basics and Beyond bootcamp.
+This involved developing the platform's pedagogical approach, the website and learning management system, and the curriculum and content for several bootcamps run by the network.
 
 For the R Basics and Beyond bootcamp, I led the curriculum development and the live workshop facilitation for a majority of the cohorts.
 
-For the evaluation study itself, I designed the post-course survey instrument, led the data analysis (including logistic regression of completion predictors and LLM-assisted qualitative coding of open-ended responses), and wrote the original manuscript draft.
+For the evaluation study itself, I designed the post-course survey instrument, led the data analysis, and wrote the original manuscript draft.
 
-### Common Methodological Threads
-
-All three studies share a common analytical philosophy: the use of routinely collected data, whether from health programme registers or educational administration systems, to generate actionable evidence for programme improvement.
-Papers 1 and 2 employed a consistent statistical framework of mixed-effects logistic regression with facility-level random intercepts and multiple imputation, allowing for the identification of individual-level predictors while accounting for facility-level clustering and missing data.
-Paper 3 employed a similar regression approach for completion predictors and complemented it with qualitative thematic analysis.
-All analyses were performed using R statistical software, and the code and summarized data underlying the published papers have been made publicly available.
 
 ---
 
