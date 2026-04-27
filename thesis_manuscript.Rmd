@@ -4,7 +4,7 @@ editor_options:
   chunk_output_type: console
 bibliography: references.bib
 output:
-bookdown::word_document2:
+  bookdown::word_document2:
     number_sections: false
     toc: true
     toc_depth: 2
