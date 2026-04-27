@@ -19,27 +19,33 @@ link-citations: false
 ::: {custom-style="Centered"}
 **Faculté de Médecine**
 
-**Département de Médecine Sociale et Préventive — Institut de Santé Globale**
+**Département de Médecine Sociale et Préventive**
+
+**Institut de Santé Globale**
 
 \
 
 Thèse préparée sous la direction du **Professeur Olivia Keiser**
+:::
 
 \
 
-**Evaluating the HIV Care and Prevention Cascade for Key Populations in Nigeria, and Building Data Science Capacity for Global Health**
+::: {custom-style="CoverTitle"}
+Evaluating the HIV Care and Prevention Cascade for Key Populations in Nigeria, and Building Data Science Capacity for Global Health
+:::
 
-*Évaluation de la cascade de soins et de prévention du VIH chez les populations clés au Nigéria, et renforcement des capacités en science des données pour la santé globale*
+::: {custom-style="CoverSubtitle"}
+Évaluation de la cascade de soins et de prévention du VIH chez les populations clés au Nigéria, et renforcement des capacités en science des données pour la santé globale
+:::
 
 \
 
+::: {custom-style="Centered"}
 **Thèse** présentée à la Faculté de Médecine de l'Université de Genève pour obtenir le grade de Docteur en Sciences Biomédicales, Mention Santé Globale
 
 par
 
 *Kene David Nwosu*
-
-de *Nigéria*
 
 \
 
