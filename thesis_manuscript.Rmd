@@ -1,13 +1,12 @@
 ---
-title: "Thesis Draft: HIV Care Cascade + Data Science Capacity Building"
-editor_options: 
+editor_options:
   chunk_output_type: console
 bibliography: references.bib
 output:
   bookdown::word_document2:
     number_sections: false
-    toc: true
-    toc_depth: 2
+    toc: false
+    reference_docx: thesis_reference.docx
   md_document:
     ext: ".txt"
     pandoc_args: ["-t", "plain", "--wrap=none"]
@@ -17,30 +16,53 @@ link-citations: false
 ---
 
 
-# Evaluating the HIV Care and Prevention Cascade for Key Populations in Nigeria, and Building Data Science Capacity for Global Health
+::: {custom-style="Centered"}
+**Faculté de Médecine**
 
-**Thèse présentée à la Faculté de Médecine de l'Université de Genève pour obtenir le grade de Docteur en Sciences Biomédicales, Mention Santé Globale**
+**Département de Médecine Sociale et Préventive — Institut de Santé Globale**
 
-par **Kene David Nwosu**
-
-originaire du **Nigéria**
+\
 
 Thèse préparée sous la direction du **Professeur Olivia Keiser**
 
+\
+
+**Evaluating the HIV Care and Prevention Cascade for Key Populations in Nigeria, and Building Data Science Capacity for Global Health**
+
+*Évaluation de la cascade de soins et de prévention du VIH chez les populations clés au Nigéria, et renforcement des capacités en science des données pour la santé globale*
+
+\
+
+**Thèse** présentée à la Faculté de Médecine de l'Université de Genève pour obtenir le grade de Docteur en Sciences Biomédicales, Mention Santé Globale
+
+par
+
+*Kene David Nwosu*
+
+de *Nigéria*
+
+\
+
 Genève, 2026
+:::
 
 \newpage
 
 ## Acknowledgments
 
-A huge thank you to everyone who made this work possible. It is impossible to name you all.  
-First, to my supervisor, Olivia, for her kind patience and unwavering support throughout my work.  
-To the data team at the IDMM group, Erol, Wingston, Abiye, Amobi, Janne, and others, and to those working on the ground at Heartland Alliance, USAID, and their partners in service of key populations: thank you for your work. To those living with illness and facing marginalization, thank you for your courage and resilience.  
-To the GRAPH Courses team: Joy, Sabina, Camille, Guy, Santiago, Sara, Laure, Ivan, and everyone else, thank you. Building with you has been deeply rewarding.  
-To all who have supported our work, including at WHO, the Global Fund, the University of Oxford (with particular thanks to Jennifer, Hubert, and Sarah), and the University of Geneva, your assistance has been invaluable. I gratefully acknowledge funding for my doctoral studies from the University of Geneva.  
+A huge thank you to everyone who made this work possible. It is impossible to name you all.
+
+First, to my supervisor, Olivia, for her kind patience and unwavering support throughout my work.
+
+To the data team at the IDMM group, Erol, Wingston, Abiye, Amobi, Janne, and others, and to those working on the ground at Heartland Alliance, USAID, and their partners in service of key populations: thank you for your work. To those living with illness and facing marginalization, thank you for your courage and resilience.
+
+To the GRAPH Courses team: Joy, Sabina, Camille, Guy, Santiago, Sara, Laure, Ivan, and everyone else, thank you. Building with you has been deeply rewarding.
+
+To all who have supported our work, including at WHO, the Global Fund, the University of Oxford (with particular thanks to Jennifer, Hubert, and Sarah), and the University of Geneva, your assistance has been invaluable. I gratefully acknowledge funding for my doctoral studies from the University of Geneva.
+
 And to my family, Dad, Mum, Ojay, Olive, Aka, and Elo, thank you for your encouragement and for being there throughout my educational journey. I love you all.
 
----
+\newpage
 
 ## List of Publications
 
@@ -60,7 +82,7 @@ And to my family, Dad, Mum, Ojay, Olive, Aka, and Elo, thank you for your encour
 
 5. **Nwosu KD**, McKinley A, Valle Campos A, Merzouki A, Nguimbis B, Hsin B, Valera CB, Camara D, Araujo E, Mukonda E, Wafeu G, El Badisy I, Bensouda Korachi I, Vaz J, Agasa L, Nguemo L, Vancauwenberghe L, Franza M, Shrestha M, Keiser O, Rodriguez Velasquez S, Botero Mesa S. *Introduction to Data Science with Python*. The GRAPH Courses, 2025. Available at: <https://pythondatabook.com>
 
----
+\newpage
 
 ## Abstract
 
@@ -98,8 +120,7 @@ The R course evaluation covered nine cohorts of 458 enrolled health professional
 The Nigerian KP-CARE 1 programme achieved high levels of viral load testing and suppression among female sex workers, supporting the value of community-based ART delivery, but PrEP continuation was low, indicating a need for interventions that better support sustained use.
 The course evaluation suggests that cohort-based online training is a feasible approach to strengthening the data science capacity required to generate and use such evidence in global health programmes.
 
-
----
+\newpage
 
 ## Résumé en français
 
@@ -140,7 +161,26 @@ Le programme nigérian KP-CARE 1 a atteint des niveaux élevés de dépistage de
 Cependant, la poursuite de la PrEP était faible, indiquant la nécessité d'interventions qui soutiennent mieux son utilisation durable.
 L'évaluation du cours suggère que la formation en ligne par cohortes est une approche faisable pour renforcer les capacités en science des données nécessaires à la production et à l'utilisation de ces preuves en santé globale.
 
----
+\newpage
+
+## Outline
+
+This thesis is organised into the following sections:
+
+- **General Introduction** — background on the global and Nigerian HIV epidemic, the role of key populations, the HIV care and prevention cascades, and the rationale for building data science capacity in low- and middle-income countries. The introduction concludes with the specific objectives that motivated the three studies presented in this thesis.
+
+- **Methodological Contributions** — a description of the candidate's specific role in each of the three studies, including study design, data analysis, manuscript preparation, and (for Paper 3) curriculum and platform development.
+
+- **Papers** — the three studies that constitute the core of this thesis, presented in full:
+    - *Paper 1*: Factors associated with viral load testing and viral suppression among HIV-positive female sex workers in Nigeria (*PLoS ONE*, 2024).
+    - *Paper 2*: Oral PrEP continuation rates among key populations in Nigeria (*BMJ Global Health*, 2025).
+    - *Paper 3*: R Basics and Beyond: Outcomes of a Cohort-Based Online Programming Course for Health Professionals (manuscript in preparation).
+
+- **Conclusions and Perspectives** — synthesis of the main findings across the three studies, their implications for HIV programming for key populations and for data science capacity building, and directions for future work.
+
+- **Bibliography** — references cited throughout the thesis, in Vancouver format.
+
+\newpage
 
 ## General Introduction
 
@@ -281,8 +321,7 @@ Using data from over 43,000 KP clients who initiated oral PrEP through the KP-CA
 3. **To evaluate the educational outcomes of a cohort-based online R programming course for health professionals** (Paper 3).
 Using enrollment rosters and post-course survey data from nine cohorts of the R Basics and Beyond bootcamp, this study assesses completion rates, participant satisfaction, highlights, and challenges.
 
-
----
+\newpage
 
 ## Methodological Contributions
 
@@ -306,7 +345,7 @@ For the R Basics and Beyond bootcamp, I led the curriculum development and the l
 
 For the evaluation study itself, I designed the post-course survey instrument, led the data analysis, and wrote the manuscript draft.
 
----
+\newpage
 
 ## Papers
 
@@ -369,8 +408,6 @@ The three papers that make up this thesis are included below, arranged thematica
 *[Article PDF inserted here at final assembly — marker: ARTICLE-INSERT-3 — source: tgc_paper_2026_04_26.pdf]*
 
 \newpage
-
----
 
 ## Conclusions and Perspectives
 
@@ -478,5 +515,6 @@ The R Basics and Beyond bootcamp examined in Paper 3 represents one approach to 
 
 Ultimately, this thesis argues that strengthening the HIV response for key populations, and improving global health more broadly, depends not only on better interventions and better data, but on expanding who has the ability to turn data into evidence.
 
+\newpage
 
 ## Bibliography
