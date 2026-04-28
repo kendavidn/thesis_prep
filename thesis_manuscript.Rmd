@@ -78,9 +78,9 @@ And to my family, Dad, Mum, Ojay, Olive, Aka, and Elo, thank you for your encour
 
 2. **Nwosu KD**, Kalaiwo A, Ng'ambi W, Oyelaran O, Umoh P, Estill J, Keiser O. Oral PrEP continuation rates among key populations in Nigeria: a retrospective cohort study of a large-scale HIV prevention programme. *BMJ Global Health* 2025; 10(12): e018739. doi: 10.1136/bmjgh-2024-018739
 
-### Manuscript in preparation
+### Manuscript submitted
 
-3. **Nwosu KD** (co-authors to be finalized). R Basics and Beyond: Outcomes of a Cohort-Based Online Programming Course for Health Professionals. *[Target journal: Cogent Education]*.
+3. **Nwosu KD**, Venkatachalam-Vaz J, Rodriguez Velásquez S, Botero Mesa S, Keiser O. R Basics and Beyond: Outcomes of a Cohort-Based Online Programming Course for Health Professionals. Submitted to *Cogent Education*.
 
 ### Open-access textbooks
 
@@ -180,7 +180,7 @@ This thesis is organised into the following sections:
 - **Papers** — the three studies that constitute the core of this thesis, presented in full:
     - *Paper 1*: Factors associated with viral load testing and viral suppression among HIV-positive female sex workers in Nigeria (*PLoS ONE*, 2024).
     - *Paper 2*: Oral PrEP continuation rates among key populations in Nigeria (*BMJ Global Health*, 2025).
-    - *Paper 3*: R Basics and Beyond: Outcomes of a Cohort-Based Online Programming Course for Health Professionals (manuscript in preparation).
+    - *Paper 3*: R Basics and Beyond: Outcomes of a Cohort-Based Online Programming Course for Health Professionals (manuscript submitted to *Cogent Education*).
 
 - **Conclusions and Perspectives** — synthesis of the main findings across the three studies, their implications for HIV programming for key populations and for data science capacity building, and directions for future work.
 
@@ -403,15 +403,15 @@ The three papers that make up this thesis are included below, arranged thematica
 
 **Title:** R Basics and Beyond: Outcomes of a Cohort-Based Online Programming Course for Health Professionals
 
-**Authors:** **Nwosu KD** (co-authors to be finalized)
+**Authors:** **Nwosu KD**, Venkatachalam-Vaz J, Rodriguez Velásquez S, Botero Mesa S, Keiser O
 
-**Target journal:** *Cogent Education*
+**Journal:** *Cogent Education*
 
-**Status:** Manuscript in preparation (draft dated 2026-04-26)
+**Status:** Manuscript submitted to *Cogent Education*
 
 \newpage
 
-*[Article PDF inserted here at final assembly — marker: ARTICLE-INSERT-3 — source: tgc_paper_2026_04_26.pdf]*
+*[Article PDF inserted here at final assembly — marker: ARTICLE-INSERT-3 — source: tgc_paper_submitted_cogent_ed.pdf]*
 
 \newpage
 

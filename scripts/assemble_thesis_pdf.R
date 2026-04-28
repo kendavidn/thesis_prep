@@ -49,7 +49,7 @@ output_pdf <- file.path(project_root, "thesis_complete.pdf")
 articles <- list(
   list(marker = "ARTICLE-INSERT-1", file = file.path(project_root, "viral_suppression_paper.pdf")),
   list(marker = "ARTICLE-INSERT-2", file = file.path(project_root, "prep_paper.pdf")),
-  list(marker = "ARTICLE-INSERT-3", file = file.path(project_root, "tgc_paper_2026_04_26.pdf"))
+  list(marker = "ARTICLE-INSERT-3", file = file.path(project_root, "tgc_paper_submitted_cogent_ed.pdf"))
 )
 
 # ---- Sanity checks ----
